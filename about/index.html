@@ -35,7 +35,7 @@
 <script>
     const CONFIG_BGIMAGE = {
       mode: 'normal',
-      normalSrc: '/img/header-bg.jpg',
+      normalSrc: '/img/header-bg.png',
       randomYouMax: 110,
       randomYouSrc: 'https://sariay.github.io/Random-img/',
 	  randomOtherSrc: 'https://api.berryapi.net/?service=App.Bing.Images&day=-0',
@@ -250,7 +250,6 @@
 <p>心中都会有一片你没有办法到达的森林。</p>
 <p>—— 村上春树《挪威的森林》</p>
 </blockquote>
-<p>建立博客的原因已有所提及，那就是在人生的崭新阶段我需要与过去的自己划分界限，这一次我会好好守护我的博客，不会再让这片我的森林迷失。</p>
 <p>于 2023.9.26，启用 Hexo 驱动， 评论依托于 Gitalk，采用 Annie 主题，域名没什么买的想法所以摆烂二级域名</p>
 <p>头像与多数封面来自 naifu 的 AI 绘图，向人工智能绘画致敬！</p>
 <h1 id="一些日常"><a href="#一些日常" class="headerlink" title="一些日常"></a>一些日常</h1><p>电气人！秃头学习电分中，希望能多发点论文评奖毕业，变得越来越现实力</p>
@@ -317,7 +316,7 @@
 	<div class="copyright">
 		<p>
 			 
-				&copy;2017 - 2023, content by Sariay. All Rights Reserved.
+				&copy;2023, content by Varraro. All Rights Reserved.
 			
 			
 				<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.
@@ -338,25 +337,32 @@
 </footer>
 		
 	<!-- Local or hitokoto! -->
-
-	
-<script src="/plugin/motto/motto.js"></script>
-
-	
-	<script type="text/javascript">
+ 
+	<!-- 现代写法，推荐 -->
+	<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+	<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+	<!--End-->
+	<script>
 		(function motto(){
-			let mottoText = getMingYanContent().split('</br> - </br>'),
-			
-			mottoTextContent = mottoText[0]?mottoText[0]:'请刷新...',
-			
-			mottoTextFrom = mottoText[1]?mottoText[1]:'one/一个';
-			
-			mottoTextContent = mottoTextContent.trim().substring(0, 100);
-		
-			$("#motto-content").html( mottoTextContent);
-			$("#motto-author").html( mottoTextFrom  );
-		})();	
-	</script>	
+			fetch('https://v1.hitokoto.cn/?c=d')
+				.then(function (res){
+				return res.json();
+			}).then(function (data) {
+				$("#motto-content").html( data.hitokoto?data.hitokoto:'请刷新...' );
+				
+				let	mottoAuthor =' ';
+					mottoAuthor += data.creator?data.creator:'一言';
+					mottoAuthor += "　/　";
+					mottoAuthor += data.from?data.from:'一言官网';
+					
+				$("#motto-author").html( mottoAuthor );
+			})
+			.catch(function (err) {
+				console.error(err);
+			})			
+		})();
+	</script>
 
 
 

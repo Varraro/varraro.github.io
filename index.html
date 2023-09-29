@@ -35,7 +35,7 @@
 <script>
     const CONFIG_BGIMAGE = {
       mode: 'normal',
-      normalSrc: '/img/header-bg.jpg',
+      normalSrc: '/img/header-bg.png',
       randomYouMax: 110,
       randomYouSrc: 'https://sariay.github.io/Random-img/',
 	  randomOtherSrc: 'https://api.berryapi.net/?service=App.Bing.Images&day=-0',
@@ -221,45 +221,65 @@
 
 
 
-	<!--cart style-->
-	<div class="layout-cart">
-	<div id="layout-cart">
+	<!--pure style-->
+	<div class="layout-pure">
+	<div id="layout-pure">	
 		
 			<div class="post" id="post">
-				<a class="post-cover" href="/2023/09/25/hello-world/" title=" Hello World " target="_blank">
-					
-					<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.jpg"/>
-				</a>
-
 				<div class="post-text">
-					<p class="post-time">
-						九月 25日, 2023
-					</p>	
-					<h3 class="post-title" id="post-title-index">
-						<a href="/2023/09/25/hello-world/" title="Hello World">							
-							
+					<div class="post-title" id="post-title-index">			
+						
 	<a href="/2023/09/25/hello-world/" itemprop="url">
 		Hello World
 	</a>
 
-						</a>
-					</h3>
-					<p class="post-content">
+					</div>
+
+					<div class="post-content">
 						
-							Welcome to Hexo! This is your very first post. Check documentation for more i...
+							Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server1$ hexo ...
 						
-					</p>
-					<p class="post-meta">
+					</div>
+					
+					<div class="post-meta">
+						<span>
+							发布于
+							<i>
+								
+
+
+
+
+
+
+	<a href="/2023/09/25/hello-world/" itemprop="url">
+		<time datetime="2023-09-25T03:06:46.972Z" itemprop="datePublished">
+	  		2023-09-25
+	  </time>
+	</a> 
+
+							</i>
+						</span>
+						
 						
 
 
 
-					</p>
+						
+							<span class="right">      	
+								<a href="/2023/09/25/hello-world/" title="阅读全文" external="false">阅读全文</a>	
+							</span>
+						
+					</div>
 				</div>
 			</div>
 		
 	</div>
-	
+
 	
 	<div id="pagination">
 		
@@ -268,7 +288,7 @@
 	
 
 </div>
-	
+
 
 		</main>
 
@@ -315,7 +335,7 @@
 	<div class="copyright">
 		<p>
 			 
-				&copy;2017 - 2023, content by Sariay. All Rights Reserved.
+				&copy;2023, content by Varraro. All Rights Reserved.
 			
 			
 				<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.
@@ -336,25 +356,32 @@
 </footer>
 		
 	<!-- Local or hitokoto! -->
-
-	
-<script src="/plugin/motto/motto.js"></script>
-
-	
-	<script type="text/javascript">
+ 
+	<!-- 现代写法，推荐 -->
+	<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+	<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+	<!--End-->
+	<script>
 		(function motto(){
-			let mottoText = getMingYanContent().split('</br> - </br>'),
-			
-			mottoTextContent = mottoText[0]?mottoText[0]:'请刷新...',
-			
-			mottoTextFrom = mottoText[1]?mottoText[1]:'one/一个';
-			
-			mottoTextContent = mottoTextContent.trim().substring(0, 100);
-		
-			$("#motto-content").html( mottoTextContent);
-			$("#motto-author").html( mottoTextFrom  );
-		})();	
-	</script>	
+			fetch('https://v1.hitokoto.cn/?c=d')
+				.then(function (res){
+				return res.json();
+			}).then(function (data) {
+				$("#motto-content").html( data.hitokoto?data.hitokoto:'请刷新...' );
+				
+				let	mottoAuthor =' ';
+					mottoAuthor += data.creator?data.creator:'一言';
+					mottoAuthor += "　/　";
+					mottoAuthor += data.from?data.from:'一言官网';
+					
+				$("#motto-author").html( mottoAuthor );
+			})
+			.catch(function (err) {
+				console.error(err);
+			})			
+		})();
+	</script>
 
 
 

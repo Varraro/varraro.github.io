@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://varraro.github.io/2024/07/31/%E5%80%92%E5%80%92%E8%8B%A6%E6%B0%B4/</loc>
+    
+    <lastmod>2024-10-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://varraro.github.io/2023/12/31/2023%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
     
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-10-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -32,15 +41,6 @@
     <loc>https://varraro.github.io/2023/10/17/%E5%AF%B9%E4%BB%96%E7%94%A8%E7%82%8E%E6%8B%B3%E5%90%A7%EF%BC%81/</loc>
     
     <lastmod>2024-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://varraro.github.io/2024/07/31/%E5%80%92%E5%80%92%E8%8B%A6%E6%B0%B4/</loc>
-    
-    <lastmod>2024-08-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -184,7 +184,7 @@
 
   <url>
     <loc>https://varraro.github.io/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -192,42 +192,42 @@
   
   <url>
     <loc>https://varraro.github.io/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://varraro.github.io/tags/%E9%9A%8F%E6%83%B3/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://varraro.github.io/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4%E8%A1%A5%E5%AE%8C%E8%AE%A1%E5%88%92/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://varraro.github.io/tags/%E6%96%87%E6%91%98/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://varraro.github.io/tags/%E6%91%98%E8%A6%81/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://varraro.github.io/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

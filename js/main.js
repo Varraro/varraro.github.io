@@ -13,19 +13,19 @@ jQuery(document).ready(function ($) {
 	 * loadAnimation: The animation of loading for 'fun Annie_LoadPost()' & 'fun Annie_QueryPostsByTag()'.
 	 */
 	const ANNIE = {
-		scrollLimitG        : 500,
-		scrollSpeedG        : 500,
-		delayTimeG          : 500,
-		headerH             : $('header').outerHeight(),
-		postContentH        : $('#article-content').outerHeight(),
-		mainH               : $('main').outerHeight(),
+		scrollLimitG: 500,
+		scrollSpeedG: 500,
+		delayTimeG: 500,
+		headerH: $('header').outerHeight(),
+		postContentH: $('#article-content').outerHeight(),
+		mainH: $('main').outerHeight(),
 		investmentContainerH: $('.investment-container').outerHeight(),
-		postPageId          : '.layout-post',
-		postCoverId         : '#current-post-cover',
-		postTocId           : '#catelog-list',
-		paginationId        : '#pagination a',
-		paginationContainer : '#layout-cart, #layout-pure',
-		loadAnimation       : '<div class = "transition"><div class = "three-bounce1"> </div> <div class = "three-bounce2"> </div> <div class = "three-bounce3"> </div> </div> '
+		postPageId: '.layout-post',
+		postCoverId: '#current-post-cover',
+		postTocId: '#catelog-list',
+		paginationId: '#pagination a',
+		paginationContainer: '#layout-cart, #layout-pure',
+		loadAnimation: '<div class = "transition"><div class = "three-bounce1"> </div> <div class = "three-bounce2"> </div> <div class = "three-bounce3"> </div> </div> '
 	};
 
 	/**
@@ -37,7 +37,7 @@ jQuery(document).ready(function ($) {
 		let mode = CONFIG_BGIMAGE.mode,
 			curImgSrc = ' ',
 			randomNum = 0,
-			randomYouMax = CONFIG_BGIMAGE.randomYouMax,			
+			randomYouMax = CONFIG_BGIMAGE.randomYouMax,
 			normalSrc = CONFIG_BGIMAGE.normalSrc,
 			randomYouSrc = CONFIG_BGIMAGE.randomYouSrc,
 			randomOtherSrc = CONFIG_BGIMAGE.randomOtherSrc;
@@ -77,7 +77,7 @@ jQuery(document).ready(function ($) {
 				}
 				break;
 		}
-		
+
 		/**
 		 * To set the background of the header.
 		 *
@@ -88,43 +88,43 @@ jQuery(document).ready(function ($) {
 			let backgroundImg = 'url(' + imgSrc + ')';
 			$('header').css('background-image', backgroundImg);
 		}
-		
+
 		Annie_SetBg(curImgSrc);
 
 		/**
 		 * To set & then remove the mask layer for html page!
 		 *
 		 * @method   Annie_Transition
-		 */		
+		 */
 		const PRELOADER = {
-			delayTime:　ANNIE.delayTimeG,
+			delayTime: ANNIE.delayTimeG,
 			scrollSpeed: ANNIE.scrollSpeedG || 'normal',
-			removePreloaderMask: function(){
-				if($('#preloader').length){
+			removePreloaderMask: function () {
+				if ($('#preloader').length) {
 					$('#preloader').delay(this.delayTime).fadeOut('slow');
 				}
 			},
-			removeHtmlHidden: function(){
+			removeHtmlHidden: function () {
 				$('html').removeClass('html-loading');
 			},
-			Scroll: function(scrollHeight){
-				let scrollSpeed = this.scrollSpeed;			
-				
+			Scroll: function (scrollHeight) {
+				let scrollSpeed = this.scrollSpeed;
+
 				if ($(postPageId).length) {
-			
-				} else{
+
+				} else {
 					//Other pages
 					scrollSpeed = 'normal';
 				}
-					
-				$('html, body').delay( this.delayTime / 2 ).animate({
+
+				$('html, body').delay(this.delayTime / 2).animate({
 					scrollTop: scrollHeight
-				}, scrollSpeed, 'linear');				
+				}, scrollSpeed, 'linear');
 			},
-			setCookie: function(cName, cValue){
+			setCookie: function (cName, cValue) {
 				document.cookie = cName + "=" + escape(cValue) + ";";
 			},
-			getCookie: function(cName){
+			getCookie: function (cName) {
 				let aCookie = document.cookie.split("; ");
 				for (let i = 0; i < aCookie.length; i++) {
 					let aCrumb = aCookie[i].split("=");
@@ -133,67 +133,81 @@ jQuery(document).ready(function ($) {
 				}
 				return 0;
 			},
-			browserRefresh: function(){
+			browserRefresh: function () {
 				// Api: https://developer.mozilla.org/zh-CN/docs/Web/API/Navigation_timing_API
 				if (window.performance.navigation.type == 1) {
 					return true;
 				} else {
-					return false;															
+					return false;
 				}
 			}
 		}
-		
+
 		let currentScrollHeight = 0,
 			currentScrollTop = 0,
 			browserRefreshStatus = PRELOADER.browserRefresh();
-			
-		$(window).scroll(function () {		
-			currentScrollTop = $(document).scrollTop();		
-			PRELOADER.setCookie('currentScrollTop', currentScrollTop);		
+
+		$(window).scroll(function () {
+			currentScrollTop = $(document).scrollTop();
+			PRELOADER.setCookie('currentScrollTop', currentScrollTop);
 		}).trigger('scroll');
-		
-		function singlePageScroll(){
+
+		function singlePageScroll() {
 			if (browserRefreshStatus) {
 				currentScrollHeight = currentScrollTop || PRELOADER.getCookie('currentScrollTop');
 				console.info("This page is reloaded");
 			} else {
-				currentScrollHeight = ANNIE.headerH + 2;															
+				currentScrollHeight = ANNIE.headerH + 2;
 			}
-			PRELOADER.Scroll(currentScrollHeight);				
-		}
-		
-		function otherPageScroll(){
-			if (browserRefreshStatus) {
-				currentScrollHeight = currentScrollTop || PRELOADER.getCookie('currentScrollTop');
-			
-				PRELOADER.Scroll(currentScrollHeight);		
-				console.info("This page is reloaded");
-			} 
+			PRELOADER.Scroll(currentScrollHeight);
 		}
 
-		function globalScroll(){
+		function otherPageScroll() {
+			if (browserRefreshStatus) {
+				currentScrollHeight = currentScrollTop || PRELOADER.getCookie('currentScrollTop');
+
+				PRELOADER.Scroll(currentScrollHeight);
+				console.info("This page is reloaded");
+			}
+		}
+
+		function globalScroll() {
 			PRELOADER.removePreloaderMask();
 			PRELOADER.removeHtmlHidden();
 			if ($(postPageId).length) {
 				singlePageScroll();
-			} else{
+			} else {
 				//Other pages
 				otherPageScroll();
-			}			
+			}
 		}
-		
-		if(CONFIG_BGIMAGE.preloaderEnable && CONFIG_BGIMAGE.preloaderEnable != null){// 不设置预加载
+		// 深色模式设置
+		function switchNightMode() {
+			var body = document.body;
+			if (body.classList.contains('dark')) {
+				document.body.classList.remove('dark');
+				localStorage.setItem('dark', '0');
+				$('#nightMode').removeClass("fa-lightbulb-o").addClass("fa-moon-o");
+				return;
+			} else {
+				document.body.classList.add('dark');
+				localStorage.setItem('dark', '1');
+				$('#nightMode').removeClass("fa-moon-o").addClass("fa-lightbulb-o");
+				return;
+			}
+		}
+		if (CONFIG_BGIMAGE.preloaderEnable && CONFIG_BGIMAGE.preloaderEnable != null) {// 不设置预加载
 			// 10s以后
 			let stop = setTimeout(function () {
 				function timeoutCalled() {
-					PRELOADER.removePreloaderMask();		
+					PRELOADER.removePreloaderMask();
 					PRELOADER.removeHtmlHidden();
 					singlePageScroll();
 					console.log('timeout');
 				}
 				return timeoutCalled();
 			}, ANNIE.delayTimeG * 20); // delayTime = ANNIE.delayTimeG * 20 = 10s
-			
+
 			// 10s以前, The background iamge of header is already loaded.
 			/**
 			 * We use "https://github.com/desandro/imagesloaded plugin" to check img.load status!
@@ -201,14 +215,14 @@ jQuery(document).ready(function ($) {
 			 */
 			$("header").imagesLoaded({ background: true }, function () {
 				if (stop) {
-					clearTimeout(stop);	
-								
+					clearTimeout(stop);
+
 					globalScroll();
 				}
 			});
 		} else {// 设置预加载
 			globalScroll();
-		}	
+		}
 	};
 
 	/**
@@ -431,14 +445,14 @@ jQuery(document).ready(function ($) {
 				$(toTop).stop().fadeTo(delayTime, 0);
 			}
 		});
-		
-		function anchor(element, height, speed){
+
+		function anchor(element, height, speed) {
 			$(element).click(function () {
 				$('html, body').animate({
 					scrollTop: height
 				}, speed);
 				return false;
-			});			
+			});
 		}
 		anchor(toTop, 0, scrollSpeed);
 		anchor(toTop2, 0, scrollSpeed);
@@ -451,7 +465,7 @@ jQuery(document).ready(function ($) {
 	 * @method   Annie_Archive
 	 */
 	const Annie_Archive = function () {
-		
+
 		function getZodiac(year) {
 			let zodiac = 'rat';
 
@@ -540,7 +554,7 @@ jQuery(document).ready(function ($) {
 			leancloudCount = CONFIG_LEACLOUD_COUNT.enable || false;
 		const loaderTitle = $(paginationId).attr('data-title'),
 			loaderStatus = $(paginationId).attr('data-status');
-				
+
 		$('body').on('click', paginationId, function () {
 			let thisUrl = $(this).attr("href");
 			$(paginationId).text(" ").append(loadAnimation);
@@ -552,7 +566,7 @@ jQuery(document).ready(function ($) {
 				timeout: delayTime * 20, //10s
 				error: function (event, xhr, options) {
 
-					$(paginationId).attr("href", thisUrl).empty().text( loaderTitle );
+					$(paginationId).attr("href", thisUrl).empty().text(loaderTitle);
 
 					alert("Error requesting " + options.url + ":  " + xhr.status + ",  " + xhr.statusText);
 
@@ -564,12 +578,12 @@ jQuery(document).ready(function ($) {
 
 					$(paginationContainer).append(result.fadeIn(delayTime).addClass('animation-zoom'));
 
-					if ( leancloudCount ) {
+					if (leancloudCount) {
 						//FIX: ajax bug
 						annieShowData(initCounter, initPost);
 					}
 
-					$(paginationId).empty().text( loaderTitle );
+					$(paginationId).empty().text(loaderTitle);
 
 					if (newhref != undefined) {
 						$(paginationId).attr("href", newhref);

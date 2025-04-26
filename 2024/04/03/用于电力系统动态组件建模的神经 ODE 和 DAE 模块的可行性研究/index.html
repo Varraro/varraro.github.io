@@ -1,0 +1,1147 @@
+<!--
+	作者：Sariay
+	时间：2018-08-26
+	描述：There may be a bug, but don't worry, Qiling(器灵) says that it can work normally! aha!
+-->
+<!DOCTYPE html>
+<html class="html-loading">
+		
+
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>
+    
+      用于电力系统动态组件建模的神经 ODE 和 DAE 模块的可行性研究 | Lenger的后花园
+    
+  </title>
+  <meta name="author" content="Lenger">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+	<!-- favicon -->
+  <link rel="shortcut icon" href="/img/1.ico">
+
+  <!-- css -->
+  
+<link rel="stylesheet" href="/css/Annie.css">
+
+  
+  <!-- jquery -->
+	
+<script src="/plugin/jquery/jquery.min.js"></script>
+
+
+<script>
+    const CONFIG_BGIMAGE = {
+      mode: 'normal',
+      normalSrc: '/img/g.png',
+      randomYouMax: 110,
+      randomYouSrc: 'https://sariay.github.io/Random-img/',
+	  randomOtherSrc: 'https://api.berryapi.net/?service=App.Bing.Images&day=-0',
+	  preloaderEnable: true
+    }
+	
+    const CONFIG_LEACLOUD_COUNT = {
+      enable: false,
+	  appId: 'AU8...',
+	  appKey: '4cU...',
+	  serverURLs: 'http' || ' '
+    }
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Lenger的后花园" type="application/atom+xml">
+</head>
+	<body>
+		<!-- Preloader -->
+
+	<div id="preloader">
+		<div class="pre-container">
+			
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+						
+		</div>
+	</div>
+
+
+<!-- header -->
+<header class="fixbackground bg-pan-br">
+	<div class="mask">
+		<!-- motto -->
+		<div class="h-body">	
+			
+				<div class="motto text-shadow-pop-left">
+					<p class="content" id="motto-content">获取中...</p>
+					<p>-<p>
+					<p class="author" id="motto-author">Just a minute...</p>
+				</div>
+			
+		</div>
+		
+		<!-- others: such as time... -->			
+		<div class="h-footer">
+			<a href="javascript:;" id="read-more" class="scroll-down">
+				<span class="icon-anchor1 animation-scroll-down"></span>
+			</a>
+		</div>
+	</div>
+</header>
+
+<div id="navigation-hide">
+	<!-- Progress bar -->
+	<div id="progress-bar"></div>
+
+	<!-- Progress percent -->
+	<div id="progress-percentage"><span>0.0%</span></div>
+
+	<div class="toc-switch"><span class="switch-button">目录</span></div>
+
+	<!-- Page title -->
+	<p>
+		
+			「用于电力系统动态组件建模的神经 ODE 和 DAE 模块的可行性研究」
+		
+	</p>
+
+	
+	
+
+	<!-- Nav trigger for navigation-H-->
+	<a class="nav-trigger"><span></span></a>
+</div>
+
+<!-- Navigation in div(id="navigation-H") -->
+<nav class="nav-container" id="cd-nav">
+	<div class="nav-header">
+		<span class="logo"> 
+			<img src="/img/2.png">
+		</span>
+		<a href="javascript:;" class="nav-close"></a>
+	</div>
+	
+	<div class="nav-body">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home" target="_blank">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_blank">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_blank">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_blank">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_blank">关于</a>
+		</li>
+		
+	
+		<li class="menu-gallery">
+			<a href="/gallery" class="menu-item-gallery" target="_blank">相册</a>
+		</li>
+		
+	
+		<li class="menu-friends">
+			<a href="/friends" class="menu-item-friends" target="_blank">friends</a>
+		</li>
+		
+	
+
+	
+</ul>
+	</div>
+	
+	<div class="nav-footer">
+		<ul id="global-social">
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-one"><span class="path1"></span><span class="path2"></span></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-zhihu"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-github"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-sina-weibo "></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-pinterest2"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-instagram"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-twitter"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="/atom.xml" target="_blank">
+				<span class="icon-rss"></span>
+			</a>
+		</li>
+			
+</ul>
+
+	</div>
+</nav>
+			
+		<!--main-->
+		<main>
+			<!--
+	时间：2018-11-17
+	描述：
+		插件名称：katelog.min.js
+		插件作者：KELEN
+		插件来源: https://github.com/KELEN/katelog
+-->
+
+	
+		<div class="layout-toc">
+			<div id="layout-toc">
+				<div class="k-catelog-list" id="catelog-list" data-title="文章目录"></div>
+			</div>
+		</div>
+
+		
+<script src="/plugin/toc/katelog.min.js"></script>
+
+
+		
+	 
+
+<div class="layout-post">
+	<div id="layout-post">
+		<div class="article-title">
+			
+	<a href="/2024/04/03/%E7%94%A8%E4%BA%8E%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6%E5%BB%BA%E6%A8%A1%E7%9A%84%E7%A5%9E%E7%BB%8F%20ODE%20%E5%92%8C%20DAE%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6/" itemprop="url">
+		用于电力系统动态组件建模的神经 ODE 和 DAE 模块的可行性研究
+	</a>
+
+		</div>
+
+		<div class="article-meta">
+			<span>
+				<i class="icon-calendar1"></i>
+				
+				
+
+
+
+
+	更新于
+
+	<a href="/2024/04/03/%E7%94%A8%E4%BA%8E%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6%E5%BB%BA%E6%A8%A1%E7%9A%84%E7%A5%9E%E7%BB%8F%20ODE%20%E5%92%8C%20DAE%20%E6%A8%A1%E5%9D%97%E7%9A%84%E5%8F%AF%E8%A1%8C%E6%80%A7%E7%A0%94%E7%A9%B6/" itemprop="url">
+		<time datetime="2024-04-03T06:40:37.000Z" itemprop="dateUpdated">
+	  		2025-04-26
+	  </time>
+	</a> 
+
+
+
+			</span>
+			<span>
+						
+			</span>
+			
+			
+
+
+
+		</div>
+
+		<div class="article-content" id="article-content">
+			<p>博客自建立以来最学术的一集，翻译一篇 IEEE 顶会文章，感谢学术开源精神</p>
+<hr>
+<p>用于电力系统动态组件建模的神经 ODE 和 DAE模块的可行性研究</p>
+<p>肖坦楠，IEEE会员，陈颖，IEEE会员，黄少伟，IEEE会员，何悌睿，管慧哲</p>
+<p><em>摘要</em>——<strong>在可再生能源高度渗透的背景下，基于可获取的测量数据建立电力系 统组件动态模型的需求变得十分迫切。为应对这一挑战，首先提出了神经常微分方程（ODE）模块和神经微分代数方程（DAE）模块，以形成数据驱动的建模框架，准确捕捉组件的动态特性并灵活适应各种界面设置。其次，将神经ODE模块和 DAE模块学习到的分析模型和数据驱动模型集成在一起，并使用统一的瞬态稳定性仿真方法同时进行仿真。最后，神经ODE和DAE模块使用Python实现，并在 GitHub 上公开。利用门户网站的测量结果，在IEEE-39系统和2383wp系统中进行了励磁控制器建模、光伏电站建模和区域电网等效负荷建模三个简单但具有代表性的案例。神经动态模型集成仿真与基于原始模型的仿真进行了比较，以验证所提出的神经ODE和DAE模块的可行性和潜力。</strong></p>
+<p><em>关键词</em>——电力系统动力学、电力系统仿真、动态组件建模、常微分方程、微分代数方程、神经网络</p>
+<h1 id="1-引言"><a href="#1-引言" class="headerlink" title="1 引言"></a>1 引言</h1><h2 id="1-1-动机"><a href="#1-1-动机" class="headerlink" title="1.1 动机"></a>1.1 动机</h2><p>保证电力系统的稳定运行是一项至关重要的任务，这在很大程度上依赖于准确的系统动态模拟[1]。然而，在大规模可再生能源的采用之后，电力系统变得更加复杂，这在这一领域提出了新的技术挑战。</p>
+<p>首先，如果没有足够的先验知识，就很难精确地建立电气和控制部件的动态模型以及子系统的等效模型[2]。随着越来越多的可再生能源被纳入所有电压等级，隐性动态（如环境变化）对现代电力系统的影响也在加强。如果不了解这些隐性动态，就很难推导出负荷区[3]和可再生能源发电厂[4]等的等效模型。此外，出于隐私考虑供应商和用户可能无法完全共享其电力设备的控制和保护知识[5]。从系统运营商的角度来看，这些设备和控制是黑盒子，削弱了对系统动态的准确理解。</p>
+<p>其次，将分析模型和数据驱动模型无缝集成的电力系统仿真工具很少[6]。利用实时测量和仿真结果的大数据，近十年来开发了各种数据驱动的代用模型[7]，用于预测电力系统的局部和系统级动态。然而，这些数据驱动模型很少被直接部署到传统仿真程序中，与电力元件的分析模型进行数值整合。造成这种情况的原因不仅在于数据驱动模型的形式不兼容，还在于缺乏将分析模型和数据驱动模型整合在一起的数值算法。</p>
+<p>为了解决上述具有挑战性的问题，我们探索了基于神经常微分方程（ODE）以数据驱动的方式建立电力系统动态模型的可行性。此外，我们还引入了统一的仿真方法，以整合分析和神经网络形式的电力组件模型。开发了控制器、光伏电站和子系统的神经动态模型，用于说明和测试。综合案例研究验证了所提方法的有效性。</p>
+<h2 id="1-2-相关工作"><a href="#1-2-相关工作" class="headerlink" title="1.2 相关工作"></a>1.2 相关工作</h2><p>动态建模方法可分为三类，即基于知识的分析方法、基于测量数据的数据驱动方法以及结合前两者的混合方法[8]。本文提出的数据驱动建模方法主要受到三方面研究的启发，即神经ODE、物理信息神经网络（PINN）和Koopman算子。在此，我们将对这些课题进行简要介绍。</p>
+<p>现代神经ODE的思想由Chen等人于 2018 年提出[9]。对于分析建模方法和数据驱动建模方法，文献[10]指出，神经ODE提供了一种两全其美的方法。在利用易于训练的神经网络学习导函数全局近似的同时，神经ODE还保留了经典的数值积分结构，这是非常重要的先验知识，使得神经ODE对科学计算和工业应用具有很强的适应性。这一思想很快受到全世界的关注，并启发了许多其他研究，如神经偏微分方程（PDE）[11]、汉密尔顿神经网络[12]、拉格朗日神经网络[13]等。需要指出的是，神经偏微分方程的基本思想在更早的文献中可以找到类似的思路，例如在电力系统研究领域，类似的思路可以追溯到2003年[14]的等效负荷建模，该研究使用瓶颈神经网络从代数变量中提取状态变量，并嵌入神经网络学习提取的状态变量的时间导数。另一个例子是[15]，它采用了近似微分代数方程（DAE）的思想对区域电力网络进行等效建模。最近在2022年，引入了神经ODE的学习理论，并建立了基于神经ODE的联网微电网等效建模，用于可达性分析[16]。目前，电力系统DAE近似的学习理论尚未明确。同时，训练好的神经动态模型很少直接集成到传统的电力系统仿真器中，与分析模型同时进行动态仿真。</p>
+<p>与神经ODE不同，PINN的思想是直接学习数值积分方法解的近似值，它最早是为求解PDE而提出的[17]。神经网络的输出包含当前积分步骤的解和下一积分步骤的隐向量。PINN的工作原理与递归神经网络类似，不再需要与数值ODE求解器相匹配。文献[18]提出了一种名为DAE-PINN的用于DAE求解的PINN，可直接输出IEEE-9电力系统所需的状态变量和代数变量的解，这意味着只需通过有限的观测就能学习到系统级的代理变量。</p>
+<p>库普曼算子的概念于1931年[19]和1932年[20]提出。库普曼算子是一个线性但无穷维的算子，它控制着系统状态的可能测量函数的演化。随着近年来机器学习理论的发展，Koopman算子可以通过自动编码器结构进行学习，并已成为非线性系统全局线性表示的主要候选[21]。Koopman算子理论在电力系统中的一个应用实例是利用环境系统测量数据，以数据驱动的方式识别系统模式[22]。</p>
+<h2 id="1-3-本文贡献"><a href="#1-3-本文贡献" class="headerlink" title="1.3 本文贡献"></a>1.3 本文贡献</h2><p>本文的贡献如下：</p>
+<p>\1) 提出了一个具有外部输入的神经ODE模块（神经ODEE模块）和一个神经DAE模块，用于根据可获取的测量数据为电力系统组件建立精确的数据驱动动态模型。</p>
+<p>\2) 提出了神经模型集成瞬态稳定性仿真方法，将由拟议神经模块训练的数据驱动模型与分析模型集成起来，同时进行仿真，而不会影响解的精度和收敛性。</p>
+<p>\3) 利用Python实现了所提出的神经模块，并在GitHub上公开了源代码。利用门户网站的测量结果，在IEEE-39系统和2383wp系统中进行了励磁控制器建模、光伏电站建模和区域电网等效负荷建模这三个简单但具有代表性的案例，以验证所提神经模块的可行性，并对其进行了验证。</p>
+<h2 id="1-4-论文结构"><a href="#1-4-论文结构" class="headerlink" title="1.4 论文结构"></a>1.4 论文结构</h2><p>论文的其余部分如下：第二节介绍电力系统动态组件建模的问题表述。第三节说明了神经ODE-E模块和神经DAE模块。第四节演示了如何将神经模型集成到暂态稳定性仿真中。第五节设计了数值测试，第六节展示了测试结果。第七节讨论了所提出的神经模块。第八节为结论。</p>
+<h1 id="2-问题表述"><a href="#2-问题表述" class="headerlink" title="2 问题表述"></a>2 问题表述</h1><h2 id="2-1-电力系统组件建模与仿真"><a href="#2-1-电力系统组件建模与仿真" class="headerlink" title="2.1 电力系统组件建模与仿真"></a>2.1 电力系统组件建模与仿真</h2><p>如图1所示，在电力系统暂态稳定性仿真中，可根据元件是否对电网产生注入电流将动态元件分为两类。对于不产生注入电流的元件（以下简称控制器），其动态特性可表述为：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (1)</p>
+<p>其中，为元件的状态向量其时间导数等于，为所需外部输入变量向量。以励磁机为例，除状态变量外，计算导数还需要发电机连接母线的节点电压，即属于的节点电压。</p>
+<p>对于在电网中产生注入电流的元件（以下简称功率器件），其动态特性可表述为</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (2)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (3)</p>
+<p>其中，为注入电流，为组件连接的总线的节点电压，为注入电流计算函数。以同步电机为例，其内部电动势、转子角度、转子速度和控制器的状态变量属于，起始瞬间和当前阶跃时的有功功率和无功功率属于。</p>
+<p>因此，在暂态稳定性模拟中，电力系统的整体动态被模拟为一组高维非线性 DAE，包括动态设备的 ODE (4) 和电力网络的代数方程 (AE) (5)：</p>
+<p><code>	 	 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (4)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (5)</p>
+<p>图 1 电力系统动态组件建模和提出的神经模块的概述</p>
+<p>其中，是系统状态矢量，其时间导数等于，是总线电压矢量，是注入电流矢量，是导纳矩阵，而表示整个网络方程。系统DAE可采用同步法或交替法求解[23]。显然，(1)所示的ODE模型和(2)、(3)所示的DAE模型很容易集成到(4)、(5)所示的系统DAE中。</p>
+<h2 id="2-2-数据驱动的动态组件建模"><a href="#2-2-数据驱动的动态组件建模" class="headerlink" title="2.2 数据驱动的动态组件建模"></a>2.2 数据驱动的动态组件建模</h2><p>本文的重点是根据可获取的测量数据建立动态组件模型，并将神经模型集成到电力系统时域模拟器中。拟议方法的概述如图1所示。 </p>
+<p>通常情况下，在实际电力系统中，可以获得动态组件的入口测量值，即控制器的输入和输出以及电力设备的节点电压和注入电流，但通常无法观测组件的内部变量和动态特性。这些可获取的测量数据可归纳为</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (6)</p>
+<p>其中，表示数据集，分别代表，，和。值得注意的是仅包含可测量的状态变量，如果没有状态变量，则设置为空。</p>
+<p>在此基础上，第3.2节介绍的神经ODE-E模块用于为控制器建立数据驱动的动态模型，而第3.3节介绍的神经DAE模块则用于为功率器件建立数据驱动的动态模型。</p>
+<p>由此得出的数据驱动模型需要适应电力系统动态仿真的成熟框架，并与分析模型同时仿真，而不会严重影响求解的准确性和收敛性，第四节将对此进行介绍。</p>
+<h1 id="3用于电力系统动态组件建模的神经ODE-E模块和神经DAE模块"><a href="#3用于电力系统动态组件建模的神经ODE-E模块和神经DAE模块" class="headerlink" title="3用于电力系统动态组件建模的神经ODE-E模块和神经DAE模块"></a>3用于电力系统动态组件建模的神经ODE-E模块和神经DAE模块</h1><h2 id="3-1-神经ODE的一般框架"><a href="#3-1-神经ODE的一般框架" class="headerlink" title="3.1 神经ODE的一般框架"></a>3.1 神经ODE的一般框架</h2><p>原始神经ODE模块的结构如图2(a)所示，由Chen等人首次提出[9]。由神经网络组成的神经 ODE 模块用于计算参数化导数函数，如(7)所示：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (7)</p>
+<p>图 2 (a)原始神经ODE模块、(b)神经ODE-E模块、基于(c)自动编码器的神经ODE-E模块、(d)神经DAE模块和(e)基于自动编码器的神经DAE模块的结构。</p>
+<p>其中，表示神经ODE模块的参数。当神经ODE模块使用一个具 有一个隐藏层的多层感知器（MLP）时，一个简单的例子如 (8) 所示：</p>
+<p><code>  </code>MACROBUTTON MTPlaceRef * MERGEFORMAT 		 MACROBUTTON MTPlaceRef * MERGEFORMAT (8)</p>
+<p>其中，和表示MLP参数，是激活函数。</p>
+<p>给定初始值，积分步长时间为,积分时间和导数函数(7)，一系列的可以通过数值积分方法轻松计算。显式积分法和隐式积分法均可用于求解神经ODE。为方便演示，图2中显示的所有模块均以欧拉法为例，分步积分如下：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (9)</p>
+<p>神经ODE模块可以使用采样曲线数据集进行训练。在(10)中，定义了一个损失函数，例如预测曲线与地面实况曲线之间的均方误差(MSE)，以优化：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (10)</p>
+<p>其中，表示训练集中的样本数，表示使用神经ODE模块预测的状态变量序列，表示样本集，表示真实数据序列。初始值，可以通过数值积分获得。</p>
+<p>为了优化，可以采用[9]和[16]中也介绍过的邻接灵敏度法[24]。相对于的梯度计算如 (11) 所示：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (11)</p>
+<p>其中是哈密顿函数[25]，定义于(12)并表示服从(13)-(14)的拉格朗日乘数：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (12)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (13)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (14)</p>
+<p>梯度公式的证明见附录A，同正积分一样，数值积分方法也可以使用负积分步长来求解(14)所示的后积分。在获得梯度后，可以通过应用随机梯度下降法（SGD）或亚当优化器[26]等方法轻松优化参数。</p>
+<h2 id="3-2-神经ODE-E模块"><a href="#3-2-神经ODE-E模块" class="headerlink" title="3.2 神经ODE-E模块"></a>3.2 神经ODE-E模块</h2><p>基于神经ODE的一般框架，对于(1) 所示不向电网产生注入电流的组件，组件的动力学和神经导函数可表述为 (15)：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (15)</p>
+<p>因此，神经ODE-E模块如图2（b）所示。将（15）代入（10），神经ODE-E模块的整体优化公式为：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (16)</p>
+<p>其中,表示的基本真实值。应用邻接灵敏度方法后，可通过改变以下参数优化 (12)-(14) 中的参数至。</p>
+<h2 id="3-3-神经-DAE-模块"><a href="#3-3-神经-DAE-模块" class="headerlink" title="3.3 神经 DAE 模块"></a>3.3 神经 DAE 模块</h2><p>对于 (2) 和 (3) 所示的向电力网络产生注入电流的组件，通过添加 一个神经 AE 模块，设计了一个更复杂的模块，如图 2 (d) 所示。 使用神经 DAE 模块可以近似计算如下动态：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (17)</p>
+<p>其中表示神经 AE，表示神经AE模块，表示神经AE模块的参数。类似地，和的优化公式如 (18) 所示。此外，还可以使用邻接灵敏度法推导关于和的梯度，其形式与电力系统研究领域的轨迹灵敏度法相同 [27]。</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (18)</p>
+<p>梯度的计算方法如 (19) 和 (20) 所示：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (19)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (20)</p>
+<p>其中，表示，表示，表示，表示(21)中定义的哈密顿函数,标示，并且和表示服从(22)-(23)的拉格朗日乘数：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (21)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (22)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (23)</p>
+<p>梯度公式的证明见附录A。同样，在求出和的梯度之前，需要进行逆向数值积分来求出和。</p>
+<h2 id="3-4-基于自动编码器的框架"><a href="#3-4-基于自动编码器的框架" class="headerlink" title="3.4 基于自动编码器的框架"></a>3.4 基于自动编码器的框架</h2><p>图 2.(c)和图 2.(e)提出了基于自动编码器的神经模块框架。</p>
+<p>从实际角度来看，维度变化是电力系统的直观要求。一方面，现实世界中的动态组件在大多数情况下并不完全可观测。没有或只有非常有限的状态变量可以测量。不可观测部分的动态可以通过基于可观测部分采样曲线的维度提升自动编码器来近似。另一方面，在等效建模情况下，状态变量过多。在这种情况下，可以采用降维自编码器来关注原始动态的关键特征。从理论角度来看，引入自动编码器可以提高拟议神经模块的灵活性和性能。这些自动编码器的主要功能是将原始状态和动态嵌入到一个隐藏空间中。一方面，原始低维空间中的难题在经过适当的提维自编码后可以变为简单的问题。基于内核的支持向量机也采用了同样的思路。另一方面，对于复杂的高维系统，降维自动编码器可用于寻找现存的低维流形，甚至用于寻找库普曼不变子空间和线性化系统动力学[21]。</p>
+<p>因此，本文使用自动编码器来改变维度，并提高了算法的灵活性和性能。神经模块，如 (24) 和 (25) 所示：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (24)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (25)</p>
+<p>其中，enc表示编码器，dec表示解码器,、、和是隐藏空间中的状态变量和代数变量。数值积分在隐藏空间中进行。需要注意的是，和的编码只进行一次，将和的初始值转换为和在隐藏空间中的初始值。通过求解神经DAE、和是在隐藏空间中得出的。因此，在每一个积分步骤中都要执行解码过程,以得出原始空间中的和。为了便于描述和理解，采用了图2.(c)和图2.(e)中显示的框架。自动编码器与神经块同时优化。</p>
+<h2 id="3-5-损失函数和训练过程"><a href="#3-5-损失函数和训练过程" class="headerlink" title="3.5 损失函数和训练过程"></a>3.5 损失函数和训练过程</h2><table>
+<thead>
+<tr>
+<th align="left"><strong>伪代码1：神经模块的训练程序</strong></th>
+<th align="left"></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><p>输入样本总数 N，积分步长 Δt，仿真时间 T，小批量大小 m，训练周期数 E，以及评估间隔 ΔE。</p><p>通过仿真得到采样数据集，仿真时间为 T，固定积分步长 Δt，或通过实时测量获得。将样本拆分为训练集和测试集。</p></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><strong>for</strong> <em>i</em> &#x3D;1 <strong>to</strong> <em>E</em> <strong>do</strong></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><strong>for</strong> <em>j</em> &#x3D;1 <strong>to</strong> <em>N</em> &#x2F; <em>m</em> <strong>do</strong></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">从训练数据集中随机抽取一个大小为 m 的小批量样本。</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><p><code>	</code>将小批量输入神经模块，执行前向积分，得</p><p>到 x 和 i。</p><p><code>	</code>执行反向积分，得到和。</p></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">根据和使用优化器更新 和</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><strong>结束循环</strong></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">如果i 除以 ΔE 的余数等于 0：</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">在测试数据集上评估神经模块。</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><strong>end if</strong></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><code> </code><strong>end for</strong></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<p>为方便演示，我们以和神经DAE模块为例解释损失函数。损失函数的计算公式为：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (26)</p>
+<p>其中表示，是测量时间瞬时值，n 是测量点总数。采用预测曲线与地面实况曲线之间的加权 MSE 作为损失函数：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (27)</p>
+<p>其中<strong>w</strong>表示不同变量的权重系数。然后，可以使用SGD方法或Adam优化器。伪代码1演示了训练过程。对于基于自动编码器的框架自编码器的重构损耗也会加入 (27) 中： MACROBUTTON MTPlaceRef * MERGEFORMAT </p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (28)</p>
+<h1 id="4-神经动态模型集成的暂态稳定性仿真"><a href="#4-神经动态模型集成的暂态稳定性仿真" class="headerlink" title="4 神经动态模型集成的暂态稳定性仿真"></a>4 神经动态模型集成的暂态稳定性仿真</h1><h2 id="4-1-电力系统暂态稳定模拟基础知识"><a href="#4-1-电力系统暂态稳定模拟基础知识" class="headerlink" title="4.1 电力系统暂态稳定模拟基础知识"></a>4.1 电力系统暂态稳定模拟基础知识</h2><p>(4) 和 (5) 所示的系统 DAE 可采用同时法或交替法求解。在同时 求解法中，对系统 ODE采用隐式数值积分方法后，ODE 将转化为代数方程，并可与 (5) 同时用牛顿法迭代求解，如 (29)-(30) 所示：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (29)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (30)</p>
+<p>其中，是系统 ODE 的变换代数方程。隐式梯形法的一个例子如 (31) 所示：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (31)</p>
+<p>另一方面，在交替方法中，常微分方程（ODEs）和代数方程（AEs）是分开求解的。可以使用快速求解技术[28]来提高数值稳定性并加速求解过程。首先，在时刻给定状态向量和母线电压向量，估算初值，或者简单地设定为。其次，求解(4)以通过数值积分方法使用和得到。第三，求解(5) 对和。然后再次求解(4)使用和。上述迭代重复进行，直到收敛。可以看出，同步方法更为严格，并且动态模型必须支持计算(30)中显示的偏导数。相比之下，交替方法会造成错误，但这种方法不需要偏导数，交替法会产生误差，但这种方法不需要偏导数，而且编程灵活、简单、可靠、稳健，因此被广泛应用于工业级仿真程序中[23]。</p>
+<h2 id="4-2-将神经模型融入模拟"><a href="#4-2-将神经模型融入模拟" class="headerlink" title="4.2 将神经模型融入模拟"></a>4.2 将神经模型融入模拟</h2><p>首先，模拟器应能加载神经网络并执行神经网络的前向传播。至于同步方法，模拟器需要额外支持神经网络的后向传播。以神经DAE模型和隐式梯形法为例，代数积分函数如(32)所示，注入电流的计算如(33)所示。如(34)所示，需要对神经模块的输入向量进行偏导数运算：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (32)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (33)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (34)</p>
+<p>经ODE函数被用作导函数。它可以通过数值积分方法轻松求解。神经AE函数用于计算注入电流。将计算出的注入电流加到所连接的母线上后，通过求解网络AE (5)即可得到节点电压。</p>
+<p>总之，由拟议的神经ODE-E和DAE模块得出的神经模型可以集成到瞬态模拟中，并且不会影响模拟程序。</p>
+<h2 id="4-3-初始值学习器"><a href="#4-3-初始值学习器" class="headerlink" title="4.3 初始值学习器"></a>4.3 初始值学习器</h2><p>对于动态部分，状态变量的初始值无法直接获取，例如，转子角度的初始值由节点电压和功率流求解得到的发电量决定。这意味着在模拟中，神经模型无法获得初始值（0）x。因此，在将神经模型集成到瞬态稳定性模拟中时，需要一个初值学习器。在大多数情况下，学习器的形式如 (35) 所示：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (35)</p>
+<h2 id="4-4离散事件处理"><a href="#4-4离散事件处理" class="headerlink" title="4.4离散事件处理"></a>4.4离散事件处理</h2><p>在仿真过程中，故障和继电器动作等事件将对网络和运行变量（如节点电压）产生跳跃性变化。以图 2. (b)为例，在事件发生前后，状态变量不会发生变化，即而中的一些变量可以变化，即。当电力系统发生重大故障时，和跃变可能会很大。在训练过程中考虑这些跳跃变化可以提高神经模型的准确性。然而，在大多数电力系统仿真工具中，跳跃变化是无法获得的。一种可接受的替代方法是使用而不是来预测，因为下一步积分的变量是跳跃变化的良好近似值。(10) 中增加了等式约束 (36)，(18) 中增加了约束(36)、(37) 和 (38)：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (36)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (37)</p>
+<p>图 3 IEEE-39测试系统和部件的位置。</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (38)</p>
+<p>其中是事件发生的时间点集合。跳变t的计算方法是那么时间导数用于计算</p>
+<h2 id="4-5-聚合维护"><a href="#4-5-聚合维护" class="headerlink" title="4.5 聚合维护"></a>4.5 聚合维护</h2><p>由神经 DAE 模块训练的 DAE 模型作为一个简单的电流源连接到电力网络，其电流注入的计算如 (17) 所示。然而，在大多数情况下，没有并联导纳的电流源会严重影响收敛性，因为网络方程可能会失去对角优势。因此，除了训练有素的神经 DAE 模型外，还需要在电力网络中连接一个额外的并联导纳，并按如下方式重新计算注入电流：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (39)</p>
+<p>其中，为虚构注入电流，为虚构感抗，本文将其设为-50.0。引入虚构感抗可以在不影响精度的情况下保持网络方程的对角优势[15]。</p>
+<h1 id="5-典型功率元件的模块设计"><a href="#5-典型功率元件的模块设计" class="headerlink" title="5 典型功率元件的模块设计"></a>5 典型功率元件的模块设计</h1><p>本文测试了三个简单但具有代表性的案例，以证明神经模块的有效性和潜力。图 3 中的 IEEE-39 系统用于模型训练和验证。模拟变量被用作可访问的测量数据。在 IEEE-39 系统中，对各组件进行了详细建模，包括六阶发电机模型、励磁机、调速器和移动器、电力系统稳定器以及感应电机负载模型。在母线 31 上连接了光伏电站，并采用了中国电力科学研究院开发的电力系统分析软件包中的光伏电站模型 [29]。</p>
+<p>以蓝色矩形标示的两个励磁控制器 Exciter_30 和 Exciter_33、绿色圆圈标示的一个光伏电站 PV_31、红色圆角矩形标示的一个区域电力网络 Region 为代表，测试神经 ODE-E 模块和神经DAE 模块的可行性。将训练好的模型集成到电力系统机电模拟器中，以在实际瞬态仿真中测试神经模型的性能。最后，将在 IEEE-39 系统中训练的神经模型直接集成到 2383wp 系统中，该系统包含2383 个母线、2892 个分支、327 个发电机和 1822 个负载，以测试神经模型在大规模电力系统中的性能。有关 2383wp 系统的详细信息，请参阅 [30]。</p>
+<h2 id="5-1-黑箱激励器的神经-ODE-E-模块设计"><a href="#5-1-黑箱激励器的神经-ODE-E-模块设计" class="headerlink" title="5.1 黑箱激励器的神经 ODE-E 模块设计"></a>5.1 黑箱激励器的神经 ODE-E 模块设计</h2><p>图4所示的普通励磁控制器模型是用于测试神经ODE-E模块可行性的具有代表性的供应商特定控制器。只有入口测量值，即输入变量和和输出可变因素即励磁机是一个模拟黑盒。使用神经ODE-E模块，可以获得具有可知结构和参数的数据驱动模型。</p>
+<p>两个参数不同的激励器被测试。而总线 33 处的 Exciter_33 分别设置为 0.0 和 3.3，以测试神经ODE-E模块处理非线性问题的能力。损失函数和界面设置如 (40)所示：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (40)</p>
+<p>在 z 中，V 的初始稳态值、包括在内，以便神经 ODE 模块学习如何计算参考变量五和 reffd E .在大多数情况下、 Vreffdref E 是未知数，是根据稳定的的状态。如果已知参考变量，则可以直接使用它们来形成 z 。</p>
+<h2 id="5-2-光伏电站的神经-DAE-模块设计"><a href="#5-2-光伏电站的神经-DAE-模块设计" class="headerlink" title="5.2 光伏电站的神经 DAE 模块设计"></a>5.2 光伏电站的神经 DAE 模块设计</h2><p>光伏电站模型 [29] 用于测试神经 DAE 模块对可再生能源建模的可行性。由于在实际电力系统中很难获得状态变量，因此模型的训练基于入口测量，即节点电压 v 和注入量 i。</p>
+<p>在只有入口测量的情况下，损失函数、界面设置和初始值学习器如 (41) 所示：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (41)</p>
+<p>其中,是虚构的状态变量矢量，它是用初值学习器计算出来的、和分别为母线 31 节点电压的实部和虚部，以及和分别是注入电流的实部和虚部。具有两个隐藏学习初始值x(0)的层经过训练的光伏模型可直接集成到瞬态模拟中。</p>
+<p>图 4 励磁系统模型。输入 V 是节点电压的幅值。模型包括测量、放大、激励和反馈四个模块。K 和 T 分别表示每个模块的放大系数和时间常数。 表示电力系统稳定器的附加输入信号。 和 为参考变量。</p>
+<p>需要注意的是，设计虚构状态向量是因为无法获取实际的状态变量。如果存在可访问的状态变量，例如光伏电池的直流电压和电流，则这些状态变量可直接用作x或作为x的一部分。同时，可访问的状态变量需要在损失函数 (40) 中加以考虑。</p>
+<h2 id="5-3-等效负载的神经-DAE-模块设计"><a href="#5-3-等效负载的神经-DAE-模块设计" class="headerlink" title="5.3 等效负载的神经 DAE 模块设计"></a>5.3 等效负载的神经 DAE 模块设计</h2><p>由 19、20、33 和 34 号母线组成的区域电力网络被用作复合负荷，以测试所提出的神经 DAE 模块在等效负荷建模方面的可行性。这是为配电网、微电网等建立等效负载时的典型情况。该区域的发电机和负载都是详细建模的，也就是说，电网的内部动态是复杂的。总线 16 类似于共同耦合点。同样，除了入口测量值<a name="mtblankeqn"></a>（即总线 16 的节点电压）外，即母线 16 的节点电压和从母线 16 到母线 19 的传输电流之外，所有状态变量都是不可访问的。利用神经DAE模块可以推导出区域电网的等效负荷模型。</p>
+<p>同样，利用门户测量，损失函数、界面设置和初始值学习器也如 (41) 所示，其中和分别为的实部和虚部，和分别为的实部和虚部。训练好的等效载荷模型可以直接集成到模拟中。</p>
+<h2 id="5-4-用神经网络构建神经模块"><a href="#5-4-用神经网络构建神经模块" class="headerlink" title="5.4 用神经网络构建神经模块"></a>5.4 用神经网络构建神经模块</h2><p>对于图 2.(b)和图 2. (d)中，神经 ODE 模块和神经 AE 模块都是使用具有三个隐藏层的 MLP 构建的。所有隐藏层的宽度相同，即隐藏层的维度。图 2. (c)和图 2. (e)中基于自动编码器的神经 ODE-E 和 DAE 模块的编码器、解码器、神经 ODE 模块和神经 AE 模块都是使用具有一个隐藏层的 MLP 构建的。所有隐藏层的宽度也相同，这被定义为隐藏空间的维度。以神经 ODE-E 模块为例，编码后，X 和 Z 的维数与隐藏空间的维数相同。</p>
+<p>在本文中，任何两个相邻的神经层之间，由于其性能良好，因此采用了指数线性单元（ELU）[31] 作为激活函数。由于导函数的输出不受限制，因此输出层没有激活函数。采用梯度削波技术处理梯度爆炸问题</p>
+<h1 id="6-实践与数值测试"><a href="#6-实践与数值测试" class="headerlink" title="6 实践与数值测试"></a>6 实践与数值测试</h1><h2 id="6-1-实践概述"><a href="#6-1-实践概述" class="headerlink" title="6.1 实践概述"></a>6.1 实践概述</h2><p>测试平台是一台 Linux 服务器，由一个英特尔 i710700KF 3.80GHz 8 核 CPU、一个 NVIDIA GeForce RTX 3090 GPU 和 128GB DDR4-3200MHz 内存组成。</p>
+<p>神经模块使用 Python 开发，基于 GitHub 上名为 torchdiffeq 的开源神经 ODE 软件包 [9]。拟议的神经 ODE-E 模块和神经 DAE 模块的源代码已在 GitHub 上公开。我们采用了基于交替方法的高性能瞬态模拟器来生成样本曲线并测试训练好的神经模型。该模拟器是在我们之前的研究[30]、[32]和[33]基础上用 C++ 编写的，并使用名为 LibTorch 的 PyTorch C++ 应用编程接口（API）实现了神经网络的可支持性。模拟器的 Python API 也在 GitHub 上共享[34]。该模拟器可直接加载神经网络的结构和参数，并执行神经网络的前向和后向传播。</p>
+<p>在拟议的神经模块源代码中实现了基于欧拉法、中点法和四阶 Runge-Kutta (RK4) 法的三个 ODE 求解器。另一方面，在电力系统仿真器中，使用了隐式梯形法，因为该方法在数值上具有 A 级稳定性[23]。模拟时间为 10 秒，积分步长为 0.01 秒。</p>
+<h2 id="6-2-训练与测试设计"><a href="#6-2-训练与测试设计" class="headerlink" title="6.2 训练与测试设计"></a>6.2 训练与测试设计</h2><h3 id="6-2-1-数据集设计"><a href="#6-2-1-数据集设计" class="headerlink" title="6.2.1 数据集设计"></a>6.2.1 数据集设计</h3><p>用于模型训练的测试系统是标准的 IEEE39 系统，如图 3 所示。通过随机改变发电机和负载的状态，对电力流场景进行采样。发电机的节点电压在 0.94 p.u 至 1.06 p.u 之间采样。负载的有功功率和无功功率在标准 IEEE-39 系统给出的负载功率的 50% 至 150% 之间随机采样。每个采样运行状态都会受到随机故障或干扰的影响，包括三相短路故障、发电机跳闸、甩负荷等。</p>
+<p>表 I</p>
+<p>不同组件的培训设置</p>
+<table><tr><th colspan="1" valign="top">组成</th><th colspan="1" valign="top">框架</th><th colspan="1" valign="top"><i>Nr</i></th><th colspan="1" valign="top"><i>nd</i></th><th colspan="1" valign="top"><i>E</i></th><th colspan="1" valign="top"><i>lr</i></th><th colspan="1" valign="top">g</th></tr>
+<tr><td colspan="1" rowspan="2" valign="top">Exciter_30 无限制</td><td colspan="1" valign="top">常规</td><td colspan="1" valign="top">200</td><td colspan="1" valign="top">64</td><td colspan="1" valign="top">50</td><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1" valign="top">自动编码器</td><td colspan="1" valign="top">200</td><td colspan="1" valign="top">16</td><td colspan="1" valign="top">400</td><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">Exciter_33 有限制</td><td colspan="1" valign="top">常规</td><td colspan="1" valign="top">400</td><td colspan="1" valign="top">64</td><td colspan="1" valign="top">200</td><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1" valign="top">自动编码器</td><td colspan="1" valign="top">200</td><td colspan="1" valign="top">32</td><td colspan="1" valign="top">200</td><td colspan="1" valign="top">0\.005</td><td colspan="1" valign="top">0\.7</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">PV_31</td><td colspan="1" valign="top">常规</td><td colspan="1" valign="top">400</td><td colspan="1" valign="top">64</td><td colspan="1" valign="top">200</td><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1" valign="top">自动编码器</td><td colspan="1" valign="top">400</td><td colspan="1" valign="top">64</td><td colspan="1" valign="top">200</td><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">Region</td><td colspan="1" valign="top">常规</td><td colspan="1" valign="top">800</td><td colspan="1" valign="top">64</td><td colspan="1" valign="top">400</td><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="1" valign="top">自动编码器</td><td colspan="1" valign="top">800</td><td colspan="1" valign="top">64</td><td colspan="1" valign="top">400</td><td colspan="1" valign="top"></td><td colspan="1" valign="top"></td></tr>
+</table>
+
+<p>在图表中, <i>N<sub>r</sub></i> , <i>n<sub>d</sub></i> , <i>E</i> , <i>l<sub>r</sub></i> 和 g 是训练集的大小, 分别是训练集的大小、隐藏层或隐藏空间的维度、训练历元数、 学习率和学习率阻尼系数。</p>
+<p>每个代表性组件共生成 4000 个样本，其中 800 个样本用作测试集，其余 3200 个样本用作训练集。作为可行性研究，我们生成了两个不同的数据集。其中一个数据集（以下简称数据集A）的生成是为了确保样本的多样性，其中一半样本保持转子角度稳定性，而另一半样本则失去转子角度稳定性。需要注意的是，只有在最大转子角度差超过 360 度之前的状态变量和代数变量才用于训练神经模型。另一个数据集（以下称为数据集B）是在更实际的情况下生成的，其中所有的状态变量和代数变量被用于训练神经模型的样本是稳定的。同时，只有 20% 的样本考虑了三相短路故障，其余 80% 的样本考虑了发电量变化和负荷变化。发电量和负荷变化的范围在 10% 和 90% 之间，并且是随机选择的。因此，对于这两个数据集，神经模型的训练都是为了捕捉稳定边界内的动态变化。</p>
+<h3 id="6-2-2-训练设置设计"><a href="#6-2-2-训练设置设计" class="headerlink" title="6.2.2 训练设置设计"></a>6.2.2 训练设置设计</h3><p>采用基于欧拉的 ODE 求解器和 Adam 优化器来训练神经模型。测试采用不同的训练设置，以检验每个模块的要求和性能。在测试设置中，训练集的大小包括 3200、1600、800、400、200、100 和 50，隐藏层或隐藏空间的维数包括 64、32、16 和 8，训练历元数 E 包括 400、200、100 和 50，学习率包括 0.005 和 0.001，学习率阻尼因子包括 0.7 和 0.5。我们用最大的、、E 进行了几次测试，以检验学习率的影响。在前面提到的所有学习率设置下，都可以得到可接受的模型。因此，和分别固定为 0.005和0.7。</p>
+<p>对于每个模块，训练测试分以下三个步骤进行。首先，减小训练集的大小，找出需要多少样本才能获得性能可接受的模型。其次，降低神经模块的复杂度，即本文中神经层的宽度。最后，减少训练历元数以加快训练过程。经过测试，表 I 总结了不同组件所采用的训练设置。</p>
+<h3 id="6-2-3-神经模型集成模拟的测试设计"><a href="#6-2-3-神经模型集成模拟的测试设计" class="headerlink" title="6.2.3 神经模型集成模拟的测试设计"></a>6.2.3 神经模型集成模拟的测试设计</h3><p>训练完成后，每个神经模型都会被集成到模拟器中，并在 800 个随机抽样运行状态和突发事件的新场景下进行测试。其中有 698 个稳定场景和 102 个不稳定场景。如前所述，神经模型的训练是为了逼近稳定边界内的动态。因此，我们只对原始测试系统和神经模型集成测试系统失去稳定性前的状态变量和代数变量，以及系统失去稳定性的时间瞬间进行比较，以验证所建议的神经模块的有效性。原始模型集成仿真和神经模型集成仿真的比较结果表 II 汇总了所有四个动态组件的模拟结果。详细测试结果如下。</p>
+<p>表 II</p>
+<p>800 种新情况下的模拟结果比较</p>
+<p>用欧拉方法训练的不同模型</p>
+<table><tr><th colspan="1" rowspan="2" valign="top">组成部分和关键变量</th><th colspan="1" valign="top"></th><th colspan="2" valign="top">数据集_A</th><th colspan="2" valign="top">数据集_B</th></tr>
+<tr><td colspan="1" valign="top">框架</td><td colspan="1" valign="top">D<i>x</i></td><td colspan="1" valign="top">D<i>TS</i> (s)</td><td colspan="1" valign="top">D<i>x</i></td><td colspan="1" valign="top">D<i>TS</i> (s)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>Exciter_30,</p><p><i>E fd</i> (p.u.)</p></td><td colspan="1" valign="top">常规</td><td colspan="1" valign="top">1\.86E-01</td><td colspan="1" valign="top">4\.71E-03</td><td colspan="1" valign="top">2\.27E-01</td><td colspan="1" valign="top">4\.90E-03</td></tr>
+<tr><td colspan="1" valign="top">自动编码器</td><td colspan="1" valign="top">3\.81E-02</td><td colspan="1" valign="top">5\.88E-04</td><td colspan="1" valign="top">4\.94E-02</td><td colspan="1" valign="top">1\.08E-03</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>Exciter_33,</p><p><i>E fd</i> (p.u.)</p></td><td colspan="1" valign="top">常规</td><td colspan="1" valign="top">1\.28E-02</td><td colspan="1" valign="top">8\.82E-04</td><td colspan="1" valign="top">1\.56E-02</td><td colspan="1" valign="top">7\.84E-04</td></tr>
+<tr><td colspan="1" valign="top">自动编码器</td><td colspan="1" valign="top">7\.37E-03</td><td colspan="1" valign="top">3\.92E-04</td><td colspan="1" valign="top">7\.84E-03</td><td colspan="1" valign="top">4\.90E-04</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>PV_31,</p><p><i>Ppv</i> (p.u.)</p></td><td colspan="1" valign="top">常规</td><td colspan="1" valign="top">1\.76E-01</td><td colspan="1" valign="top">1\.78E-02</td><td colspan="1" valign="top">1\.57E-01</td><td colspan="1" valign="top">2\.01E-02</td></tr>
+<tr><td colspan="1" valign="top">自动编码器</td><td colspan="1" valign="top">1\.54E-01</td><td colspan="1" valign="top">1\.51E-02</td><td colspan="1" valign="top">1\.43E-01</td><td colspan="1" valign="top">1\.75E-02</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>Region,</p><p><i>P</i>_<i>L</i> (p.u.)</p></td><td colspan="1" valign="top">常规</td><td colspan="1" valign="top">3\.24E-01</td><td colspan="1" valign="top">5\.57E-02</td><td colspan="1" valign="top">3\.75E-01</td><td colspan="1" valign="top">7\.09E-02</td></tr>
+<tr><td colspan="1" valign="top">自动编码器</td><td colspan="1" valign="top">2\.73E-01</td><td colspan="1" valign="top">4\.12E-02</td><td colspan="1" valign="top">3\.27E-01</td><td colspan="1" valign="top">5\.84E-02</td></tr>
+</table>
+
+
+<p>表中，D<em>x</em>表示每步关键变量的平均绝对建模误差，D<em>TS</em>表示每个样本中系统失去稳定性的时间瞬间的平均偏差。</p>
+<ol>
+<li><code>                             </code>(b)</li>
+</ol>
+<p>（c）                                             (d)</p>
+<h2 id="6-3-励磁控制器的测试细节"><a href="#6-3-励磁控制器的测试细节" class="headerlink" title="6.3 励磁控制器的测试细节"></a>6.3 励磁控制器的测试细节</h2><h3 id="6-3-1-不同训练设置的测试"><a href="#6-3-1-不同训练设置的测试" class="headerlink" title="6.3.1 不同训练设置的测试"></a>6.3.1 不同训练设置的测试</h3><p>为避免冗余，图中只显示了 Exciter_30 模型在数据集_A 中的三步训练测试结果。图 5 显示了 Exciter_30 模型的神经 ODE-E 模块在测试集中的平均误差。图 5. (a) 和图 5. (b) 测试了建议模块的样本要求。图 5. (c) 和图 5. (d) 显示了不同 d n 设置下的神经模块性能。数据集_B 和不同组件（包括 Exciter_33 模型、PV_31 模型和 Region 模型）也可获得类似结果。</p>
+<p>从表 I 中可以看出，在实际电力系统中不难获得数百个样本的情况下，两个模块都获得了可接受的模型。其中，基于自动编码器的神经 ODE 模块可以高度精确地近似元件的原始动态。</p>
+<h3 id="6-3-2-神经模型集成模拟的准确性"><a href="#6-3-2-神经模型集成模拟的准确性" class="headerlink" title="6.3.2 神经模型集成模拟的准确性"></a>6.3.2 神经模型集成模拟的准确性</h3><p>(a)	(b)</p>
+<p>(c)	(d)</p>
+<p>(e)	(f)</p>
+<p>(g)	(h)</p>
+<p>图 6 原始模型集成模拟与神经激励控制器模型集成模拟的比较结果。</p>
+<p>经过训练的神经模型被集成到电力系统模拟器中。表 II 和图 6 显示了比较模拟结果。在图 6 及以下不同模型的比较结果中，”origin “表示原始模型，”regular “表示不带自动编码器的神经模型，”encoder “表示基于自动编码器的神经模型，”_ max “表示整个系统的最大转子角差，”abs(Diff_*) “表示原始模型与 “*“所代表模型之间的绝对误差。</p>
+<p>对于 Exciter_30 模型，当系统稳定时（如图 6. (a) 和 6. (b)），以及图 6. (c) 和 6. (d)中的时间瞬间 3.72 秒之前，神经模型表现良好；而当系统失去稳定时（如图 6. (c)和 6. (d)），即 3.72 秒之后，学习到的动态与地面实况动态之间的误差增大。这一现象与训练设计是一致的，因为只有在稳定区域的动力学才会被用于训练神经模型。只要模拟对不稳定的突发事件给出不稳定的预测，并且系统失去稳定的时间瞬间的偏差保持在可接受的范围内，就可以使用神经模型。如图 6.(e)、6.(f)、6.(g)、6.(h)所示，神经模型捕捉到了 Exciter_33 模型的输出极限，这证明了神经 ODE-E 模块处理非线性 ELU 激活引起的非线性问题的能力。</p>
+<p>(a)	(b)</p>
+<p>(c)	(d)</p>
+<p>图. 7 原始模型集成模拟与神经光伏模型集成模拟的比较结果。</p>
+<p>(a)	(b)</p>
+<p>(c)	(d)</p>
+<p>图 8. 原始集成模型模拟结果与神经等效载荷模型综合模拟结果的比较。</p>
+<p>在表 II 中，基于自动编码器的神经激励模型优于普通神经激励模型，其误差更小，通过功率网络传播的误差也更小。另一方面，对于只包含稳定样本的数据集B，仍然可以获得可行的神经模型，只是神经模型的性能略有下降。使用数据集B 训练的模型的不稳定时刻时间偏差变大。这是因为由于缺乏不稳定样本，在稳定边界附近的动力学没有得到很好的学习。</p>
+<h2 id="6-4-光伏电站的测试细节"><a href="#6-4-光伏电站的测试细节" class="headerlink" title="6.4 光伏电站的测试细节"></a>6.4 光伏电站的测试细节</h2><p>表 III</p>
+<p>不同整合方法的比较模拟结果</p>
+<table><tr><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="1" valign="top"></th><th colspan="2" valign="top">数据集_B</th><th colspan="1" valign="top"></th></tr>
+<tr><td colspan="1" rowspan="2" valign="top">组成部分和关键变量</td><td colspan="1" valign="top">框架</td><td colspan="2" valign="top">Euler</td><td colspan="2" valign="top">RK4</td></tr>
+<tr><td colspan="1" valign="top"></td><td colspan="1" valign="top">D<i>x</i></td><td colspan="1" valign="top">D<i>TS</i> (s)</td><td colspan="1" valign="top">D<i>x</i></td><td colspan="1" valign="top">D<i>TS</i> (s)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>Exciter_30,</p><p><i>E fd</i> (p.u.)</p></td><td colspan="1" valign="top">Regular</td><td colspan="1" valign="top">2\.27E-01</td><td colspan="1" valign="top">4\.90E-03</td><td colspan="1" valign="top"><b>1.96E-01</b></td><td colspan="1" valign="top"><b>4.02E-03</b></td></tr>
+<tr><td colspan="1" valign="top">Autoencoder</td><td colspan="1" valign="top"><b>4.94E-02</b></td><td colspan="1" valign="top">1\.08E-03</td><td colspan="1" valign="top">5\.78E-02</td><td colspan="1" valign="top"><b>6.86E-04</b></td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>Exciter_33,</p><p><i>E fd</i> (p.u.)</p></td><td colspan="1" valign="top">Regular</td><td colspan="1" valign="top">1\.56E-02</td><td colspan="1" valign="top"><b>7.84E-04</b></td><td colspan="1" valign="top"><b>1.52E-02</b></td><td colspan="1" valign="top">8\.82E-04</td></tr>
+<tr><td colspan="1" valign="top">Autoencoder</td><td colspan="1" valign="top"><b>7.84E-03</b></td><td colspan="1" valign="top">4\.90E-04</td><td colspan="1" valign="top">8\.28E-03</td><td colspan="1" valign="top"><b>3.92E-04</b></td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>PV_31,</p><p><i>Ppv</i> (p.u.)</p></td><td colspan="1" valign="top">Regular</td><td colspan="1" valign="top">1\.57E-01</td><td colspan="1" valign="top">2\.01E-02</td><td colspan="1" valign="top"><b>1.54E-01</b></td><td colspan="1" valign="top"><b>1.89E-02</b></td></tr>
+<tr><td colspan="1" valign="top">Autoencoder</td><td colspan="1" valign="top"><b>1.43E-01</b></td><td colspan="1" valign="top">1\.75E-02</td><td colspan="1" valign="top">1\.44E-01</td><td colspan="1" valign="top"><b>1.67E-02</b></td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>Region,</p><p><i>P</i>_<i>L</i> (p.u.)</p></td><td colspan="1" valign="top">Regular</td><td colspan="1" valign="top">3\.75E-01</td><td colspan="1" valign="top">7\.09E-02</td><td colspan="1" valign="top"><b>3.63E-01</b></td><td colspan="1" valign="top"><b>6.25E-02</b></td></tr>
+<tr><td colspan="1" valign="top">Autoencoder</td><td colspan="1" valign="top">3\.27E-01</td><td colspan="1" valign="top">5\.84E-02</td><td colspan="1" valign="top"><b>3.25E-01</b></td><td colspan="1" valign="top"><b>4.50E-02</b></td></tr>
+</table>
+
+
+<p>如表 I 所示，四百个样本用于训练 PV_31 模型的数据驱动模型。通过这两个数据集的训练设置，可以获得可接受的神经模型。训练好的模型被集成到模拟器中。比较仿真结果见表 II 和图 7，其中表示光伏电站的有功功率输出。与励磁器模型相比，神经光伏模型给整个电力网络带来的误差更大。原因很直观。对于励磁机等控制器而言，建模误差会影响发电机等受控设备的状态变量，从而传播到整个网络。相反，对于直接从电网注入或汲取电能的电力设备，如发电机、光伏电站等，建模误差会通过注入电流直接传播到电网。系统失去稳定性的时间瞬间的平均偏差会随着建模误差的增加而增加。模拟能正确预测系统稳定性，不稳定时刻的时间偏差在可接受范围内。</p>
+<h2 id="6-5-等效载荷建模的测试细节"><a href="#6-5-等效载荷建模的测试细节" class="headerlink" title="6.5 等效载荷建模的测试细节"></a>6.5 等效载荷建模的测试细节</h2><p>如表 I 所示，共使用了 800 个样本。对于这两个数据集，表 I 中采用的训练设置都能获得可接受的神经模型。与励磁机和光伏模型相比，训练区域电网的等效负荷模型需要更多的样本，因为内部组件的动态变得更加复杂，而可获取的数据只包含入口测量值，即代数变量和。</p>
+<p>经过训练的模型被集成到模拟器中。比较仿真结果如表 II 和图 8 所示，其中 P_L 表示等效负载功率和原始网络中母线 16 至母线 19 的有功输电功率。测试结果表明，神经 DAE 模块可以仅根据代数变量学习隐藏动态，从而获得复合负荷（如区域电网）的等效负荷模型。</p>
+<h2 id="6-6-集成方法测试"><a href="#6-6-集成方法测试" class="headerlink" title="6.6 集成方法测试"></a>6.6 集成方法测试</h2><p>基于 RK4 的 ODE 求解器也用于训练数据集_B 的神经模型。用欧拉法和 RK4 法训练的神经模型的仿真结果如表 III 所示，其中 和的最小值用黑体标出。可以看出，虽然在训练过程中采用了不同的积分方法，但在用隐式梯形法集成到传统的瞬态仿真中后，得到的神经模型都达到了可以接受的精度。RK4 方法往往能得到更精确的模型。另一方面，RK4 方法的耗时约为欧拉方法的 6 倍。</p>
+<h2 id="6-7-2383wp-系统模拟测试"><a href="#6-7-2383wp-系统模拟测试" class="headerlink" title="6.7 2383wp 系统模拟测试"></a>6.7 2383wp 系统模拟测试</h2><p>在 IEEE-39 系统中使用数据集_B 和欧拉法训练的两个励磁器、光伏电站和等效负载模型的神经模型，直接集成到 2383wp 系统中。系统中使用 Dataset_B 和 Euler 方法训练的神经模型，直接集成到 2383wp 系统中。2383wp 总线 10 和 18 的发电机励磁机 2383wp 系统中 10 号和 18 号母线上的发电机励磁机被替换为 励磁机_30 和励磁机_33 模型。总线 16 的发电机 2383wp 系统母线 16 上的发电机由 PV_31 型号取代。总线 系统的总线 19、20、33 和 34 连接到 2383wp 系统的总线 322。连接到 2383wp 系统的总线 322，即修改后的 2383wp 系统包含 2387 个总线。共测试了 100 个方案。在 中，37 种情况不稳定。仿真结果如表 IV 所示。</p>
+<p>表 IV</p>
+<p>不同模型在 2383WP 系统 800 种新方案下的模拟结果比较</p>
+<table><tr><th colspan="1" rowspan="2" valign="top">组成部分和关键变量</th><th colspan="1" rowspan="2" valign="top">框架</th><th colspan="2" valign="top">`	`数据集_B	</th></tr>
+<tr><td colspan="2" valign="top">D<i>x</i>	D<i>T<sub>S</sub></i> (s)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>Exciter_30,</p><p><i>E fd</i> (p.u.)</p></td><td colspan="1" valign="top">Regular</td><td colspan="1" valign="top">2\.40E-02</td><td colspan="1" valign="top">0\.00</td></tr>
+<tr><td colspan="1" valign="top">Autoencoder</td><td colspan="1" valign="top">6\.20E-03</td><td colspan="1" valign="top">0\.00</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>Exciter_33,</p><p><i>E fd</i> (p.u.)</p></td><td colspan="1" valign="top">Regular</td><td colspan="1" valign="top">6\.69E-03</td><td colspan="1" valign="top">0\.00</td></tr>
+<tr><td colspan="1" valign="top">Autoencoder</td><td colspan="1" valign="top">2\.59E-03</td><td colspan="1" valign="top">0\.00</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>PV_31,</p><p><i>Ppv</i> (p.u.)</p></td><td colspan="1" valign="top">Regular</td><td colspan="1" valign="top">5\.80E-02</td><td colspan="1" valign="top">0\.00</td></tr>
+<tr><td colspan="1" valign="top">Autoencoder</td><td colspan="1" valign="top">3\.27E-02</td><td colspan="1" valign="top">0\.00</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top"><p>Region,</p><p><i>P</i>_<i>L</i> (p.u.)</p></td><td colspan="1" valign="top">Regular</td><td colspan="1" valign="top">1\.49E-01</td><td colspan="1" valign="top">0\.00</td></tr>
+<tr><td colspan="1" valign="top">Autoencoder</td><td colspan="1" valign="top">1\.12E-01</td><td colspan="1" valign="top">0\.00</td></tr>
+</table>
+
+
+<p>尽管神经模型仅通过 IEEE-39 系统的样本进行训练，但这些神经模型在修改后的 2383wp 系统中仍能正常工作。建模误差仍然很小。不稳定性的平均时间偏差等于 0.0，即稳定性预测完全不受影响。由于电气距离较大，单个元件的建模误差影响有限。</p>
+<h1 id="7-讨论和今后的工作方向"><a href="#7-讨论和今后的工作方向" class="headerlink" title="7 讨论和今后的工作方向"></a>7 讨论和今后的工作方向</h1><h2 id="7-1-超越稳定边界的学习动力学"><a href="#7-1-超越稳定边界的学习动力学" class="headerlink" title="7.1 超越稳定边界的学习动力学"></a>7.1 超越稳定边界的学习动力学</h2><p>如前所述，训练神经模型是为了捕捉稳定区域的组件动态。不稳定的系统动态是训练数据驱动模型所必需的，这种模型可以泛化到稳定边界之外。然而，要获得可信的不稳定动态是很难的，因为不稳定动态只能模拟，但当系统不稳定时，积分误差会迅速积累。因此，在数值测试中，所学动态理论上只在稳定区域内可信。对于数据驱动模型来说，如何将系统动力学泛化到稳定边界之外仍然是一个具有挑战性的问题。基于所提出的神经 ODE-E 和 DAE 模块的混合建模方法是解决这一问题的未来工作方向。</p>
+<h2 id="7-2-适应电磁仿真"><a href="#7-2-适应电磁仿真" class="headerlink" title="7.2 适应电磁仿真"></a>7.2 适应电磁仿真</h2><p>至于可再生能源的精确模拟，则需要电磁模拟。在这种情况下，可以使用神经 ODE-E 模块。由于在电磁仿真中计算的是瞬时值，因此在组件的 ODE 中可以考虑时间 t，如文献 [35]。元件动态的不确定性可以用神经随机微分方程建模 [36]，这可以基于所提出的神经模块来实现。</p>
+<h1 id="8-结论"><a href="#8-结论" class="headerlink" title="8 结论"></a>8 结论</h1><p>本文提出了用于电力系统动态组件建模的神经 ODE-E 模块和神经 DAE 模块，可根据可获取的测量数据建立数据驱动的动态模型。利用统一的暂态稳定性仿真方法，将所提出的神经模块训练的动态模型与分析模型直接集成，在保持解的准确性和收敛性的同时进行仿真。在 IEEE-39 系统和 2383wp 系统中，基于原始模型的仿真与神经模型集成仿真的比较结果证明了所提出的神经 ODE-E 和 DAE 模块的可行性。测试结果表明，基于仅包含稳定样本和有限比例的大扰动突发事件的入口测量数据集，所提出的神经模块可以为复杂组件建立精确的动态模型。拟议神经模块的源代码已在 GitHub 上公开。</p>
+<h1 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h1><ol>
+<li>梯度公式的证明</li>
+</ol>
+<p>鉴于 (21)-(23) 和 (26)，(19) 和 (20) 所示梯度公式的证明如下。由于 x 和 i 是由和 ,  , 以及 (26) 决定的，因此可以重述为：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (42)</p>
+<p>对进行微分，即可得到 (43)。</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (43)</p>
+<p>由于 i &#x3D; ，所以 (43) 中的每个项都可以微分为：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (44)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (45)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (46)</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (47)</p>
+<p>将 (44)-(47) 代入 (43)，即可得出 (48)。</p>
+<p><code>	  </code>MACROBUTTON MTPlaceRef * MERGEFORMAT 	 MACROBUTTON MTPlaceRef * MERGEFORMAT (48)</p>
+<p>设 。有了 (23)，就可以得出 (49)。</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (49)</p>
+<p>最后，将 (49) 代入 (48) 即可得出：</p>
+<p><code>		 </code>MACROBUTTON MTPlaceRef * MERGEFORMAT (50)</p>
+<p>由于和是任意选择的，因此可以得到梯度公式 (19)-(20)。至于 (11)-(14) 所示的梯度公式，只要去掉上述证明中包含，，和的项，就可以很容易地得到证明。</p>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>[1] N. Hatziargyriou等人，“电力系统稳定性的定义和分类 - 重新审视与扩展”，发表在《IEEE Transactions on Power Systems》，第36卷，第4期，第3271-3281页，2021年7月。</p>
+<p>[2] A. Lavin等人，“模拟智能：向新一代科学方法迈进”，2021年12月。访问日期：2022年1月5日。[在线]。可从<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2112.03235v1%E8%8E%B7%E5%8F%96%E3%80%82">https://arxiv.org/abs/2112.03235v1获取。</a></p>
+<p>[3] A. Arif, Z. Wang, J. Wang, B. Mather, H. Bashualdo和D. Zhao，“负载建模—综述”，发表在《IEEE Transactions on Smart Grid》，第9卷，第6期，第5986-5999页，2018年11月。</p>
+<p>[4] J. Liu, W. Yao, J. Fang, J. Wen和S. Cheng，“风电场在低电压穿越期间的稳定性分析及基于储能的解决方案”，发表在《国际电力与能源系统杂志》，第101卷，第75-84页，2018年10月。</p>
+<p>[5] A. Honrubia-Escribano, E. Gomez Lazaro, F. Jimenez-Buendia和E. Muljadi，“电力系统稳定性分析中标准风力涡轮机模型与供应商模型的比较：预印本”，美国国家可再生能源实验室（NREL），Golden, CO（美国），NREL&#x2F;CP-5D00-67249，2016年11月。访问日期：2022年4月4日。[在线]。可从<a target="_blank" rel="noopener" href="https://www.osti.gov/biblio/1333494%E8%8E%B7%E5%8F%96%E3%80%82">https://www.osti.gov/biblio/1333494获取。</a></p>
+<p>[6] L. D. Pabon Ospina, V. Usuga Salazar和D. Pabon Ospina，“基于Hammerstein-Wiener模型的非线性主动配电网络的动态等效：长期电力系统现象的应用”，发表在《IEEE Transactions on Power Systems》，页码1-1，2022年。</p>
+<p>[7] C. Cai, H. Liu, Y. Tao, Z. Deng, W. Dai和J. Chen，“基于长短期记忆神经网络的微电网等效建模”，发表在《IEEE Access》，第8卷，第23120-23133页，2020年。</p>
+<p>[8] L. von Rueden, S. Mayer, R. Sifa, C. Bauckhage和J. Garcke，“将机器学习和模拟结合为混合建模方法：当前和未来的方向”，发表在《智能数据分析XVIII进展》，Cham，2020年，第548-560页。</p>
+<p>[9] R. T. Q. Chen, Y. Rubanova, J. Bettencourt和D. K. Duvenaud，“神经常微分方程”，发表在《神经信息处理系统进展》，第31卷，第6571-6583页，2018年。</p>
+<p>[10] P. Kidger，“关于神经微分方程”，arXiv:2202.02435 [cs, math, stat]，2022年2月，访问日期：2022年2月10日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2202.02435%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/2202.02435获取。</a></p>
+<p>[11] Z. Li等人，“傅里叶神经算子用于参数偏微分方程”，arXiv:2010.08895 [cs, math]，2020年10月，访问日期：2020年11月5日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2010.08895%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/2010.08895获取。</a></p>
+<p>[12] M. Mattheakis, D. Sondak, A. S. Dogra和P. Protopapas，“用于解微分方程的哈密顿神经网络”，arXiv:2001.11107 [physics]，2020年2月，访问日期：2021年8月14日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/200111107%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/200111107获取。</a></p>
+<p>[13] M. Cranmer, S. Greydanus, S. Hoyer, P. Battaglia, D. Spergel 和 S. Ho，“拉格朗日神经网络”，arXiv:2003.04630 [physics, stat]，2020年7月，访问日期：2021年8月14日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2003.04630%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/2003.04630获取。</a></p>
+<p>[14] A. M. Stankovic, A. T. Saric 和 M. Milosevic，“使用人工神经网络识别非参数动力系统等效物”，发表在《IEEE Transactions on Power Systems》，第18卷，第4期，第1478-1486页，2003年11月。</p>
+<p>[15] H. Shakouri G. 和 H. R. Radmanesh，“通过神经网络识别外部电力系统动态等效的连续时间非线性状态空间模型”，发表在《国际电力与能源系统杂志》，第31卷，第7期，第334-344页，2009年9月。</p>
+<p>[16] Y. Zhou 和 P. Zhang，“网络微电网的神经可达性”，发表在《IEEE Transactions on Power Systems》，第37卷，第1期，第142-152页，2022年1月。</p>
+<p>[17] M. Raissi, P. Perdikaris 和 G. E. Karniadakis，“物理信息神经网络：一个用于解决涉及非线性偏微分方程的前向和逆问题的深度学习框架”，发表在《计算物理杂志》，第378卷，第686-707页，2019年2月。</p>
+<p>[18] C. Moya 和 G. Lin，“DAE-PINN：一个用于模拟电力网络中的微分-代数方程的物理信息神经网络模型”，arXiv:2109.04304 [cs]，2021年9月，访问日期：2022年2月23日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2109.04304%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/2109.04304获取。</a></p>
+<p>[19] B. O. Koopman，“在希尔伯特空间中的哈密顿系统和变换”，发表在《美国国家科学院院刊》，第17卷，第5期，第315-318页，1931年5月。</p>
+<p>[20] J. v. Neumann，“关于经典力学中的算子方法”，发表在《数学年刊》，第33卷，第3期，第587-642页，1932年。</p>
+<p>[21] B. Lusch, J. N. Kutz 和 S. L. Brunton，“深度学习用于非线性动力学的普遍线性嵌入”，发表在《自然通讯》，第9卷，第1篇文章，第1页，2018年11月。</p>
+<p>[22] P. Sharma, V. Ajjarapu 和 U. Vaidya，“使用仅输出测量数据的数据驱动方法识别非线性电力系统动力学”，arXiv:2110.01469 [cs, eess]，2021年10月，访问日期：2022年3月10日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2110.01469%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/2110.01469获取。</a></p>
+<p>[26] D. P. Kingma和J. Ba，“Adam: A Method for Stochastic Optimization”，arXiv:1412.6980 [cs]，2017年1月，访问日期：2020年12月9日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/1412.6980%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/1412.6980获取。</a></p>
+<p>[27] F. Tian等人，“基于超实时模拟的电力系统稳定性在线决策与控制”，发表在《CSEE Journal of Power and Energy Systems》，第2卷，第1期，第95-103页，2016年3月。</p>
+<p>[28] H. W. Dommel和N. Sato，“快速暂态稳定解决方案”，发表在《IEEE Transactions on Power Apparatus and Systems》，第PAS-91卷，第4期，第1643-1650页，1972年7月。</p>
+<p>[29] Y. Xu, M. Qin, J. He和D. Zhang，“基于PSASP的大规模光伏电站建模与运行特性”，2014年在《2014年第17届国际电机与系统会议》上发表，第3226-3230页。</p>
+<p>[30] T. Xiao, W. Tong和J. Wang，“暂态稳定模拟中一个新的全并行BBDF方法”，发表在《IEEE Trans. Power Syst.》，第35卷，第1期，第304-314页，2020年1月。</p>
+<p>[31] D.-A. Clevert, T. Unterthiner和S. Hochreiter，“通过指数线性单位（ELUs）快速准确地深度网络学习”，arXiv:1511.07289 [cs]，2016年2月，访问日期：2021年11月14日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/1511.07289%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/1511.07289获取。</a></p>
+<p>[32] T. Xiao, J. Wang, Y. Gao和D. Gan，“改进的稀疏技术用于暂态稳定模拟中的网络方程求解”，发表在《IEEE Trans. Power Syst.》，第33卷，第5期，第4878-4888页，2018年9月。</p>
+<p>[33] T. Xiao, W. Tong和J. Wang，“研究减少电力系统暂态稳定模拟中BBDF方法的并行开销”，发表在《IEEE Trans. Power Syst.》，第35卷，第1期，第539-550页，2020年1月。</p>
+<p>[34] T. Xiao, Y. Chen, J. Wang, S. Huang, W. Tong和T. He，“探索面向AI的电力系统暂态稳定模拟”，arXiv:2110.00931 [cs, eess]，2021年10月，访问日期：2021年10月24日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2110.00931%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/2110.00931获取。</a></p>
+<p>[35] J. Q. Davis等人，“非自治神经ODE中的时间依赖性”，arXiv:2005.01906 [cs, stat]，2020年5月，访问日期：2022年4月8日。[在线]。可从<a target="_blank" rel="noopener" href="http://arxiv.org/abs/2005.01906%E8%8E%B7%E5%8F%96%E3%80%82">http://arxiv.org/abs/2005.01906获取。</a></p>
+<p>[36] X. Li, T.-K. L. Wong, R. T. Q. Chen和D. Duvenaud，“随机微分方程的可扩展梯度”，发表在《第二十三届人工智能与统计国际会议论文集》，2020年6月，第3870-3882页。访问日期：2022年4月11日。[在线]。可从<a target="_blank" rel="noopener" href="https://proceedings.mlr.press/v108/li20i.html%E8%8E%B7%E5%8F%96%E3%80%82">https://proceedings.mlr.press/v108/li20i.html获取。</a></p>
+<p>译文原文出处：</p>
+<p>Xiao T, Chen Y, Huang S, et al. Feasibility study of neural ode and dae modules for power system dynamic component modeling[J]. IEEE Transactions on Power Systems, 2022.</p>
+	
+		</div>
+		
+		<div id="current-post-cover" data-scr="/img/cart_cover.png"></div>
+
+		<!-- relate post, comment...-->
+		<div class="investment-container">
+			<div class="investment-header">
+				<div class="investment-title-1">
+					<div class="on">相关文章</div>
+					<div>评论</div>
+					<div>分享</div>
+				</div>
+				<div class="investment-title-2">	            
+					
+	<span>
+		<a id="totop-post-page">返回顶部</a>
+		
+			<a href="/2024/04/04/%E3%80%8A%E4%BD%A0%E6%83%B3%E6%B4%BB%E5%87%BA%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BA%BA%E7%94%9F%E3%80%8B%E9%9A%8F%E6%83%B3/" title="《你想活出怎样的人生》随想" rel="prev">
+				&laquo;上一篇
+			</a>
+		
+		
+			<a href="/2023/12/31/2023%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" title="2023年度总结" rel="next">
+				下一篇&raquo;
+			</a>
+			
+	</span>
+
+
+      		
+				</div>	
+			</div>
+			
+			<div class="investment-content">
+				<div class="investment-content-list">
+					
+
+<div class="relate-post">
+	
+		<ul>
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2025/04/26/%E5%B8%81%E5%9C%88/" title="币圈等量化探索记录">
+								币圈等量化探索记录			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								四月 26日, 2025				
+							</p>
+							<p class="relate-post-content">
+								说起来接触币圈也不是最近的事情了，早在初中的时候就听说了比特币和火币交易所，但是当时的眼界的确不懂得资本流动和货币升值等等知识，其实随便在当时购入主流加币货币等几年就会有超过10倍的升值。如今已经错过了这个机会，但是在V2EX和Lin...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2025/04/26/%E5%B8%81%E5%9C%88/" title="币圈等量化探索记录">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.png" alt="币圈等量化探索记录"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2025/03/13/%E6%88%91%E5%9B%9E%E6%9D%A5%E4%BA%86/" title="我回来了">
+								我回来了			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								三月 13日, 2025				
+							</p>
+							<p class="relate-post-content">
+								耳边总是响起方大同的音乐，虽然也知道斯人已逝，但是还是忘不了那句
+
+见过电影里面人家的海，想要去看海。
+
+说起来，在人生、社会、财富、感情的浪潮之中，谁人全身而退，谁人被海葬于无声之处。
+还是简单回归到主题吧
+让我们运营一辈子博客吧！...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2025/03/13/%E6%88%91%E5%9B%9E%E6%9D%A5%E4%BA%86/" title="我回来了">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.png" alt="我回来了"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2025/01/06/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" title="2024年度总结">
+								2024年度总结			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								一月 6日, 2025				
+							</p>
+							<p class="relate-post-content">
+								2024年是我长这么大以来最迷惘的一年了，从来没有感受到如此的迷惘，今年的时光过得太快，如同被偷走一般，我对人生的思考仍然没有答案，我想，对于迷惘中的22岁而言，大概也不会有什么答案。
+
+
+按照惯例，还是从书影音游开始吧。
+书今年的心...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2025/01/06/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" title="2024年度总结">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.png" alt="2024年度总结"/>
+							</a>
+						</div>
+					</li>												
+			
+		</ul>
+	
+</div>	
+				</div>
+				<div class="investment-content-list">
+					<div class="layout-comment">
+
+	
+
+		
+
+			<!-- gitalk comment -->
+			<!-- show gitalk comment -->
+<div id="gitalk-container"></div>
+
+<!-- gitalk`s css & js -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<link rel="stylesheet" href="/css/comment.css">
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script type="text/javascript">
+
+	(function gitalkComment(){
+		//Thanks O-R
+		//https://github.com/gitalk/gitalk/issues/102#issuecomment-382970552
+		//去除尾部匹配正则数组的字符串  
+		//Remove redundant characters
+		String.prototype.trimEnd = function(regStr) {
+			let result = this;
+			if(regStr == undefined || regStr == null || regStr == "") {
+				return result;
+			}
+			let array = regStr.split(',');
+
+			if(array.length > 0) {
+
+				let c = array.shift(), 
+					str = this,
+					i = str.length,
+					rg = new RegExp(c),
+					matchArr = str.match(rg);
+
+				if(matchArr != undefined && matchArr != null && matchArr.length > 0) {
+					let matchStr = matchArr[0].replace(/\\/g, "\\\\").replace(/\*/g, "\\*")
+						.replace(/\+/g, "\\+").replace(/\|/g, "\\|")
+						.replace(/\{/g, "\\{").replace(/\}/g, "\\}")
+						.replace(/\(/g, "\\(").replace(/\)/g, "\\)")
+						.replace(/\^/g, "\\^").replace(/\$/g, "\\$")
+						.replace(/\[/g, "\\[").replace(/\]/g, "\\]")
+						.replace(/\?/g, "\\?").replace(/\,/g, "\\,")
+						.replace(/\./g, "\\.").replace(/\&/g, "\\&");
+					matchStr = matchStr + '$';
+					result = str.replace(new RegExp(matchStr), "");
+				}
+
+				if(array.length > 0) {
+					return result.trimEnd(array.join())
+				} else {
+					return result;
+				}
+			}
+		};
+
+		//Create gitalk
+		let gitalk = new Gitalk({
+			clientID: 'Ov23liCknrVfkfLxoruk',
+			clientSecret: 'cafdcfd6869d410bc15a83ec94634301da507a4a',
+			//id: window.location.pathname,
+			//id: decodeURI(window.location.pathname),
+			//id: (window.location.pathname).split("/").pop().substring(0, 49),
+			id: decodeURI( md5( location.href.trimEnd('#.*$,\\?.*$,index.html$') ) ),
+			repo: 'Pinglun',
+			owner: 'LengerHu',
+			admin: 'LengerHu',
+			distractionFreeMode: 'true',
+		})
+		gitalk.render('gitalk-container');		
+	})();
+</script>
+
+		
+		
+	
+
+</div>
+				</div>
+				<div class="investment-content-list">
+					<div class="layout-share">
+	
+	
+
+		
+			
+			<!-- socialShare share -->
+			<div class="social-share"></div>
+
+<!--  css & js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+			
+		
+		
+	
+</div>
+
+
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<!-- show math formula -->
+
+
+
+	 
+	
+<script src="/plugin/clipboard/clipboard.js"></script>
+
+	<script>
+		// Copy code !
+	    function preprocessing() {
+	        $("#article-content .highlight").each(function() {
+	            $(this).wrap('<div id="post-code"></div>');
+	        })
+
+	        $("#article-content #post-code").each(function() {
+	            $(this).prepend('<nav class="copy-nav"><span><i class="code-language"></i></span></nav>');
+	        })
+
+	        $("#article-content .copy-nav").each(function() {
+	            let languageClass = $(this).next().attr('class'),
+	                language = ((languageClass.length > 9) && (languageClass != null)) ? languageClass.substr(10) : "none"; //why 9? Need to check language?
+
+	            $(this).find('.code-language').text(language);
+	            $(this).append('<span class="copy-btn icon-paste"></span>');
+	        });
+	    }
+
+		function copy() {
+		    $('#article-content #post-code').each(function(i) {
+		        let codeCopyId = 'codeCopy-' + i;
+
+		        let codeNode = $(this).find('.code'),
+		            copyButton = $(this).find('.copy-btn');
+
+		        codeNode.attr('id', codeCopyId);
+		        copyButton.attr('data-clipboard-target-id', codeCopyId);
+		    })
+   
+			let clipboard = new ClipboardJS('.copy-btn', {
+					target: function(trigger) {
+						return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
+					}
+		      	});
+
+			//pure js
+			function showTooltip(elem, msg) {		   
+				elem.setAttribute('aria-label', msg);
+				elem.setAttribute('class', 'copy-btn icon-clipboard1');
+				setTimeout(function() {
+					elem.setAttribute('class', 'copy-btn icon-paste');
+				}, 2000);
+			}
+
+			clipboard.on('success', function(e) {
+			    e.clearSelection();
+			    console.info('Action:', e.action);		   
+			    console.info('Trigger:', e.trigger);
+			    showTooltip(e.trigger, 'Copied!');   
+			});
+			
+			clipboard.on('error', function(e) {
+			    console.error('Action:', e.action);
+			    console.error('Trigger:', e.trigger);
+			});
+		}
+		
+		(function copyCode(){
+			if ($('.layout-post').length) {
+			    preprocessing();
+			    copy();
+			} 
+		})();
+	</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/plugin/fancybox/jquery.fancybox.css">
+
+
+<script src="/plugin/fancybox/jquery.fancybox.js"></script>
+
+
+<script type="text/javascript">
+	(function gallerySet(){
+		let titleID = $('.article-title a'),
+			imageID = $('.article-content img'),
+			videoID = $('.article-content video');
+		
+		let postTitle = titleID.text() ? titleID.text() : "No post title!";
+		
+		imageID.each(function() {
+			let imgPath = $(this).attr('src'),
+				imgTitle = $(this).attr('alt') ? $(this).attr('alt') : "No image description!";
+		
+			//给每个匹配的<img>元素打包, 即添加父元素<a>
+			$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' + postTitle + ' 》' + imgTitle + '"href="' + imgPath + '"> </a>');
+		});
+		
+		videoID.each(function() {
+			let videoPath = $(this).attr('src');
+		
+			//给每个匹配的<img>元素打包, 即添加父元素<a>
+			$(this).wrap('<a data-fancybox href=" ' + videoPath + ' "> </a>');
+		});
+		
+		//TODO：支持html5 video
+
+		if($('#layout-post').length) {
+			$('[data-fancybox="gallery"]').fancybox({
+				loop: true,
+				buttons: [
+					"zoom",
+					"share",
+					"slideShow",
+					"fullScreen",
+					//"download",
+					"thumbs",
+					"close"
+				],
+				protect: true
+			});
+		}
+	})();
+</script>
+		</main>
+
+		<!--footer-->
+		<footer>
+	<div id="navigation-show">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home" target="_blank">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_blank">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_blank">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_blank">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_blank">关于</a>
+		</li>
+		
+	
+		<li class="menu-gallery">
+			<a href="/gallery" class="menu-item-gallery" target="_blank">相册</a>
+		</li>
+		
+	
+		<li class="menu-friends">
+			<a href="/friends" class="menu-item-friends" target="_blank">friends</a>
+		</li>
+		
+	
+
+	
+</ul>
+	</div>
+
+	<div class="copyright">
+		<p>
+			 
+				&copy;2018 - 2025, content by Lenger. All Rights Reserved.
+			
+			
+				<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.
+			
+		</p>
+		<p>
+			
+
+	<!-- busuanzi -->
+	<!-- busuanzi -->
+
+
+
+			<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a> 
+			<a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a>				
+		</p>
+	</div>		
+</footer>
+		
+	<!-- Local or hitokoto! -->
+ 
+	<!-- 现代写法，推荐 -->
+	<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+	<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+	<!--End-->
+	<script>
+		(function motto(){
+			fetch('https://v1.hitokoto.cn/?c=d')
+				.then(function (res){
+				return res.json();
+			}).then(function (data) {
+				$("#motto-content").html( data.hitokoto?data.hitokoto:'请刷新...' );
+				
+				let	mottoAuthor =' ';
+					mottoAuthor += data.creator?data.creator:'一言';
+					mottoAuthor += "　/　";
+					mottoAuthor += data.from?data.from:'一言官网';
+					
+				$("#motto-author").html( mottoAuthor );
+			})
+			.catch(function (err) {
+				console.error(err);
+			})			
+		})();
+	</script>
+
+
+
+<!-- love effect -->
+
+
+<!-- back to top -->
+
+	<div id="totop">
+	<span class="icon-circle-up"></span>
+</div>
+
+
+
+<!-- site analysis -->
+
+
+	<!-- site-analysis -->
+	
+	
+	
+	
+	
+ 
+
+<!-- leancloud -->
+
+
+	<!-- leancloud -->
+	<!--
+	时间：2018-11-27
+	描述：
+		文章访问量：visitors
+		文章喜欢量：likes	
+		文章排行榜：topNPost
+		其他得说明：
+			01-Cookie相关的函数 
+				https://blog.csdn.net/somehow1002/article/details/78511541（Author：somehow1002）
+			02-visitors相关的函数 
+				https://blog.csdn.net/u013553529/article/details/63357382（Author：爱博客大伯）
+				https://notes.doublemine.me/2015-10-21-为NexT主题添加文章阅读量统计功能.html（Author：夏末）
+			03-topNPost相关的函数
+				https://hoxis.github.io/hexo-next-read-rank.html（Author：hoxis）
+			04-likes相关的函数，
+				参考了01 & 02进行简单的设计与实现
+-->
+
+
+	
+
+  
+
+
+
+<script src="/plugin/chinese/chinese.js"></script>
+<script src="/plugin/imagelazyloader/yall.min.js"></script>
+<script src="/plugin/imageloaded/imagesloaded.pkgd.min.js"></script>
+<script src="/plugin/nicescroll/jquery.nicescroll.js"></script>
+<script src="/plugin/resizediv/resizediv.js"></script>
+<script src="/js/main.js"></script>
+
+
+	</body>	
+</html>

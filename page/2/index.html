@@ -1,0 +1,854 @@
+<!--
+	作者：Sariay
+	时间：2018-08-26
+	描述：There may be a bug, but don't worry, Qiling(器灵) says that it can work normally! aha!
+-->
+<!DOCTYPE html>
+<html class="html-loading">
+		
+
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>
+    
+      Lenger的后花园
+    
+  </title>
+  <meta name="author" content="Lenger">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+	<!-- favicon -->
+  <link rel="shortcut icon" href="/img/1.ico">
+
+  <!-- css -->
+  
+<link rel="stylesheet" href="/css/Annie.css">
+
+  
+  <!-- jquery -->
+	
+<script src="/plugin/jquery/jquery.min.js"></script>
+
+
+<script>
+    const CONFIG_BGIMAGE = {
+      mode: 'normal',
+      normalSrc: '/img/g.png',
+      randomYouMax: 110,
+      randomYouSrc: 'https://sariay.github.io/Random-img/',
+	  randomOtherSrc: 'https://api.berryapi.net/?service=App.Bing.Images&day=-0',
+	  preloaderEnable: true
+    }
+	
+    const CONFIG_LEACLOUD_COUNT = {
+      enable: false,
+	  appId: 'AU8...',
+	  appKey: '4cU...',
+	  serverURLs: 'http' || ' '
+    }
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Lenger的后花园" type="application/atom+xml">
+</head>
+	<body>
+		<!-- Preloader -->
+
+	<div id="preloader">
+		<div class="pre-container">
+			
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+						
+		</div>
+	</div>
+
+
+<!-- header -->
+<header class="fixbackground bg-pan-br">
+	<div class="mask">
+		<!-- motto -->
+		<div class="h-body">	
+			
+				<div class="motto text-shadow-pop-left">
+					<p class="content" id="motto-content">获取中...</p>
+					<p>-<p>
+					<p class="author" id="motto-author">Just a minute...</p>
+				</div>
+			
+		</div>
+		
+		<!-- others: such as time... -->			
+		<div class="h-footer">
+			<a href="javascript:;" id="read-more" class="scroll-down">
+				<span class="icon-anchor1 animation-scroll-down"></span>
+			</a>
+		</div>
+	</div>
+</header>
+
+<div id="navigation-hide">
+	<!-- Progress bar -->
+	<div id="progress-bar"></div>
+
+	<!-- Progress percent -->
+	<div id="progress-percentage"><span>0.0%</span></div>
+
+	<div class="toc-switch"><span class="switch-button">目录</span></div>
+
+	<!-- Page title -->
+	<p>
+		
+			主页
+		
+	</p>
+
+	
+	
+
+	<!-- Nav trigger for navigation-H-->
+	<a class="nav-trigger"><span></span></a>
+</div>
+
+<!-- Navigation in div(id="navigation-H") -->
+<nav class="nav-container" id="cd-nav">
+	<div class="nav-header">
+		<span class="logo"> 
+			<img src="/img/2.png">
+		</span>
+		<a href="javascript:;" class="nav-close"></a>
+	</div>
+	
+	<div class="nav-body">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home" target="_blank">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_blank">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_blank">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_blank">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_blank">关于</a>
+		</li>
+		
+	
+		<li class="menu-gallery">
+			<a href="/gallery" class="menu-item-gallery" target="_blank">相册</a>
+		</li>
+		
+	
+		<li class="menu-friends">
+			<a href="/friends" class="menu-item-friends" target="_blank">friends</a>
+		</li>
+		
+	
+
+	
+</ul>
+	</div>
+	
+	<div class="nav-footer">
+		<ul id="global-social">
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-one"><span class="path1"></span><span class="path2"></span></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-zhihu"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-github"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-sina-weibo "></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-pinterest2"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-instagram"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-twitter"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="/atom.xml" target="_blank">
+				<span class="icon-rss"></span>
+			</a>
+		</li>
+			
+</ul>
+
+	</div>
+</nav>
+			
+		<!--main-->
+		<main>
+			
+
+
+
+	<!--pure style-->
+	<div class="layout-pure">
+	<div id="layout-pure">	
+		
+			<div class="post" id="post">
+				<div class="post-text">
+					<div class="post-title" id="post-title-index">			
+						
+	<a href="/2023/01/01/2022%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" itemprop="url">
+		2022年度总结
+	</a>
+
+					</div>
+
+					<div class="post-content">
+						
+							
+
+
+“Queit Shelista o Olis Mout, Wasiim Crai Lamie?”
+
+“这个世界是如此的绚丽，为什么你会感到悲伤呢？”
+
+纷繁闪过的时光宛若隔世，本应习以为常仍旧叹惋不已，若能回到曾经，却只如梦境一场，时间乃永恒之敌、世界之谜。每年一篇的东西今年也要开始锵锵到来，在此之前先写下：未来最高！
+
+书影音游书书分为很多种，小时候喜欢分为好看的和不好看的，学生时代（包括现在）可以分为学习用书和闲书，倘若在我现在这种学生时光的末期，恐怕已经可以效仿社会人区分为有用之书和无用之书了，而今年所读的书，大概都是无用之书，虽然无用，但看起来能让人快乐，大抵和短视频起到了...
+						
+					</div>
+					
+					<div class="post-meta">
+						<span>
+							发布于
+							<i>
+								
+
+
+
+
+
+
+	<a href="/2023/01/01/2022%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" itemprop="url">
+		<time datetime="2023-01-01T02:52:09.000Z" itemprop="datePublished">
+	  		2023-01-01
+	  </time>
+	</a> 
+
+							</i>
+						</span>
+						
+						
+
+
+
+						
+							<span class="right">      	
+								<a href="/2023/01/01/2022%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" title="阅读全文" external="false">阅读全文</a>	
+							</span>
+						
+					</div>
+				</div>
+			</div>
+		
+			<div class="post" id="post">
+				<div class="post-text">
+					<div class="post-title" id="post-title-index">			
+						
+	<a href="/2022/11/21/%E3%80%8A%E9%AD%94%E5%A5%B3%E4%B9%8B%E6%97%85%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" itemprop="url">
+		《魔女之旅》读后杂谈
+	</a>
+
+					</div>
+
+					<div class="post-content">
+						
+							
+  那个国家悄然存在于荒凉的山岳地带。
+  高耸的城墙围绕全国，从外侧并无法看见国内。
+  一只扫帚飞越太阳晒热的岩石，划破温暖的空气。
+  操纵扫帚的是一位美丽的少女。她身穿漆黑长袍且头戴三角帽，灰色的发丝随风摇曳。
+  若是那里有人，她绝对会令任何人回头并漏出叹息，具有如此美貌的她究竟是谁？
+  没错，就是我。
+——《魔女之旅》第一卷卷首
+
+
+
+初次知晓《魔女之旅》是在 2019 年，当时我还是个大一新生，依稀记得是秋季番，当时看完了感觉番剧不痛不痒，除了伊蕾娜很可爱就没别的印象了，于是就没了解太多，今年5月在公司 Coop 实（摸）习（鱼）的时候才知道原来《魔女之旅》是很庞大的轻...
+						
+					</div>
+					
+					<div class="post-meta">
+						<span>
+							发布于
+							<i>
+								
+
+
+
+
+
+
+	<a href="/2022/11/21/%E3%80%8A%E9%AD%94%E5%A5%B3%E4%B9%8B%E6%97%85%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" itemprop="url">
+		<time datetime="2022-11-21T11:29:50.000Z" itemprop="datePublished">
+	  		2022-11-21
+	  </time>
+	</a> 
+
+							</i>
+						</span>
+						
+						
+
+
+
+						
+							<span class="right">      	
+								<a href="/2022/11/21/%E3%80%8A%E9%AD%94%E5%A5%B3%E4%B9%8B%E6%97%85%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" title="阅读全文" external="false">阅读全文</a>	
+							</span>
+						
+					</div>
+				</div>
+			</div>
+		
+			<div class="post" id="post">
+				<div class="post-text">
+					<div class="post-title" id="post-title-index">			
+						
+	<a href="/2022/01/11/%E3%80%8A%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%97%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" itemprop="url">
+		《物语系列》读后杂谈
+	</a>
+
+					</div>
+
+					<div class="post-content">
+						
+							
+我给Ｕ讲的故事，是不寻常的人在不寻常的状态下获得幸福的故事。是脑子不正常的人在脑子不正常的状态下获得幸福的故事。是带有某种异常因素的人在异常的状态下获得幸福的故事。是没有朋友的人、不懂得说话的人、跟周围不合群的人、性格扭曲的人、性格忤逆的人，在保持着原有个性的状态下获得幸福的故事。是不幸的人在不幸的状态下努力活下去的故事。
+比如说，光靠语言勉强维持着生计的少年和支配世界的蓝发天才少女的故事。再比如说，病态地溺爱着妹妹的兄长和无论如何也无法容忍事物的暖昧性的女高中生的故事。企图单凭着智慧与勇气挽救地球的小学生和梦想着能够实现成长和成熟的魔法少女的故事。注重家族爱的杀人狂和被杀人狂的魅力所...
+						
+					</div>
+					
+					<div class="post-meta">
+						<span>
+							发布于
+							<i>
+								
+
+
+
+
+
+
+	<a href="/2022/01/11/%E3%80%8A%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%97%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" itemprop="url">
+		<time datetime="2022-01-11T06:28:21.000Z" itemprop="datePublished">
+	  		2022-01-11
+	  </time>
+	</a> 
+
+							</i>
+						</span>
+						
+						
+
+
+
+						
+							<span class="right">      	
+								<a href="/2022/01/11/%E3%80%8A%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%97%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" title="阅读全文" external="false">阅读全文</a>	
+							</span>
+						
+					</div>
+				</div>
+			</div>
+		
+			<div class="post" id="post">
+				<div class="post-text">
+					<div class="post-title" id="post-title-index">			
+						
+	<a href="/2022/01/10/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" itemprop="url">
+		2021年度总结
+	</a>
+
+					</div>
+
+					<div class="post-content">
+						
+							2021年就忽然间过去了，总觉得时间忽然在加快，尤其是当日复一日重复相同的事的时候，所以试图在日复一日的平凡生活中找到有趣的事，不知不觉间，2022就到来了。
+阅读记得在2021年年初的时候当时也是将《凉宫春日系列》读完了所以有了两篇读后感。而在这之后又读了《物语系列 Off Season》，被西尾老贼啰嗦的文笔折服，索性先换换口味，受到了《明朝那些事儿》的影响对历史小说一直很感兴趣，于是读了《彪悍南北朝》系列，可以说历史中的巧合和谋略远胜于当今的影视剧套路。实习期间读书的进度缓慢，就挑些分章的书读，比如教人处事的《我不是教你诈》系列，还算是有所收获。9月份开始在学校对物语念念不忘的我又...
+						
+					</div>
+					
+					<div class="post-meta">
+						<span>
+							发布于
+							<i>
+								
+
+
+
+
+
+
+	<a href="/2022/01/10/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" itemprop="url">
+		<time datetime="2022-01-10T02:52:09.000Z" itemprop="datePublished">
+	  		2022-01-10
+	  </time>
+	</a> 
+
+							</i>
+						</span>
+						
+						
+
+
+
+						
+							<span class="right">      	
+								<a href="/2022/01/10/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" title="阅读全文" external="false">阅读全文</a>	
+							</span>
+						
+					</div>
+				</div>
+			</div>
+		
+			<div class="post" id="post">
+				<div class="post-text">
+					<div class="post-title" id="post-title-index">			
+						
+	<a href="/2021/03/25/%E3%80%8A%E5%AF%8C%E7%88%B8%E7%88%B8%E7%A9%B7%E7%88%B8%E7%88%B8%E3%80%8B%E6%91%98%E8%A6%81/" itemprop="url">
+		《富爸爸穷爸爸》摘要
+	</a>
+
+					</div>
+
+					<div class="post-content">
+						
+							富爸爸穷爸爸 
+读于 2021 年 3 月上旬
+作为理财的启蒙读物再合适不过了
+以下原文摘录
+
+那是学校教你们的法子，”他笑着说，“但生活可不是这样教你的。我得说生活才是最好的老师。大多数时候，生活不会和你说什么，它只是推着你转，每一次推，它都像是在说：‘喂，醒一醒，我要让你学点东西。’”
+正是如此，”富爸爸说，“他们并不清楚自己真正的感觉，只是作出反应，而不去思考。他们感到恐惧，于是就去工作，希望钱能消除恐惧，但没有奏效。于是，恐惧追逐着他们，他们只好又去工作，再一次期望钱能平复这种恐惧，但还是没有成功。恐惧使他们落入工作的陷阱，挣钱——工作——挣钱，希望恐惧就此烟消云散。但每天他们起...
+						
+					</div>
+					
+					<div class="post-meta">
+						<span>
+							发布于
+							<i>
+								
+
+
+
+
+
+
+	<a href="/2021/03/25/%E3%80%8A%E5%AF%8C%E7%88%B8%E7%88%B8%E7%A9%B7%E7%88%B8%E7%88%B8%E3%80%8B%E6%91%98%E8%A6%81/" itemprop="url">
+		<time datetime="2021-03-25T06:25:30.000Z" itemprop="datePublished">
+	  		2021-03-25
+	  </time>
+	</a> 
+
+							</i>
+						</span>
+						
+						
+
+
+
+						
+							<span class="right">      	
+								<a href="/2021/03/25/%E3%80%8A%E5%AF%8C%E7%88%B8%E7%88%B8%E7%A9%B7%E7%88%B8%E7%88%B8%E3%80%8B%E6%91%98%E8%A6%81/" title="阅读全文" external="false">阅读全文</a>	
+							</span>
+						
+					</div>
+				</div>
+			</div>
+		
+			<div class="post" id="post">
+				<div class="post-text">
+					<div class="post-title" id="post-title-index">			
+						
+	<a href="/2021/02/15/%CE%B2-%E3%80%8A%E5%87%89%E5%AE%AB%E6%98%A5%E6%97%A5%E7%B3%BB%E5%88%97%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" itemprop="url">
+		β-《凉宫春日系列》读后杂谈
+	</a>
+
+					</div>
+
+					<div class="post-content">
+						
+							
+我对普通的人类没有兴趣，如果你们之中有宇宙人、未来人或超能力者，请尽管来找我玩吧！以上。
+
+以下内容不含与主线相关的明显剧透，可以放心食用（
+
+
+
+关于我对小说本身的理解全都在 α-《凉宫春日系列》读后杂谈 中，本篇读后杂谈，因此真的更像是我的感想，记录于此，希望随着年龄的增加，自己也能对这部系列作品有更深刻的感受。
+
+掀起轻改浪潮的现象级作品、新世纪改变业界的动画作品、曾经号称一亿人的作品，《凉宫春日系列》。在系列第一本小说首次出版的 17 年后，在初版动画放送的 15 年后，我终于接触到了这部作品，而我首次知晓这部作品的契机，是高中时期习题册下的摘句，现如今我已忘了句子为何，只记得...
+						
+					</div>
+					
+					<div class="post-meta">
+						<span>
+							发布于
+							<i>
+								
+
+
+
+
+
+
+	<a href="/2021/02/15/%CE%B2-%E3%80%8A%E5%87%89%E5%AE%AB%E6%98%A5%E6%97%A5%E7%B3%BB%E5%88%97%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" itemprop="url">
+		<time datetime="2021-02-15T06:25:11.000Z" itemprop="datePublished">
+	  		2021-02-15
+	  </time>
+	</a> 
+
+							</i>
+						</span>
+						
+						
+
+
+
+						
+							<span class="right">      	
+								<a href="/2021/02/15/%CE%B2-%E3%80%8A%E5%87%89%E5%AE%AB%E6%98%A5%E6%97%A5%E7%B3%BB%E5%88%97%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" title="阅读全文" external="false">阅读全文</a>	
+							</span>
+						
+					</div>
+				</div>
+			</div>
+		
+			<div class="post" id="post">
+				<div class="post-text">
+					<div class="post-title" id="post-title-index">			
+						
+	<a href="/2021/02/11/%CE%B1-%E3%80%8A%E5%87%89%E5%AE%AB%E6%98%A5%E6%97%A5%E7%B3%BB%E5%88%97%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" itemprop="url">
+		α-《凉宫春日系列》读后杂谈
+	</a>
+
+					</div>
+
+					<div class="post-content">
+						
+							
+我对普通的人类没有兴趣，如果你们之中有宇宙人、未来人或超能力者，请尽管来找我玩吧！以上
+
+以下内容涉及严重的剧透，推荐在了解此系列内容后阅读，或者您可以阅读 β-《凉宫春日系列》读后杂谈 
+
+
+
+
+在 2020 年 12 月到 2021 年的 1 月，期末考试结束后，我的第一件事就是用 Kindle 去读我一直久闻大名而又未曾打开的《凉宫春日系列》。由于谷川流在《直观》前的长期不更新，凉宫的讨论在国内远不能让人想象这部轻小说在 10 年前有着“一亿人的凉宫”的称号，不过也正得益于此，我可以在不被剧透的情况下阅读。
+就我自己而言，我曾看过的轻小说有《游戏人生》和《物语系列》，可以很明确的...
+						
+					</div>
+					
+					<div class="post-meta">
+						<span>
+							发布于
+							<i>
+								
+
+
+
+
+
+
+	<a href="/2021/02/11/%CE%B1-%E3%80%8A%E5%87%89%E5%AE%AB%E6%98%A5%E6%97%A5%E7%B3%BB%E5%88%97%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" itemprop="url">
+		<time datetime="2021-02-11T06:24:50.000Z" itemprop="datePublished">
+	  		2021-02-11
+	  </time>
+	</a> 
+
+							</i>
+						</span>
+						
+						
+
+
+
+						
+							<span class="right">      	
+								<a href="/2021/02/11/%CE%B1-%E3%80%8A%E5%87%89%E5%AE%AB%E6%98%A5%E6%97%A5%E7%B3%BB%E5%88%97%E3%80%8B%E8%AF%BB%E5%90%8E%E6%9D%82%E8%B0%88/" title="阅读全文" external="false">阅读全文</a>	
+							</span>
+						
+					</div>
+				</div>
+			</div>
+		
+			<div class="post" id="post">
+				<div class="post-text">
+					<div class="post-title" id="post-title-index">			
+						
+	<a href="/2021/01/17/2020%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" itemprop="url">
+		2020年度总结
+	</a>
+
+					</div>
+
+					<div class="post-content">
+						
+							2020年度总结
+1月：大一上结束，考试后回家
+2月：过年，期间疫情爆发，应该没做什么的
+其实还是有做什么的XD
+从酷友那里购入日版有锁iPhone SE（￥300），然后探讨了越狱的方法并成功啦！然后发现可以邮件解锁，血赚！iOS搞机成就达成！（虽然快递等了我2周多TAT）
+
+买了吼姆啦的手办，黑丝brbr
+在家里翻到了两台相机，目前还在吃灰，不过会用的吧…
+3-5月：迫于疫情被逼无奈在家学习，这期间各种划水（x
+6月：返校了，迎来的是平均每2天来一次的考试TAT，而且最后感觉考的也一般，GPA降了0.1
+购入iPad Pro10.5+Apple Pencil，花了3000，二手，很好...
+						
+					</div>
+					
+					<div class="post-meta">
+						<span>
+							发布于
+							<i>
+								
+
+
+
+
+
+
+	<a href="/2021/01/17/2020%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" itemprop="url">
+		<time datetime="2021-01-17T02:52:09.000Z" itemprop="datePublished">
+	  		2021-01-17
+	  </time>
+	</a> 
+
+							</i>
+						</span>
+						
+						
+
+
+
+						
+							<span class="right">      	
+								<a href="/2021/01/17/2020%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" title="阅读全文" external="false">阅读全文</a>	
+							</span>
+						
+					</div>
+				</div>
+			</div>
+		
+	</div>
+
+	
+	<div id="pagination">
+		
+	</div>
+
+	
+
+</div>
+
+
+		</main>
+
+		<!--footer-->
+		<footer>
+	<div id="navigation-show">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home" target="_blank">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_blank">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_blank">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_blank">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_blank">关于</a>
+		</li>
+		
+	
+		<li class="menu-gallery">
+			<a href="/gallery" class="menu-item-gallery" target="_blank">相册</a>
+		</li>
+		
+	
+		<li class="menu-friends">
+			<a href="/friends" class="menu-item-friends" target="_blank">friends</a>
+		</li>
+		
+	
+
+	
+</ul>
+	</div>
+
+	<div class="copyright">
+		<p>
+			 
+				&copy;2018 - 2025, content by Lenger. All Rights Reserved.
+			
+			
+				<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.
+			
+		</p>
+		<p>
+			
+
+	<!-- busuanzi -->
+	<!-- busuanzi -->
+
+
+
+			<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a> 
+			<a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a>				
+		</p>
+	</div>		
+</footer>
+		
+	<!-- Local or hitokoto! -->
+ 
+	<!-- 现代写法，推荐 -->
+	<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+	<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+	<!--End-->
+	<script>
+		(function motto(){
+			fetch('https://v1.hitokoto.cn/?c=d')
+				.then(function (res){
+				return res.json();
+			}).then(function (data) {
+				$("#motto-content").html( data.hitokoto?data.hitokoto:'请刷新...' );
+				
+				let	mottoAuthor =' ';
+					mottoAuthor += data.creator?data.creator:'一言';
+					mottoAuthor += "　/　";
+					mottoAuthor += data.from?data.from:'一言官网';
+					
+				$("#motto-author").html( mottoAuthor );
+			})
+			.catch(function (err) {
+				console.error(err);
+			})			
+		})();
+	</script>
+
+
+
+<!-- love effect -->
+
+
+<!-- back to top -->
+
+	<div id="totop">
+	<span class="icon-circle-up"></span>
+</div>
+
+
+
+<!-- site analysis -->
+
+
+	<!-- site-analysis -->
+	
+	
+	
+	
+	
+ 
+
+<!-- leancloud -->
+
+
+	<!-- leancloud -->
+	<!--
+	时间：2018-11-27
+	描述：
+		文章访问量：visitors
+		文章喜欢量：likes	
+		文章排行榜：topNPost
+		其他得说明：
+			01-Cookie相关的函数 
+				https://blog.csdn.net/somehow1002/article/details/78511541（Author：somehow1002）
+			02-visitors相关的函数 
+				https://blog.csdn.net/u013553529/article/details/63357382（Author：爱博客大伯）
+				https://notes.doublemine.me/2015-10-21-为NexT主题添加文章阅读量统计功能.html（Author：夏末）
+			03-topNPost相关的函数
+				https://hoxis.github.io/hexo-next-read-rank.html（Author：hoxis）
+			04-likes相关的函数，
+				参考了01 & 02进行简单的设计与实现
+-->
+
+
+	
+
+  
+
+
+
+<script src="/plugin/chinese/chinese.js"></script>
+<script src="/plugin/imagelazyloader/yall.min.js"></script>
+<script src="/plugin/imageloaded/imagesloaded.pkgd.min.js"></script>
+<script src="/plugin/nicescroll/jquery.nicescroll.js"></script>
+<script src="/plugin/resizediv/resizediv.js"></script>
+<script src="/js/main.js"></script>
+
+
+	</body>	
+</html>

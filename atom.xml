@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-01-11T13:18:55.777Z</updated>
+  <updated>2026-01-17T11:11:33.532Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260117</title>
+    <link href="https://varraro.github.io/2026/01/17/20260117/"/>
+    <id>https://varraro.github.io/2026/01/17/20260117/</id>
+    <published>2026-01-17T10:47:32.000Z</published>
+    <updated>2026-01-17T11:11:33.532Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-20260117"><a href="#周刊-20260117" class="headerlink" title="周刊 - 20260117"></a>周刊 - 20260117</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>彻底摆烂的一周，外面的世界好像也没发生什么大事，自己偷摸玩了一周的事件合约</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>听闻腾讯买了国内 ArcRaiders 的运营，立马去买了cdk，对国区运营不抱任何期待</p></li><li><p>逆战未来上线，开服福利实话实说真的挺不错的，但是为什么感觉是个半成品游戏那样，反正也不会久玩</p></li><li><p>看了一堆东北币视频，正愁重庆没这种好东西，结果发现了一家27r的自助烤鱼，看来是必须去了</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><p>1.控制电脑的 mcp 装上了没半点反应，emmm 有时间再看看</p><p>2.现在发现刷folo也累得很，在想要不要用LLM帮我刷folo总结一天值得看的帖，估计就用上述的控制电脑的mcp实现吧</p><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>自己的事件合约量化的波动太大，一天有赚50u的情况，另一天可能就亏了40u，最后看来还是亏了点，emmm，最好笑的是最大的亏损还是我自己乱开单造成的，果然我不能参与任何决策。</p></li><li><p>于是在第四天决定更换策略，试了一天反而亏了，就回测非常好结果实盘却胜率大跌。复盘后发现了一个有意思的事，交易所的K线里面大有来头，用错误的K线去回测得到的结果失真了，然后换了K线，回测一周的结果非常好，看来需要再测一周了</p></li><li><p>群友的系统怎么说呢，更新之后能开单了，但是这一周表现不好，也许这一周就是不太好预测吧。</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>26号就要进行开题答辩了，但是整个人不知道为嘛没有干劲，搁这个组里面也太苦了。老登每次都在周五晚上莫名其妙布置任务，根本不想周末干活。这次又是做演示视频，呃呃，评价为半成品也是演示上了，现在项目是屎山了，到时候赶紧跑路。组里面一点传承都没有，算是踩大雷了。研三师姐和大四学生的毕设到目前居然还是没有着落，只能说慎重考虑新组，等下半年签工作明年赶紧想办法跑路。</li><li>出生室友凌晨2点还在玩游戏，大吼大叫玩三角洲，哎，研究生期间总体来讲都不如本科那样舒服了，反感腾讯游戏的另一个原因我算是意识到了，刻板印象拉满</li><li>纠结目前对秋招啥准备都没有，也许必须开始了，报个班啥的</li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-20260117&quot;&gt;&lt;a href=&quot;#周刊-20260117&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260117&quot;&gt;&lt;/a&gt;周刊 - 20260117&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260111</title>
@@ -220,28 +244,6 @@
     
     
     <category term="年度总结" scheme="https://varraro.github.io/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>吉他学习记录</title>
-    <link href="https://varraro.github.io/2024/05/08/%E5%90%89%E4%BB%96/"/>
-    <id>https://varraro.github.io/2024/05/08/%E5%90%89%E4%BB%96/</id>
-    <published>2024-05-07T16:51:14.000Z</published>
-    <updated>2025-04-26T06:40:56.362Z</updated>
-    
-    <content type="html"><![CDATA[<p>能用吉他所能做到的还有什么？</p><p>打开这个页面前建议把声音先关了</p><p>标题整活来着，说起来我真的好像很久都没唱过歌了，之前在全民 K 歌试了一下哈哈哈，咱唱的其实还行吧至少在骗评分上算是很会（自信）！但是我的感觉是不如搁自己整点吉他弹唱，然而咱之前一直都在吉他指弹来着所以和弦还是略显生疏，看来需要没事爬爬格子来着。咱寝室的雅马哈 f600 毕竟是烧火棍反正我觉得手感真不如家里那把…大横按我跟你拼了！</p><p>有时间录的话会把弹奏弹唱的传到 b 站大概</p><p>日语五十音战士都不是，暂时罗马音战士！五十音真麻烦嗷…（7月补充：已经过了一遍五十音）</p><p>嗷对了，标题说用吉他做到的能用吉他做到的还有什么？我的评价是吉他用来防身挺好用的，抱起来手感也很舒服（）</p><h2 id="指弹区域"><a href="#指弹区域" class="headerlink" title="指弹区域"></a>指弹区域</h2><h3 id="Aruarian-Dance"><a href="#Aruarian-Dance" class="headerlink" title="Aruarian Dance"></a>Aruarian Dance</h3><iframe src="//player.bilibili.com/player.html?aid=999553526&bvid=BV1x44y1A7ay&cid=1229391333&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>目前已经是学会喽，超简单</p><h3 id="大精灵之泉"><a href="#大精灵之泉" class="headerlink" title="大精灵之泉"></a>大精灵之泉</h3><p>目前还正在学习，这曲子经常让我想起恋爱来（虽然搁游戏里大精灵真是让人一言难尽）</p><p>2024.7 已经学会啦！</p><h3 id="千本樱"><a href="#千本樱" class="headerlink" title="千本樱"></a>千本樱</h3><p>2023 暑假开始，直到如今，未曾完成，因为它真的很难，什么时候能完成啊TAT</p><p>鸽了咕咕咕</p><h3 id="黄昏"><a href="#黄昏" class="headerlink" title="黄昏"></a>黄昏</h3><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1706055660&bvid=BV1zT421r7eH&cid=1615655730&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>在练了在练了，好难啊。</p><h2 id="弹唱区域"><a href="#弹唱区域" class="headerlink" title="弹唱区域"></a>弹唱区域</h2><h3 id="怪天气"><a href="#怪天气" class="headerlink" title="怪天气"></a>怪天气</h3><p>差不多学会了吧，击弦经常整的手疼，毕竟万能和弦来着。</p><h3 id="三夜万能和弦"><a href="#三夜万能和弦" class="headerlink" title="三夜万能和弦"></a>三夜万能和弦</h3><iframe src="//player.bilibili.com/player.html?aid=749507847&bvid=BV13C4y1F7Nm&cid=1361587302&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>额对于节奏感的要求真的很高来着，三夜人必学，还简单！</p><h3 id="晚春"><a href="#晚春" class="headerlink" title="晚春"></a>晚春</h3><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=394327172&bvid=BV1Uo4y1v7jA&cid=1007838028&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><p>个人很喜欢的腰的曲子，打算练会来着。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;能用吉他所能做到的还有什么？&lt;/p&gt;
-&lt;p&gt;打开这个页面前建议把声音先关了&lt;/p&gt;
-&lt;p&gt;标题整活来着，说起来我真的好像很久都没唱过歌了，之前在全民 K 歌试了一下哈哈哈，咱唱的其实还行吧至少在骗评分上算是很会（自信）！但是我的感觉是不如搁自己整点吉他弹唱，然而咱之前一直都</summary>
-      
-    
-    
-    
     
   </entry>
   

@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-02-12T06:16:04.098Z</updated>
+  <updated>2026-02-18T10:56:59.478Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260218</title>
+    <link href="https://varraro.github.io/2026/02/18/20260218/"/>
+    <id>https://varraro.github.io/2026/02/18/20260218/</id>
+    <published>2026-02-18T08:46:32.000Z</published>
+    <updated>2026-02-18T10:56:59.478Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-20260218"><a href="#周刊-20260218" class="headerlink" title="周刊 - 20260218"></a>周刊 - 20260218</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>春节到来，马年马到成功！</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>做了很多打扫卫生的工作，不得不说复式楼是真的按层打扫效率高，不过还是依靠扫地机器人这种不然太累了。</p></li><li><p>找初中的发小得到了他的股票筛选策略，唔顺便还收获了一包压缩饼干好耶！</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>基于 TradingView 的股票量化系统暂时没做，但是发现了Tradingview的MCP，有截图的还有直接获取信息的，唔看来需要好好研究一下</li><li>终于把OpenClaw用免费的Openrouter模型先用起来了，体验还是不错的，就是不理解为嘛不直接集成MCP功能而是非要去做Skills，连接上了Folo的MCP和股票的MCP，到目前为止体验良好，虽然偶尔不知道为嘛会丢失记忆（）</li><li>考虑要不要每个月给自己个月度游戏或者书籍漫画这样子让自己有个规划去娱乐（很j人的想法啊x</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>有关事件合约发现了很多有意思的现象，当然了考虑到过年就不实盘了，策略换到如今又回到了最开始的策略不过变成了自动的，emmm果然只有被我自己亲手用过的策略是真的能用的</p></li><li><p>拿到发小的筛选策略之后立刻用Trae糊了一版，目前感觉效果一般不过还是在按计划进行了，给出了海格通信，emmm，不知道他的策略这种完全不看K线的东西靠不靠谱，不过我觉得玄学市场就需要用些玄学东西（）</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><p>果然只有小孩子喜欢过年，挺累的，而且已经在想工作后过年的事宜了，要么宅家看书看电影要么疯狂旅行嗯嗯，当然狠狠吃喝还是快乐非凡😋</p><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-20260218&quot;&gt;&lt;a href=&quot;#周刊-20260218&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260218&quot;&gt;&lt;/a&gt;周刊 - 20260218&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260212</title>
@@ -220,31 +244,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-20251220&quot;&gt;&lt;a href=&quot;#周刊-20251220&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20251220&quot;&gt;&lt;/a&gt;周刊 - 20251220&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20251213</title>
-    <link href="https://varraro.github.io/2025/12/13/20251213/"/>
-    <id>https://varraro.github.io/2025/12/13/20251213/</id>
-    <published>2025-12-12T17:38:57.000Z</published>
-    <updated>2026-01-08T15:05:27.773Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>美国降息，中国召开了经济会议，也许会有很好的投资机会，可惜自己还处于穷酸学生的阶段，预期会有周期股启动吧。</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><p>1.本周开始看《蘑菇的拟态日常》，感觉就像是在做梦一样的体验</p><p>2.听了机核的生活播客，感觉很不错，考虑到时候是不是应该来个付费？稍稍有些贵了，看看有无拼车</p><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><p>1.本周在给自己配药方面有了很多常识经验。首先是OTC的维生素片还是放弃了，换了柯克兰的500片复合维生素，然后又补上了维生素D3和牡蛎锌钙镁片，然后嘴唇莫名其妙起了皮，再加上凡士林，虽然还是怀疑维生素B缺了，值得一提的是NMN在服用了2周之后真的感觉有效，就是那种莫名其妙的亢奋感，很像是回到了17岁备战高考的状态。</p><p>2.头秃的事情终于是有所成效了，使用了快3个月的米诺和度他，很有效</p><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>用Poke整了个每天汇总股票经济信息的玩意儿推送邮件，但愿有点价值</p></li><li><p>整了个方向盘，买了地平线5和欧卡，希望能给个不错的驾驶的体验吧， 考虑到模拟飞行也在打折，但是不想凑外设了，先不买了</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>现在在劫难逃的是论文的审稿回复来了，虽然是小修吧但是三周的时间叠加上后面的开题答辩还是有点难顶，只能希望接下来没什么其他杂活，感觉自己被当博士用（白嫖）了，求求惹明年就业给我个都会城市工作我就润。看了一下截止时间是2026.1.2，我的元旦看来泡汤了。</li><li>我组八卦：博士师姐本硕居然是商科的来转到电气，呃呃，不过看她朋友圈天南地北法国美国到处旅游大概也知道这是啥背景的人了。让我不爽的点是组会上说小声蛐蛐我是日本汉奸，呃呃，感觉这人旅游的见识没增加她的教养和认知，以后还是少接触为妙。</li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; title=&quot;事件&quot;&gt;&lt;/a&gt;事件&lt;/h2&gt;&lt;p&gt;美国降息，中国召开了经济会议，也许会有很好的投资机会，可惜自己还处于穷酸学生的阶段，预期会有周期股启动吧。&lt;/p&gt;
-&lt;h2 id=&quot;信息&quot;&gt;</summary>
       
     
     

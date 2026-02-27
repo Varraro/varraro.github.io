@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-02-18T10:56:59.478Z</updated>
+  <updated>2026-02-27T10:50:50.251Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260226</title>
+    <link href="https://varraro.github.io/2026/02/26/20260226/"/>
+    <id>https://varraro.github.io/2026/02/26/20260226/</id>
+    <published>2026-02-26T06:38:20.000Z</published>
+    <updated>2026-02-27T10:50:50.251Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-20260226"><a href="#周刊-20260226" class="headerlink" title="周刊 - 20260226"></a>周刊 - 20260226</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>春节一转眼结束了，大统领的关税也是不知道之后会有什么影响，taco时刻估计到时候还是会如约而至吧</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>学校教务要求报到了，放假晚开学早，如此折腾学生，相煎何太急</p></li><li><p>OpenClaw连接上了飞书，还成功跑通了Folo MCP的定时任务，这种久违的获得感令人心情愉悦</p></li><li><p>老登莫名其妙有个项目要截止了，又要去帮他救火，好在我不用答辩</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>基于 TradingView 的股票量化系统已经快鸽了一个月了，没办法啊 OpenClaw 太好玩了</li><li>下半年咱就秋招了，考虑到专业的性质，就拿压岁钱去报国企的面试笔试培训班吧，卷麻了的时代</li><li>在想之前得到的筛选框架可不可以直接交给 OpenClaw ，让它去帮忙看看呢，做成个Skill出来，目前的开发让我觉得有点头皮发麻了，OpenClaw的优点就是权限比较自由，不需要考虑传统那么多要对齐的东西来</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>得到了群友的强化学习的量化交易项目，此前从来都没有见过这种，之前的都是随机森林那种算法，我倒是十分好奇强化学习是怎么参与到交易里面去的，有时间可以跑着玩玩</p></li><li><p>决定使用OpenClaw的Skill来构建A股的交易框架，感觉灵活性会大大提升。</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>GPT Pro也是白嫖了很久了，还能拉人，感觉会在我马上写报告的过程中大放异彩</p></li><li><p>老登批事真的多，小年让我去写表格，初八又有个要截止的项目让去做实验写报告，只给两周的时间做个几乎全新的玩意儿出来。爹妈听了说老登也难，关键是他难为嘛还要申请这堆项目。评价为钱没给够天天让咱打白工黑工，等到暑假就直接消失去准备秋招去了</p></li><li><p>小登的毕设老登让我去指导，然而完全没有东西给我，虽然有一丝愧疚但是也只能给小登我当年的项目和毕设，虽然完全不是一个东西，当年老登指导我反正是啥都没给我，选导师反正这么看来是大失败了，再熬一年赶紧去就业</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-20260226&quot;&gt;&lt;a href=&quot;#周刊-20260226&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260226&quot;&gt;&lt;/a&gt;周刊 - 20260226&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260218</title>
@@ -220,30 +244,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-再见，谢谢所有的鱼&quot;&gt;&lt;a href=&quot;#周刊-再见，谢谢所有的鱼&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 再见，谢谢所有的鱼&quot;&gt;&lt;/a&gt;周刊 - 再见，谢谢所有的鱼&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; cla</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20251220</title>
-    <link href="https://varraro.github.io/2025/12/20/20251220/"/>
-    <id>https://varraro.github.io/2025/12/20/20251220/</id>
-    <published>2025-12-20T13:06:51.000Z</published>
-    <updated>2025-12-20T13:31:19.369Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-20251220"><a href="#周刊-20251220" class="headerlink" title="周刊 - 20251220"></a>周刊 - 20251220</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>澳洲、台湾发生了严重的无差别杀人事件 RIP</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>本周重新制定了每天干的事情，虽说起到了一点作用，但是不得不说没有工位办公还是心不在焉，尤其是还有迫近的 deadline</li><li>本周把《飞出个未来》和《外星也难民》的最新季都追完了，唉，虽然都评价质量下降但是我倒是看得蛮开心的（），接下来打算在每天锻炼的时候看《福是全家福的福》，太喜欢美式单元剧了。</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>不知道为什么一直想尝试的玩意儿一直都没进行，其实也不是没时间，就是莫名其妙的累，所以下周希望能把方向盘和 midiplus 好好利用上</li><li>本周久违地复健一下吉他，只能试试弹唱了，试了试《目击你刚刚完成那一跳》，感觉学到了不少扫弦的知识</li><li>还是害怕以后真没班上了，特别规划了一整天学电网考试的玩意儿，真多啊x</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol start="2"><li>看到 ACE 的MCP，看来是要试试了，配合windsurf trea这种到底好不好用也不知道，现在一个Augment的试用号要30r，心疼我的米</li><li>尝试每天只吃轻食，然后3天一次欺骗餐，果然体重从73到了70，我觉得到了68就可以结束了，之后就正常吃沙县这种。减脂结束了之后就开始增肌</li><li>事件合约的平台跳票了，下周三似乎能上线，不过我还是持怀疑态度，这玩意儿真能赚嘛？倒是用Poke去研究了A股的周期股，还是有规律的，果然认知不到的钱根本不可能赚到吧，要是能的话早就通过比特币财务自由了。</li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>deadline一下子变成两了，老登的综述，找我们改了又改，也不知道啥样子满意，纯纯浪费我们的tokens，组里的人都在用大模型去写，真不怕到时AIGC爆炸嘛，不过也正常，反正我们也不是一作二作，随便整整得了；倒是我自己的论文的返修，虽说没啥特别难的东西但是还是让人头大，还有2周，希望能搞定。</li><li>重新玩了几局战地，之前的一周都没玩，太舒服了。</li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-20251220&quot;&gt;&lt;a href=&quot;#周刊-20251220&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20251220&quot;&gt;&lt;/a&gt;周刊 - 20251220&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
       
     
     

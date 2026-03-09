@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-02-27T10:50:50.251Z</updated>
+  <updated>2026-03-09T07:35:58.667Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260309</title>
+    <link href="https://varraro.github.io/2026/03/09/20260309/"/>
+    <id>https://varraro.github.io/2026/03/09/20260309/</id>
+    <published>2026-03-09T05:29:56.000Z</published>
+    <updated>2026-03-09T07:35:58.667Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-20260309"><a href="#周刊-20260309" class="headerlink" title="周刊 - 20260309"></a>周刊 - 20260309</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>3.9 日 miku！</p><p>伊朗与美以之间开始战斗，结果我的事件合约被制裁了，模式直接变了（悲）<br>OpenClaw 开始被大规模推广了，有点当年充话费送手机的感觉（）</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>把老登的东西用 Trae 加上 ACE 的 MCP ，总算是做出来了，后面整 PPT 就行了</p></li><li><p>报了国企面试笔试辅导，秋招接好运！</p></li><li><p>OpenClaw 把兄弟的股票框架里面的宏观层做出来了，很舒服🥰，接下来继续完善</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>事件合约总是会把胜率磨平到50%，无论做出什么努力，所以这次换了一个思路，目前胜率奇高无比，在被磨平之前想办法实盘大赚特赚吧，说实在的现在对于这种基于K线的信任度很低了</li><li>打算看看那个强化学习做的合约，其实强化学习本质上也是乱碰，光分析K线这样子真的有什么规律嘛，我还是更相信接近本质的东西</li><li>之前得到多空比的一些想法，想要让 Openclaw 开动起来帮我实现了，现在Skills真的很多，也不用愁数据这一块的</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>用 TV 构建了新的事件合约策略，但是我认为还是需要进行优化，当然现在在那些个标的上表现的非常好，实盘一周试试。上周的实盘因为币安APP更新全失败了，这次重新构建了，币安应该公开事件合约 api 接口的 y1s1</p></li><li><p>继续完善兄弟的中观和微观的思路，应该这一周就有结果了，毕竟数据这一块儿彻底是搞定了。</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>本来想画只 miku 庆祝一下 39 的，但是拿起笔来真的好生疏，设备也变了，华为的笔不如三星的Spen，唔慢慢复健吧</p></li><li><p>看到面试笔试的课快晕过去了，真的好多（）</p></li><li><p>《葬送的芙莉莲 s1》 看完啦！好久没看到这么清新脱俗的公路片了，接下来开始看《奇巧计程车》</p></li><li><p>想起来上周的周刊没写，唔，只能说太忙了（）</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-20260309&quot;&gt;&lt;a href=&quot;#周刊-20260309&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260309&quot;&gt;&lt;/a&gt;周刊 - 20260309&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260226</title>
@@ -220,30 +244,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-20160103&quot;&gt;&lt;a href=&quot;#周刊-20160103&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20160103&quot;&gt;&lt;/a&gt;周刊 - 20160103&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20251226</title>
-    <link href="https://varraro.github.io/2025/12/26/20251228/"/>
-    <id>https://varraro.github.io/2025/12/26/20251228/</id>
-    <published>2025-12-26T12:26:04.000Z</published>
-    <updated>2025-12-26T14:05:12.414Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-再见，谢谢所有的鱼"><a href="#周刊-再见，谢谢所有的鱼" class="headerlink" title="周刊 - 再见，谢谢所有的鱼"></a>周刊 - 再见，谢谢所有的鱼</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>2025 年就要结束了，年终总结要来力！新年快乐呀OwO</p><p>Bybit EU 下卡成功，又集了一张卡</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>最后一周论文返修的时间，实在是无语老登只给了 3 周时间用来返修</p></li><li><p>本周又开始沉迷事件合约无法自拔了，用 tv 的无敌指标先是猛赚 60u，然后又在半小时内亏了 90u，唉，盯盘久了判断就不按照自己的规矩来了，人在这一点上还是比不过机器，交易实在是太反人性了。于是放弃自己做，自己用豆包和 2 个手机搭了个事件合约自动盯盘下单框架，但是搁寝室也只能没人的时候用用，过年回家的时候放着跑跑看看效果吧。好在群友的 webhook 终于是攻克了，等着用他的 67% 胜率的好东西量化交易，下周就能看效果了。</p></li><li><p>本周文娱方面也是玩不起游戏来，虽然 Epic 送了一堆好东西。《福是全家福的福》太扎心了看不了一点，于是转头去看《道子与哈金》，波西米亚美女公路片真是太好看了！漫画看了一点《蘑菇的拟态日常》像是在做梦。唉，吉他也好音乐也好乃至电网考试学习也好又停滞了，下周估计还是忙论文的烂摊子，再说吧。</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li><p>下周把论文的烂摊子搞定，还要应付老登毫无用处的小组会，唉，赶紧毕业跑路吧</p></li><li><p>量化交易这回真摸着规律了，盯盘还是算了，真没那个纪律包亏完的，下周用两系统都来玩玩</p></li><li><p>按道理应该是要写个年终总结了，不知道今年的鸽到明年啥时候（），尽量 2 周内吧（）</p></li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li>豆包和 2 个手机搭了个事件合约自动盯盘下单框架  不得不说豆包大模态真是太好用了，整个连点器防着两玩意睡死了，等到时候有自己的住处了估计要狠狠投入使用，不过想来也是1.5年后了</li><li>首次接触到 LOF 套利，上车了白银的那个，东财真坑 T+1 的晚上没给我到账，导致没挂夜单 T+2 没出去，下周挂跌停套个70r跑路得了，了解到可以一拖六，看来下周要找个时间把账号都开了</li><li>白嫖了 2 三个月的云电脑，然后加上之前的都上了网心云，每天来个 2-3r，这不是一个月的手机话费就有着落了，哈哈，安逸</li><li>两周体重从 74kg 到 68 kg，整天轻食的日子可以结束了，接下来每天摄入支出均衡就完事了，健身（姑且算是吧）继续，最喜欢陪着 miku 打有氧拳击了🥰 ，保持的话还是按照 早上 300kcal 中午 800kcal 晚上 600kcal 来吃吧，每天夜里还是有锻炼的嘛，已经在考虑过年期间加练的事了。</li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>参加了组内的年终总结会，顺便提交了老登的综述论文，当然没有一作二作纯纯白打工了，老登的年终汇报还有 LLM 多 Agents 部分，看到自己用 banana pro 生成的图出现在上面的时候笑不会了。明年不知道也怎么被老登折磨出一篇对我毫无意义的论文，真的感觉把工作定下来比什么都重要。</li><li>组内的会邀请了友组的联培博士来分享坡县 ntu 半年联培生活，只能说以前挺向往的，现在嘛，认识的朋友亲戚都有在坡县留学的，只能说坡县毕竟还是太小了，呆半年还是很舒服，要是呆个2-3年估计就无聊起来了吧，也蛮适合一心搞学术来着。至于分享说是坡县开会比较活跃，可以搞逆转裁判式的辩论，唉，如今只觉得麻烦，好麻烦好麻烦，还好在国内（摊手）</li><li>老登给的论文返修时间是 3 周，如今只剩一周不到也只能让 GPT Pro 出马了，LLM is all you need. 感谢人类科技，数据果然还是论文最重要的东西，其他的就天马行空吧。</li><li>Bybit EU虽然下卡了，Bybit 那边就像是客服都过节去了似的，回复都是清一色 EEA 赶紧迁移，那我原来的卡被封了总要有个说法吧，我还挺想用那张新 Visa 虚拟卡的。</li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-再见，谢谢所有的鱼&quot;&gt;&lt;a href=&quot;#周刊-再见，谢谢所有的鱼&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 再见，谢谢所有的鱼&quot;&gt;&lt;/a&gt;周刊 - 再见，谢谢所有的鱼&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; cla</summary>
       
     
     

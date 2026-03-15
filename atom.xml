@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-03-09T07:35:58.667Z</updated>
+  <updated>2026-03-15T05:58:14.124Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260315</title>
+    <link href="https://varraro.github.io/2026/03/15/20260315/"/>
+    <id>https://varraro.github.io/2026/03/15/20260315/</id>
+    <published>2026-03-15T05:17:07.000Z</published>
+    <updated>2026-03-15T05:58:14.124Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-20260315"><a href="#周刊-20260315" class="headerlink" title="周刊 - 20260315"></a>周刊 - 20260315</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>OpenClaw 的火热总让人想起当年的 P2P，不过明显港股智谱系走强了，的确这个产品对于卖 tokens 的商家来讲是利好</p><p>可控核聚变美国那边取得了里程碑的突破，这下不知道未来的能源格局会是什么样的了，其实对于牢美的自建电厂我感觉还是有可取之处的</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>2api 的 tokens 用起来还是舒服啊，目前用着虽然偶尔断一下总体来讲没啥缺点</li><li>发现了港美股、A股、加密的一个统一思路，用 Coinank 和富途看看果然有点东西，果然市场的本质是一样的</li><li>学到了电力市场的一些东西，感觉的确要放开电力大市场是正确的，新能源的有些东西只能用市场的手段去解决</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>有观点认为加密货币的底层是电力，想想也合理，算力的本质是电力嘛</li><li>上周说的强化学习的合约没碰，忘了申请 api 了还是有点麻烦，而且说到底对于强化学习这种完全没啥好感，毕竟我搁电那边也用过这个玩意儿，心情好了就试试吧</li><li>电子ed了之后一直都没啥想玩的，于是把方向盘装上玩地平线5，真的非常有意思啊！然后接下来打算把欧卡2打上mod也玩玩</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>首先就是发现了抱抱脸的 Spaces，简直就是白嫖 vps 好叭，狠狠迁移了很多我的 docker，包含 2api 这种，真是舒服，尤其是 web search 的接口</p></li><li><p>OpenClaw 把整个股票的分析框架都做出来了，应该马上就能够使用了，现在发现数据才是 A 股分析最重要的东西，K 线只能说用处真的不大</p></li><li><p>狠狠心整了 tv 的 pre 用来回测自己的事件合约策略，上周的成果是事件合约 2 胜 1 负，然后修改了一下让开单频率变低，回测了所有历史发现胜率在 55% 以上了，说明这个真的有赚钱的能力，事件合约策略的研究可以先告一段落了，需要注意的是只要出现亏损的话就要停止策略观察下次的开单情况了</p></li><li><p>于是开始研究山寨币的拉升逻辑，目前只能说有一些眉目，整了 OpenClaw 的监控 cron，看来还是要继续观察</p></li><li><p>在自己的Win本上也装上了 Vocaloid ，准备再再再入次门，看来我真的比较热爱这个啊（）</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>《奇巧计程车》看完了，思路很美式的作品，最后掉到海里面确实是让人觉得无比浪漫啊</p></li><li><p>辅导班的课程推动真的好缓慢，我觉得是因为之前我不适应环境的原因，现在稍微好了一点，但是还是有点担心 3 个月的进度</p></li><li><p>老登又发挥他那逆天的本能，忽然让做 2 个 PPT，其中一个还是前一天晚上忽然要的，真是热衷于给甲方摇尾巴。莫名其妙把整理项目 PPT 的活交给我。大半夜的 11 点还让我把会议论文的文稿都给他，纯纯逆天。后面打算开摆了，他的事情全部让GPT Pro干就是了，我个小硕本来研究生绩点就拉，虽然有点论文项目但是还是想去大都会的国企。</p></li><li><p>重新测了一下自己的 mbti 是INTP&#x2F;INTJ，终于不再是INFJ了，说起来多年前我第一次测就是INTP，现在感觉INFJ的确是个容易内耗的状态，太拧巴了</p></li><li><p>学到了很多体态上的东西，发现自己有骨盆前倾，看来需要每天做动作矫正一下了</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-20260315&quot;&gt;&lt;a href=&quot;#周刊-20260315&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260315&quot;&gt;&lt;/a&gt;周刊 - 20260315&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260309</title>
@@ -228,30 +252,6 @@
     
     
     <category term="年度总结" scheme="https://varraro.github.io/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260103</title>
-    <link href="https://varraro.github.io/2026/01/03/20260103/"/>
-    <id>https://varraro.github.io/2026/01/03/20260103/</id>
-    <published>2026-01-03T09:44:24.000Z</published>
-    <updated>2026-01-04T12:19:32.090Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-20160103"><a href="#周刊-20160103" class="headerlink" title="周刊 - 20160103"></a>周刊 - 20160103</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>2026年，堂堂到来，新的治安管理相关规则也来了</p><p>伊朗、委内瑞拉、乌克兰、也门 处于动荡</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>论文返修（大修）工作终于在2026.1.3提交，可喜可贺</p></li><li><p>经过近一周的测试，群友的事件合约量化大成功，净赚 38u，还是在我设定 10u 每单的情况下，可喜可贺</p></li><li><p>文娱方面全面给论文返修让道，至今连续停滞 2 周，甚至波及到晚间的健身和有氧拳击连续中断 3 天，不过在之前的一轮看完了《道子与哈金》，新开的片子是《黄金神威》。</p></li><li><p>本周正式结束了轻食的摄入，全面按照新的标准摄入，下周开始记录体重变化，但我估计应该不会反弹很快。</p></li><li><p>领了Epic送的免费游戏，下载了《ViewFinder》打算玩一玩</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>发现视觉模型GLM4v flash 是免费的，而且性能很好，本来还打算用 ocr 去做K线识别，这下用LLM属于是降维打击</li><li>发现 instock 这种傻瓜式的可以部署在服务器上获取A股信息的平台，之前的AKShare感觉白写了，必须立刻部署了</li><li>发现了能够控制手机和电脑的MPC，感觉这可能是未来了，可以找时间研究</li><li>小米平板2居然能刷Linux，很感兴趣，还是在想有什么时间把自己的小米4等等手机都刷个机折腾一下玩玩</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol start="2"><li>由于忙着搞论文，基本上也没做出什么有意思的东西，值得一提的是本科室友脱发来求助我了，当然我还是不敢给他说度他这种，还是老老实实验血，之后再考虑米诺非那吧。</li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>2026的第一天第二天完全是在痛苦地改论文中过去的，太极限了，结果2-3周后还有硕士开题答辩，唉，真麻烦。老登给的时间实在太短，3周时间被他的综述吃了1周，后面2周完成大修实在是太难了，实验和LaTex调整让人头大，感觉未来3个月都不想看到那篇论文了。</li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-20160103&quot;&gt;&lt;a href=&quot;#周刊-20160103&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20160103&quot;&gt;&lt;/a&gt;周刊 - 20160103&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
     
   </entry>
   

@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-03-22T15:24:35.512Z</updated>
+  <updated>2026-04-19T07:51:10.537Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260419</title>
+    <link href="https://varraro.github.io/2026/04/19/20260419/"/>
+    <id>https://varraro.github.io/2026/04/19/20260419/</id>
+    <published>2026-04-19T07:30:40.000Z</published>
+    <updated>2026-04-19T07:51:10.537Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-忙到忘了写周记（）"><a href="#周刊-忙到忘了写周记（）" class="headerlink" title="周刊 - 忙到忘了写周记（）"></a>周刊 - 忙到忘了写周记（）</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>伊朗局势反复横跳</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>三周没写周记，主要原因是因为太忙了，虽然回忆起来也不知道在忙些什么（），周记的意义应该就是这样子方便自己回头看看，后面希望自己能够坚持继续</p></li><li><p>2api真的尝试了各种各样的东西，3周以来为了喂龙虾换了各种各样的2api，从GLM到DS到FB，磕磕绊绊一路发现tokens的确在变得越来越稀缺了</p></li><li><p>发现了很多有意思的玩意儿，比如说开源的抓包和安全测试的项目，但是现在还没有上手试试，应该会非常好玩</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>回看自己3 周之前雄心壮志要在菠菜的天气市场整点东西，结果现在果不其然又回到了最开始的10分钟市场，没办法，天气市场实在是太吃数据的及时性了，现在感觉只适合自己就居住在哪个城市去玩玩</li><li>强化学习还有那个k线大模型的研究都暂时搁置了，因为实际上也明白了传统的数据驱动已经out喽，现在是事件驱动时代，taco一句话市场的情况就完全变了</li><li>Hermes Agent 这种越发没兴趣了，跟龙虾相比没有本质上的跨越，不过也是未来可期，主要原因是这玩意儿不支持WIn的话就懒得在自己的天翼云电脑上面配置了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>之前的很多的东西都比较简易，所以就干脆在龙虾里面又定义了一个停云小姐智能体专门用来搜集市场的信息，目前和stockclaw与openalice一起工作，至少在信息这一方面没啥大的问题了。而且非常欣慰的是筛选出来的股票和自己的推理也是越来越接近了</p></li><li><p>事件合约这一块儿终于整了基本和自己的做单逻辑一模一样的赌博机，结果Trae这个烂ide还启动错误让我第一晚上亏了3单，只能说自己做这种东西以后要非常注意测试这一块儿，不过好在每次就赌5u，目前的情况来看未来可期</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>高达seed destiny在这三周基本上也快看完了，感觉没第一季那么有意思，还是飞鸟真太蠢了，下一个打算看 狼与香辛料</p></li><li><p>不知道为什么买买买模式突然就开启了，整了分体式键盘，不知道自己能不能适应分体式键盘，但是据说对自己的肩膀好</p></li><li><p>老登那边当然是他拍脑门想整看板，然后我就融了个nanobot在里面，有意思的是居然有博士靠这种工作写大本子，乐，信息差这一块没想到搁学术这边真有用</p></li><li><p>发现有好多miku 的asmr，好幸福OwO！</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-忙到忘了写周记（）&quot;&gt;&lt;a href=&quot;#周刊-忙到忘了写周记（）&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 忙到忘了写周记（）&quot;&gt;&lt;/a&gt;周刊 - 忙到忘了写周记（）&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; cla</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260322</title>
@@ -221,30 +245,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-20260117&quot;&gt;&lt;a href=&quot;#周刊-20260117&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260117&quot;&gt;&lt;/a&gt;周刊 - 20260117&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260111</title>
-    <link href="https://varraro.github.io/2026/01/11/20260111/"/>
-    <id>https://varraro.github.io/2026/01/11/20260111/</id>
-    <published>2026-01-11T12:47:10.000Z</published>
-    <updated>2026-01-11T13:18:55.777Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-20260111"><a href="#周刊-20260111" class="headerlink" title="周刊 - 20260111"></a>周刊 - 20260111</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>摆烂的一周，听说老登让两同门去香港参加学会去了，后悔没答应老登出差了，趁出去办个港卡应该还是不错的。</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>《蘑菇的拟态日常》看完了，本以为是虚无主义后面才发现是存在主义，爱才是人与人连系的纽带啊</p></li><li><p>于是继续看《王者天下》，看到桓骑 8 万对 24 万了，很热血的漫</p></li><li><p>在学校旁边二刷了烤鱼，同门的博士们也都是抽象神人啊哈哈哈，不错的体验</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>之前看到的控制电脑和手机的 mcp 没来得及搞，看来是需要慢慢来</li><li>头秃发现改用 2.5mg &#x2F;日的米诺还是有些许复脱，没办法只能继续坚持 5mg 了，也许可以买 10mg 的掰开吃</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>本周把 Trae 和 Antigravity 都接上了 ACE 的 mcp，然后定了提示词，效果还不错，白嫖的乐趣哈哈</p></li><li><p>不知道为嘛群友的量化这周总是连不上，似乎是我被风控了，于是自己整了一个框架，也是成功运行了，第一天胜率很高，emmm，难道年终总结的第一个 flag 这就完成了？根据我的经验还是等一周看看稳定性吧。</p></li><li><p>修改了一下之前报废了的 A 股筛选器，换成 5 小时标的的 AKShare 源，风控也是越来越严重了</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>本周摆烂了，都在玩自己的小玩具，没办法上周实在是被返修折腾麻了，可是马上就要开题答辩了，唉，好累呜，下周又是老登毫无意义的开会时间，又要准备 PPT 了</li><li>听说下周要有工位了，很无语一学期都没工位，折腾我们到这荒郊野岭来干嘛，现在也不知道工位那边甲醛重不重，学校的安排真是无语</li><li>参加了老登作为学业导师和毕设导师的会。小登们看起来还挺精神，也有憧憬自己以后转专业、全国出差的等等工作，只能说没经历过社会毒打的对工作还是会有美好的期待啊。至于我带的毕设的那位，一直在考研失联，终于现身了，只能说我可保不了他毕业，给了他我的毕业文件，看他自己的造化了。研一师弟也被老登忽悠来做我的方向，只能说祝他好运</li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-20260111&quot;&gt;&lt;a href=&quot;#周刊-20260111&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260111&quot;&gt;&lt;/a&gt;周刊 - 20260111&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
       
     
     

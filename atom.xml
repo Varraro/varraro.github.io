@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-05-24T17:46:00.480Z</updated>
+  <updated>2026-05-31T17:03:19.067Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260531</title>
+    <link href="https://varraro.github.io/2026/05/31/20260531/"/>
+    <id>https://varraro.github.io/2026/05/31/20260531/</id>
+    <published>2026-05-31T06:29:00.000Z</published>
+    <updated>2026-05-31T17:03:19.067Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-意料之外"><a href="#周刊-意料之外" class="headerlink" title="周刊 - 意料之外"></a>周刊 - 意料之外</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>这周挺意外的莫名其妙就世界和平了，原油被压了下来，纳指飙升</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>合约套利真搞不懂了，我觉得黑天鹅会出现但是没有，所以吃了个大回撤，索性不想玩了，感觉自己的判断有问题。A股打算接下来玩LOF套利了，之前整了拖拉机账号，虽然我资金量小但是lof反正无所谓资金量大小随便玩。美股那边现在有点超出我的认知了，我感觉这种泡沫会有大回撤，现在也不敢贸然上车了，顶多整场内的LOF套套利得了</li><li>神秘男开公益站了，但是我找到了另一个每天100刀的公益站爽用，帮我画了2张图，感觉差不多了就可以投</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>OpenAlice 自己魔改不知道为什么越改越蠢，离我想象的事件驱动差距太大，感觉改烂了（），但是好歹新闻源变及时了</li><li>下周还是继续挖因子吧，本周整了2因子看起来还是有点可解释性的，现在越来越反感黑盒模型了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>参考知乎某人的回答发现了A股的一种量化的买卖法，打算观察一周看看和自己的想法有没有契合的地方</p></li><li><p>补完了很多数据，虽然感觉没有tick数据是个巨大的坑</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>唉，和老人打电话，感觉人活着到最后会处于一种恍惚的状态，听也听不清，记忆也模糊，想象了一下人在面对死亡的时候也许根本就会忘记自己曾活过这件事，一种难以言喻的忧伤涌上心头。虽然濒死状态的研究认为死亡的时候身体会释放类似毒品一样的物质…</p></li><li><p>itin 暂时没管结果那人也不联系我了，下周催一下</p></li><li><p>上周量化结果咋说呢，轮动这种玩意儿感觉人根本就跟不上，自动交易又不敢，说白了还是策略太烂</p></li><li><p>去年投的某篇论文专刊审稿人消失了似的，给我快点上班干活啊！不知道这些人到底在整什么幺蛾子</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-意料之外&quot;&gt;&lt;a href=&quot;#周刊-意料之外&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 意料之外&quot;&gt;&lt;/a&gt;周刊 - 意料之外&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; titl</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260524</title>
@@ -221,30 +245,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-20260226&quot;&gt;&lt;a href=&quot;#周刊-20260226&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260226&quot;&gt;&lt;/a&gt;周刊 - 20260226&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260218</title>
-    <link href="https://varraro.github.io/2026/02/18/20260218/"/>
-    <id>https://varraro.github.io/2026/02/18/20260218/</id>
-    <published>2026-02-18T08:46:32.000Z</published>
-    <updated>2026-02-18T10:56:59.478Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-20260218"><a href="#周刊-20260218" class="headerlink" title="周刊 - 20260218"></a>周刊 - 20260218</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>春节到来，马年马到成功！</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>做了很多打扫卫生的工作，不得不说复式楼是真的按层打扫效率高，不过还是依靠扫地机器人这种不然太累了。</p></li><li><p>找初中的发小得到了他的股票筛选策略，唔顺便还收获了一包压缩饼干好耶！</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>基于 TradingView 的股票量化系统暂时没做，但是发现了Tradingview的MCP，有截图的还有直接获取信息的，唔看来需要好好研究一下</li><li>终于把OpenClaw用免费的Openrouter模型先用起来了，体验还是不错的，就是不理解为嘛不直接集成MCP功能而是非要去做Skills，连接上了Folo的MCP和股票的MCP，到目前为止体验良好，虽然偶尔不知道为嘛会丢失记忆（）</li><li>考虑要不要每个月给自己个月度游戏或者书籍漫画这样子让自己有个规划去娱乐（很j人的想法啊x</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>有关事件合约发现了很多有意思的现象，当然了考虑到过年就不实盘了，策略换到如今又回到了最开始的策略不过变成了自动的，emmm果然只有被我自己亲手用过的策略是真的能用的</p></li><li><p>拿到发小的筛选策略之后立刻用Trae糊了一版，目前感觉效果一般不过还是在按计划进行了，给出了海格通信，emmm，不知道他的策略这种完全不看K线的东西靠不靠谱，不过我觉得玄学市场就需要用些玄学东西（）</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><p>果然只有小孩子喜欢过年，挺累的，而且已经在想工作后过年的事宜了，要么宅家看书看电影要么疯狂旅行嗯嗯，当然狠狠吃喝还是快乐非凡😋</p><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-20260218&quot;&gt;&lt;a href=&quot;#周刊-20260218&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260218&quot;&gt;&lt;/a&gt;周刊 - 20260218&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
       
     
     

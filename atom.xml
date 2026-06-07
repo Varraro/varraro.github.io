@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-05-31T17:03:19.067Z</updated>
+  <updated>2026-06-07T18:20:57.024Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260608</title>
+    <link href="https://varraro.github.io/2026/06/08/20260608/"/>
+    <id>https://varraro.github.io/2026/06/08/20260608/</id>
+    <published>2026-06-07T17:29:45.000Z</published>
+    <updated>2026-06-07T18:20:57.024Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-Aha-Time"><a href="#周刊-Aha-Time" class="headerlink" title="周刊 - Aha Time"></a>周刊 - Aha Time</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><ol><li>似乎周末美股开始跳水，只能说黄金坑来喽</li><li>LOF我认为都要拿在手上至少一周赎回才有有事，所以先长拿一下吧</li></ol><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>本周 Team 居然又开启大免费时代了，狠狠爽用Codex</p></li><li><p>看了一下一些把 nlp 和量化结合的项目，一瞬间觉得自己的方法早就过时了，要了一下源码，发现了好些自己从来不考虑的玩意儿，感觉之前自己的工作太浅显了</p></li><li><p>参加了一些关于量化的讨论，大大提升了我的一些认知，感觉自己之前的方法真的太落后了，问了一下是机构2016年水平（）</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>好在发现了几个因子还行，虽然做主流趋势已经卷麻了但是我还是认为这个因子有用，还是之前读过的时序论文给的启发（），后面就是大合并了</li><li>看到了更加专业的挖因子工具，但是说实在的现在居然是算力限制我了，我真觉得上班后需要整本地模型了，乃至于自训练出来，我自己的玩意儿连个强化学习都没有真是太简陋了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>继续补充数据环节，改造了一下拿到的代码，全部改造成了自己的数据源，但是仅限A股，其他的暂时没找到方法，似乎可以抓包app这样子获取，继续补吧</p></li><li><p>想要车点模型下来本地跑跑，万一就有用呢</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>论文 Accept了！这下大大松了口气，高兴！LLM的红利还是被我吃到了一口呢</p></li><li><p>继续看《黑礁》，看到黑道篇大小姐读的萨特的存在主义导论一下子感觉有种自己被击中的感觉，虽然存在主义危机我早早经历完了但是还是无比怀念，可能以后还会有吧，不过最猛烈的浪潮还是经历过了，问就是我不到啊，我看他们都活着（）</p></li><li><p>读书真的越来越少，我也不懂为什么。漫画把《剑豪生死斗》看完了，最后看到三重自尽无比惋惜，反武士道神作</p></li><li><p>搞完了那篇中文期刊，次周看来有的忙了</p></li><li><p>aiko 的音乐实在是太元气了，怪不得三狮里面说红白要等aiko唱</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-Aha-Time&quot;&gt;&lt;a href=&quot;#周刊-Aha-Time&quot; class=&quot;headerlink&quot; title=&quot;周刊 - Aha Time&quot;&gt;&lt;/a&gt;周刊 - Aha Time&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260531</title>
@@ -221,30 +245,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-20260309&quot;&gt;&lt;a href=&quot;#周刊-20260309&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260309&quot;&gt;&lt;/a&gt;周刊 - 20260309&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260226</title>
-    <link href="https://varraro.github.io/2026/02/26/20260226/"/>
-    <id>https://varraro.github.io/2026/02/26/20260226/</id>
-    <published>2026-02-26T06:38:20.000Z</published>
-    <updated>2026-02-27T10:50:50.251Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-20260226"><a href="#周刊-20260226" class="headerlink" title="周刊 - 20260226"></a>周刊 - 20260226</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>春节一转眼结束了，大统领的关税也是不知道之后会有什么影响，taco时刻估计到时候还是会如约而至吧</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>学校教务要求报到了，放假晚开学早，如此折腾学生，相煎何太急</p></li><li><p>OpenClaw连接上了飞书，还成功跑通了Folo MCP的定时任务，这种久违的获得感令人心情愉悦</p></li><li><p>老登莫名其妙有个项目要截止了，又要去帮他救火，好在我不用答辩</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>基于 TradingView 的股票量化系统已经快鸽了一个月了，没办法啊 OpenClaw 太好玩了</li><li>下半年咱就秋招了，考虑到专业的性质，就拿压岁钱去报国企的面试笔试培训班吧，卷麻了的时代</li><li>在想之前得到的筛选框架可不可以直接交给 OpenClaw ，让它去帮忙看看呢，做成个Skill出来，目前的开发让我觉得有点头皮发麻了，OpenClaw的优点就是权限比较自由，不需要考虑传统那么多要对齐的东西来</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>得到了群友的强化学习的量化交易项目，此前从来都没有见过这种，之前的都是随机森林那种算法，我倒是十分好奇强化学习是怎么参与到交易里面去的，有时间可以跑着玩玩</p></li><li><p>决定使用OpenClaw的Skill来构建A股的交易框架，感觉灵活性会大大提升。</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>GPT Pro也是白嫖了很久了，还能拉人，感觉会在我马上写报告的过程中大放异彩</p></li><li><p>老登批事真的多，小年让我去写表格，初八又有个要截止的项目让去做实验写报告，只给两周的时间做个几乎全新的玩意儿出来。爹妈听了说老登也难，关键是他难为嘛还要申请这堆项目。评价为钱没给够天天让咱打白工黑工，等到暑假就直接消失去准备秋招去了</p></li><li><p>小登的毕设老登让我去指导，然而完全没有东西给我，虽然有一丝愧疚但是也只能给小登我当年的项目和毕设，虽然完全不是一个东西，当年老登指导我反正是啥都没给我，选导师反正这么看来是大失败了，再熬一年赶紧去就业</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-20260226&quot;&gt;&lt;a href=&quot;#周刊-20260226&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260226&quot;&gt;&lt;/a&gt;周刊 - 20260226&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
       
     
     

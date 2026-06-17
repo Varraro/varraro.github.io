@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-06-07T18:20:57.024Z</updated>
+  <updated>2026-06-17T17:25:58.354Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260616</title>
+    <link href="https://varraro.github.io/2026/06/18/20260616/"/>
+    <id>https://varraro.github.io/2026/06/18/20260616/</id>
+    <published>2026-06-17T17:24:59.000Z</published>
+    <updated>2026-06-17T17:25:58.354Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-和命运跳舞"><a href="#周刊-和命运跳舞" class="headerlink" title="周刊 - 和命运跳舞"></a>周刊 - 和命运跳舞</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><ol><li>美伊协议无限接近达成 world peace</li><li>SPCX IPO</li></ol><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>最难熬的一周结束了，把中文期刊的那篇论文投了出去，然后edit一下咱的英文期刊的终稿，笔者现在只想狠狠玩 bf&amp;cod</li><li>实验了事件驱动的交易策略，目前基本满意，胜率保持在60%但是盈利仅1天实现了2%，仍然有待观察，隐隐觉得出场有点问题</li><li>量化四象限基本确立了：趋势 盘前套利 事件催化 对冲 完善了盘前套利的思路和代码，A港美都有结果，观察了3天目前还行</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>四象限里面目前还是没有把品类继续拓展，顺利拿到了真正的圈内人用的项目后感觉自己之前的想法还是太单纯了，继续把四象限的思路带到更多地方吧，比如期货什么的</li><li>之前的股票数据源炸了，于是全部迁移到了腾讯源，当然这也不是什么长久的办法，所以找了找通达信的以后再伺机迁移一下</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li>目前的数据源由于之前那个炸了所以处于一个混沌状态，而且考虑到有很多ipo目前不知道应该怎么处理，可能需要想点办法了，而且暂时也是想继续用之前提到的那个transformer工具挖符号因子但是我觉得本质上作用有限，慢慢来吧。</li><li>看到了个三角洲的倒子弹ocr工具评价为这玩意儿可不只能用在这里吧（）</li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>《黑礁》看完了，整体的感受总觉得有些隐喻，纳粹、日本黑道、俄国黑帮、委内瑞拉家族、毒贩，最终看到金三角大宽恕的时候觉得片子透着人性主义的光辉，总之笔者很喜欢这种枪炮与思考并有的番，一看果然是十几年前的了…于是开始看《永生之酒》，美式群像也是美味。</li><li>最近忽然又想起了在 deemo 的《Marigold》Q音评论区的话，我们安全了，暂时</li></ol><blockquote><p>古树旋律三年，遇上那害人的东西同时遇上古树旋律。我就知道，遇上让人痛苦的东西就该远离，遇上让人开心的东西就该接近。以前的我是挑战困难，接近让人痛苦的东西挑战战胜它，直到遇见古树旋律我才发现我错了，我该接近美好才对</p></blockquote><ol start="4"><li><p>打算接下来每周看完一个科目，唔难度还是不小，而且不知道KFC早餐唤醒法还有用嘛（）</p></li><li><p>读书还是处于一个摆烂的状态然后就是整了 miku 的微型积木但是晚上回去太晚了都没时间拼看来需要抽个时间周内搞定了。</p></li><li><p>和命运跳舞吧</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-和命运跳舞&quot;&gt;&lt;a href=&quot;#周刊-和命运跳舞&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 和命运跳舞&quot;&gt;&lt;/a&gt;周刊 - 和命运跳舞&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260608</title>
@@ -221,30 +245,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-20260315&quot;&gt;&lt;a href=&quot;#周刊-20260315&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260315&quot;&gt;&lt;/a&gt;周刊 - 20260315&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260309</title>
-    <link href="https://varraro.github.io/2026/03/09/20260309/"/>
-    <id>https://varraro.github.io/2026/03/09/20260309/</id>
-    <published>2026-03-09T05:29:56.000Z</published>
-    <updated>2026-03-09T07:35:58.667Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-20260309"><a href="#周刊-20260309" class="headerlink" title="周刊 - 20260309"></a>周刊 - 20260309</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>3.9 日 miku！</p><p>伊朗与美以之间开始战斗，结果我的事件合约被制裁了，模式直接变了（悲）<br>OpenClaw 开始被大规模推广了，有点当年充话费送手机的感觉（）</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>把老登的东西用 Trae 加上 ACE 的 MCP ，总算是做出来了，后面整 PPT 就行了</p></li><li><p>报了国企面试笔试辅导，秋招接好运！</p></li><li><p>OpenClaw 把兄弟的股票框架里面的宏观层做出来了，很舒服🥰，接下来继续完善</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>事件合约总是会把胜率磨平到50%，无论做出什么努力，所以这次换了一个思路，目前胜率奇高无比，在被磨平之前想办法实盘大赚特赚吧，说实在的现在对于这种基于K线的信任度很低了</li><li>打算看看那个强化学习做的合约，其实强化学习本质上也是乱碰，光分析K线这样子真的有什么规律嘛，我还是更相信接近本质的东西</li><li>之前得到多空比的一些想法，想要让 Openclaw 开动起来帮我实现了，现在Skills真的很多，也不用愁数据这一块的</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>用 TV 构建了新的事件合约策略，但是我认为还是需要进行优化，当然现在在那些个标的上表现的非常好，实盘一周试试。上周的实盘因为币安APP更新全失败了，这次重新构建了，币安应该公开事件合约 api 接口的 y1s1</p></li><li><p>继续完善兄弟的中观和微观的思路，应该这一周就有结果了，毕竟数据这一块儿彻底是搞定了。</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>本来想画只 miku 庆祝一下 39 的，但是拿起笔来真的好生疏，设备也变了，华为的笔不如三星的Spen，唔慢慢复健吧</p></li><li><p>看到面试笔试的课快晕过去了，真的好多（）</p></li><li><p>《葬送的芙莉莲 s1》 看完啦！好久没看到这么清新脱俗的公路片了，接下来开始看《奇巧计程车》</p></li><li><p>想起来上周的周刊没写，唔，只能说太忙了（）</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-20260309&quot;&gt;&lt;a href=&quot;#周刊-20260309&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 20260309&quot;&gt;&lt;/a&gt;周刊 - 20260309&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
       
     
     

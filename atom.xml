@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-07-03T17:40:15.197Z</updated>
+  <updated>2026-07-07T19:00:10.770Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260708</title>
+    <link href="https://varraro.github.io/2026/07/08/20260708/"/>
+    <id>https://varraro.github.io/2026/07/08/20260708/</id>
+    <published>2026-07-07T18:12:25.000Z</published>
+    <updated>2026-07-07T19:00:10.770Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-热！热！热！"><a href="#周刊-热！热！热！" class="headerlink" title="周刊 - 热！热！热！"></a>周刊 - 热！热！热！</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>无</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>本周莫名其妙什么也不想干，总而言之又是在压力面前的小摆烂，每次看到自己简历的时候虽然有论文等等但还是被靠后的研究生排名给整难绷，虽然也知道过几个月变成了废纸…</li><li>用配置好 PPT skill的codex和teleagent狠狠白嫖公益站的k12神车，总之摸鱼整了非常多的东西</li><li>老登还想白嫖劳资，组内小硕人均在研二2篇论文，纯纯push人而且一学期做了4个PPT了，只能说是毫无用处，反正和朋友组是两个极端，他们组老登是啥都不管的。反正接下来就算是改论文也全都是codex了拒了就拒了，哥们儿找工现在也是麻烦得很</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>整了大疆4G模块，现在想想要用opencode帮忙刷个机</li><li>之前的套利是BTC的，想想看实际上美股期权合约也存在着套利机会，让codex写了个套利的玩意儿但是发现美股期权行情权限居然每个月要充22，好嘛套利没赢还要被反薅，于是直接用逆的某券商期权链的实时行情接进去。顺便把之前逆的某2个看合约数据的接口给用上了。</li><li>事件驱动的交易本来是想接入HIBT的结果就是成功不了，那还是继续之前用过的币安吧，也是老有经验了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li>四象限系统每个都继续进行了完善，策略也都有，而且忽然间发现了实际上我可以夜里跑训练嘛，反正云电脑不用白不用</li><li>事件驱动的四象限现在粗略想的是每天给我赚50r，之前想的200r一周的观察发现除非扩大本金不然太不现实了，但是在周末开单的套利居然拿模拟盘跑有300u的收益，不过那玩意儿对本金要求太高了估计要等等了（）</li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>《西部世界》的钢琴曲都特别好听！歌单循环中</p></li><li><p>aiko又有巡演了！</p></li><li><p>许愿下周还能白嫖一堆公益codex</p></li><li><p>必须想办法迎接找工了！</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-热！热！热！&quot;&gt;&lt;a href=&quot;#周刊-热！热！热！&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 热！热！热！&quot;&gt;&lt;/a&gt;周刊 - 热！热！热！&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260704</title>
@@ -222,30 +246,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-抓住重大历史机遇&quot;&gt;&lt;a href=&quot;#周刊-抓住重大历史机遇&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 抓住重大历史机遇&quot;&gt;&lt;/a&gt;周刊 - 抓住重大历史机遇&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260419</title>
-    <link href="https://varraro.github.io/2026/04/19/20260419/"/>
-    <id>https://varraro.github.io/2026/04/19/20260419/</id>
-    <published>2026-04-19T07:30:40.000Z</published>
-    <updated>2026-04-19T07:51:10.537Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-忙到忘了写周记（）"><a href="#周刊-忙到忘了写周记（）" class="headerlink" title="周刊 - 忙到忘了写周记（）"></a>周刊 - 忙到忘了写周记（）</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>伊朗局势反复横跳</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>三周没写周记，主要原因是因为太忙了，虽然回忆起来也不知道在忙些什么（），周记的意义应该就是这样子方便自己回头看看，后面希望自己能够坚持继续</p></li><li><p>2api真的尝试了各种各样的东西，3周以来为了喂龙虾换了各种各样的2api，从GLM到DS到FB，磕磕绊绊一路发现tokens的确在变得越来越稀缺了</p></li><li><p>发现了很多有意思的玩意儿，比如说开源的抓包和安全测试的项目，但是现在还没有上手试试，应该会非常好玩</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>回看自己3 周之前雄心壮志要在菠菜的天气市场整点东西，结果现在果不其然又回到了最开始的10分钟市场，没办法，天气市场实在是太吃数据的及时性了，现在感觉只适合自己就居住在哪个城市去玩玩</li><li>强化学习还有那个k线大模型的研究都暂时搁置了，因为实际上也明白了传统的数据驱动已经out喽，现在是事件驱动时代，taco一句话市场的情况就完全变了</li><li>Hermes Agent 这种越发没兴趣了，跟龙虾相比没有本质上的跨越，不过也是未来可期，主要原因是这玩意儿不支持WIn的话就懒得在自己的天翼云电脑上面配置了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>之前的很多的东西都比较简易，所以就干脆在龙虾里面又定义了一个停云小姐智能体专门用来搜集市场的信息，目前和stockclaw与openalice一起工作，至少在信息这一方面没啥大的问题了。而且非常欣慰的是筛选出来的股票和自己的推理也是越来越接近了</p></li><li><p>事件合约这一块儿终于整了基本和自己的做单逻辑一模一样的赌博机，结果Trae这个烂ide还启动错误让我第一晚上亏了3单，只能说自己做这种东西以后要非常注意测试这一块儿，不过好在每次就赌5u，目前的情况来看未来可期</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>高达seed destiny在这三周基本上也快看完了，感觉没第一季那么有意思，还是飞鸟真太蠢了，下一个打算看 狼与香辛料</p></li><li><p>不知道为什么买买买模式突然就开启了，整了分体式键盘，不知道自己能不能适应分体式键盘，但是据说对自己的肩膀好</p></li><li><p>老登那边当然是他拍脑门想整看板，然后我就融了个nanobot在里面，有意思的是居然有博士靠这种工作写大本子，乐，信息差这一块没想到搁学术这边真有用</p></li><li><p>发现有好多miku 的asmr，好幸福OwO！</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-忙到忘了写周记（）&quot;&gt;&lt;a href=&quot;#周刊-忙到忘了写周记（）&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 忙到忘了写周记（）&quot;&gt;&lt;/a&gt;周刊 - 忙到忘了写周记（）&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; cla</summary>
       
     
     

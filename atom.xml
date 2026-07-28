@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-07-22T15:16:18.253Z</updated>
+  <updated>2026-07-28T18:42:43.358Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260729</title>
+    <link href="https://varraro.github.io/2026/07/29/20260729/"/>
+    <id>https://varraro.github.io/2026/07/29/20260729/</id>
+    <published>2026-07-28T18:18:10.000Z</published>
+    <updated>2026-07-28T18:42:43.358Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-四倍速跃迁"><a href="#周刊-四倍速跃迁" class="headerlink" title="周刊 - 四倍速跃迁"></a>周刊 - 四倍速跃迁</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>恭喜中国数学家邓煜、王虹获得菲尔兹奖！<br>（这个偏微分工作不知道是否可以用到量化之中，以及还有百合豚说是x，另外一位感觉是泥潭坛友啊x）</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>市场长鑫 ipo 之后果不其然开始出货了</li><li>codex爽用2天后坠机了，目前陷入token荒中</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>数据从高维到低维的降维工作一直以来都让我非常困扰，量化因子的构建上还是要学习一下卡神的思路了</li><li>再次重试了数据做事件合约胜率卡在60%上不去了，遂明白了自己亏损是不可避免的，这块后面佛系研究了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>拓展自己的机器学习策略到期货和etf上，目前效果有待研究，历史胜率反正还是有点意思的</p></li><li><p>二元期权的研究简单整了个套利，当然不是扫尾盘这么简单了，配合模拟盘观察吧</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>数学家改变世界！想起有个很喜欢的博客主人也是研究数学（<del>魔法</del>）的，然后又想起本科教微积分的秦教授也是研究数学的（她的目标也是菲尔兹奖来着），感觉数学家的气质都是那种追求最终真理的深邃性格，数学果然还是太高深莫测了</p></li><li><p>终于把《西部世界》看完了，最后是经典轮回结局，诺兰经典把大伙全写亖了，可以算烂尾</p></li><li><p>《瑞克与莫蒂》s9 莫名就看完了疯狂找泳池的曲子找不到中，反正s8开始就已经是家庭喜剧了所以也就不抱太大期待了，等飞出个未来吧</p></li><li><p>于是接下来准备把《葬送的芙莉莲》s2和《辐射》看了</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-四倍速跃迁&quot;&gt;&lt;a href=&quot;#周刊-四倍速跃迁&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 四倍速跃迁&quot;&gt;&lt;/a&gt;周刊 - 四倍速跃迁&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260722</title>
@@ -222,30 +246,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-变化&quot;&gt;&lt;a href=&quot;#周刊-变化&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 变化&quot;&gt;&lt;/a&gt;周刊 - 变化&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; title=&quot;事件&quot;&gt;&lt;</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260519</title>
-    <link href="https://varraro.github.io/2026/05/19/20260519/"/>
-    <id>https://varraro.github.io/2026/05/19/20260519/</id>
-    <published>2026-05-18T18:10:20.000Z</published>
-    <updated>2026-05-18T19:04:00.999Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-套与利"><a href="#周刊-套与利" class="headerlink" title="周刊 - 套与利"></a>周刊 - 套与利</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p><strong>中美会谈</strong><br>近期发生的最重要的事情，会谈划分利益的意义实际上大家都清楚，美国通胀加速，国内通缩，双方各让一步罢了<br><strong>美伊与原油</strong><br>感觉迟早要打起来的，所以就做多了原油赚点饭钱，赚了40u左右先跑了，毕竟我也挺烦taco的</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>上周投资的事说起来现在也真觉得自己蠢，原油涨万物死这点道理没想明白，现在只能是被套着了，不过好在我大多数股票都是只买一手尝鲜，而且美股的好处就是长拿必赚，上周arm都出了，现在被mp套着当然也怪我赌输了会谈会提稀土，A股那边自然是被宝安狠狠套但是其实到目前也没几个钱，-50r -20u这样子完全不痛不痒（），留着等世界和平吧（）。感觉后面真工作了大额的投资一定要遵循策引的信号分析来着</li><li>搞老登的中文论文的第一周，评价为codex立大功，虽然我的号露头就被杀。唉还是用用公益吧，反正那篇论文1个月估计也只能是干到这份上了，后面也都codex干活我旁观就是了。比较恶心的是这个刊物只有word模板这点真的恶心，试试 claude for word能帮我干到啥地步吧</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>我一直都想手搓一个本地的 Tradingview 出来，然后整个事件驱动的玩意儿，上周也是搓出来了简陋的本地 Tradingview 和事件监控乃至于事件驱动的下单，但是这些东西都没联系到一起，我感觉我需要把这些玩意儿联系到一块试试</li><li>看到那个著名的 worldmonitor 的项目了，感觉很炫但是实际上没有落地成为金融交易的系统，也许可以研究一下怎么样变成可以落地进行交易的系统，还是比之前说过的 mirofish 要好用一些，那个玩意儿实在是太笨重了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>用平台期筛选股票的路子我感觉还是不行，走不通。市场不可能那么简单，这一周用Trae Solo白嫖DS4pro去研究了A股 港股 美股 加密的因子量化，总算是都搓出来了策略，但是年平均收益率都在60%-80%这个样子，当然也因为我不想maxdd和夏普率太低，总之后面还是要继续看实盘到底应该怎么去整理一下目前的策略，比如说让龙虾打理这个事情，当然了过拟合我估计也是有</p></li><li><p>可转债的量化让我学到挺多的。比如说那个量化居然是加了事件的，虽然很简单就是读公告这样子但是还是初步了解到了事件驱动的魅力。实际上上周回测得到的几个可转债入场都是能有3-8%的盈利的，而且考虑到是T+0，隐约觉得日后会是我比较看重的</p></li><li><p>事件合约这次拿XAU和CL加上前面的因子做标的效果奇好（其实也就是滚动回测比较好罢了），同时也印证了我的观点，BTC ETH的传统的因子已经完全失效了我之前还在用那玩意儿跑之前亏了快200u了，果然认知就是财富啊，虽然这次我大概不会投那么多钱了，而且先上个模拟盘尝尝咸淡</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>量化这一块说实在的到目前为止我赚了的都不是机器开的而是我自己想的，说白了算是半自动交易，所以后面尽量还是往事件驱动那边去靠拢，似乎就是有些机构搁那边抓taco做交易那种玩意儿</p></li><li><p>初中的兄弟想了个中美公司对应套利，emmm咋说呢他的想法一直都是那种超低频少动找妖股飞天，去年给他命中了人民同泰 金新农啥的但是说实在的去年11月那时候给人一种买啥都会大涨的感觉啊，不过他玩的大一扔就是20w，但是隐约觉得他的策略在现在这种情况下没救了，大伙都在ai能源这边没啥资金抬个妖股出来，等他消息吧。</p></li><li><p>果然一到忙起来了就喜欢摸鱼搞量化，咋说呢实际上估计有都是些浅显的东西，到目前为止实际上最稳妥的方法就是跟单（）</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-套与利&quot;&gt;&lt;a href=&quot;#周刊-套与利&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 套与利&quot;&gt;&lt;/a&gt;周刊 - 套与利&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; title=&quot;事</summary>
       
     
     

@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-07-28T18:42:43.358Z</updated>
+  <updated>2026-08-10T03:10:34.348Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260810</title>
+    <link href="https://varraro.github.io/2026/08/10/20260810/"/>
+    <id>https://varraro.github.io/2026/08/10/20260810/</id>
+    <published>2026-08-10T02:55:10.000Z</published>
+    <updated>2026-08-10T03:10:34.348Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-偷得浮生两周闲"><a href="#周刊-偷得浮生两周闲" class="headerlink" title="周刊 - 偷得浮生两周闲"></a>周刊 - 偷得浮生两周闲</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>东野圭吾 RIP</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>codex 被逼无奈还是给中转站充上了钱，但是似乎中转站有一些掺水的瓜</li><li>二元期权实盘终于还是开始了，但是问题是抢单抢不过，先用个开源的机器人试试，不行转rust</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>研究了一下某坛的负偏态的策略，别说还真有点意思，准备丢个 50u 实盘</li><li>心血来潮继续用这个负偏态实验事件合约，果不其然胜率仍然在56%左右，看来除了新闻抢跑几乎也是没办法解决胜率问题</li><li>为了解决网络问题整了韩国的专线， 这下总算不再遇到烦人的502了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>策引的缺陷太严重了，即便现在有了MCP和Skills仍然让人无语，也无法使用机器学习等等策略。策引要是能提供数据源api就好了</p></li><li><p>完善了Polymarket的下单等等策略，感觉还是有点理想化了，市场上全是机器人无疑现在已经变成了抢单大战，策略总之还需要我适当修改一下</p></li><li><p>准备把之前的java写的交易所下单系统改改能接入我的策略，毕竟那个是我唯一之前实盘过加密策略的系统了</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>自打被黑客攻破谷歌账号之后就感觉国外的安全保护也就那回事，果然推这次因为没加两步验证也被狠狠鸿儒了，果断加了两步验证</p></li><li><p>《葬送的芙莉莲》s2 看完了，不过不失的一季，不过我倒是非常期待接下来的黄金乡篇了。《辐射》s1 目前的观感来讲超出了对于游戏改的预料，诺兰的 s1 总是能发力到点子上</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-偷得浮生两周闲&quot;&gt;&lt;a href=&quot;#周刊-偷得浮生两周闲&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 偷得浮生两周闲&quot;&gt;&lt;/a&gt;周刊 - 偷得浮生两周闲&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260729</title>
@@ -222,30 +246,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-意料之外&quot;&gt;&lt;a href=&quot;#周刊-意料之外&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 意料之外&quot;&gt;&lt;/a&gt;周刊 - 意料之外&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; titl</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260524</title>
-    <link href="https://varraro.github.io/2026/05/24/20260524/"/>
-    <id>https://varraro.github.io/2026/05/24/20260524/</id>
-    <published>2026-05-24T08:20:59.000Z</published>
-    <updated>2026-05-24T17:46:00.480Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-变化"><a href="#周刊-变化" class="headerlink" title="周刊 - 变化"></a>周刊 - 变化</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p><strong>美伊和谈</strong></p><p>到现在实际上没有拿出真正的方案，但是双方都让了步说是延长30天，但是我还是觉得会边打边谈。原油跌穿90以下了，看来要涨起来需要时间，运气不好的就是空了QQQ被套了，但我认为问题不大应该是有加息的</p><p><strong>沃什上任</strong></p><p>美联储换了帅，就职的时候提了一嘴加息降通胀但是没多说什么，还是要看下周的态度，个人站加息缓解通胀，后面还隐隐有点粮食危机的阴霾所以站加息</p><p><strong>香港券商清退</strong></p><p>长桥 富途 老虎 的内地用户清退，资金回流的话应该会利好港股通的相关股票吧</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>上周都是在一个做多原油做空QQQ AMD APPL等等美股的循环中套利，每次套个100r 左右就是练练盘感，配合着之前的指标做做单子。反正杠杆开得小都是5x 10x所以应该爆不了，就是今天开空的QQQ有点担忧，不会真冲上740吧（），好歹是有加息预期的不至于。A股那边反正套着大概150人刀呢也懒得管，美股那边MP爽吃一波全部割肉跑路了，损失也不到50人刀无所谓了，我是真的担心加息</p></li><li><p>老登的论文还在写，L站有神秘男每晚提供codex GPT5.5，爽用，这周实际上自己根本就没看论文全去自动化做实验改论文了，下周把格式大框图搞搞差不多得了，真的感叹大模型的发展对科研这一块的冲击应该以后会是巨大的，乃至于取代科研的民工</p></li><li><p>Codex跑的时候就会疯狂摸鱼，一周下来搓了一堆东西，下文整理一手。</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>上周说是整个事件驱动的监控器，但是想想看还是放弃了，我想要的不是好看的看板（实际上tv已经足够用了虽然内地无延迟需要加钱这样子），总感觉魔改一下OpenAlice就可以实现这个功能，如果有必要的话我会单独再接一个</li><li>worldmonitor也是一个道理，我需要的不是看板而是一个能跟踪价格分析新闻做调查然后给我警报的投研工具，所以说还是魔改OpenAlice比较合适一点</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li>到目前为止A股港美加密ETF的数据都收集+增量更新完成了，不指望我的多因子量化能给我整多好但是起码beta策略给我都整几个，然后果然每个都给我整了一堆策略，于是用几个好的配合龙虾给我每天推送到钉钉，包括那个可转债的策略也要每天推送一下才行</li><li>事件合约跑模拟盘跑了3天发现滑点还是太严重了，变成合约量化我又信不过虽然收益率很高，索性推倒重来变成现货策略，然后到目前为止挖出的策略夏普1.64 年化72.53% maxdd 32.63%，唔我觉得太一般了，年化不过百的现货maxdd又那么大还是不行，后面再看吧</li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>整了这么多操作以后发现机器开目前还是不如手开灵活，手开的话能够无限子弹窄止损，机器的话就不太行了</li><li>上周量化的结果奇好无比，可转债每天都都能套个2%-3%，日后有10w我需要考虑一下了，而且我才发现我的证券账户没有2年的交易历史，奇怪这个没有按照我最早的账户去算</li><li>打算申请itin，虽然在收紧但是还是想弥补一下之前没到美国的遗憾，唉，当时只觉得去美国太贵，现在觉得是自己的损失</li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-变化&quot;&gt;&lt;a href=&quot;#周刊-变化&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 变化&quot;&gt;&lt;/a&gt;周刊 - 变化&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; title=&quot;事件&quot;&gt;&lt;</summary>
       
     
     

@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-08-19T06:48:05.438Z</updated>
+  <updated>2026-09-01T16:53:50.880Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260902</title>
+    <link href="https://varraro.github.io/2026/09/02/20260902/"/>
+    <id>https://varraro.github.io/2026/09/02/20260902/</id>
+    <published>2026-09-01T16:44:29.000Z</published>
+    <updated>2026-09-01T16:53:50.880Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-梦限大"><a href="#周刊-梦限大" class="headerlink" title="周刊 - 梦限大"></a>周刊 - 梦限大</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>开学</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><p>无</p><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>二元期权就是不开单，虽然移植到了币安api了，Poly开了个单但是亏了（），这一块暂时没啥兴趣了，后面有闲工夫再排查吧</li><li>美股的策略到现在拿137个因子也找不到啥有意义的发现，在想是不是需要引入其他因子或者多验证一下</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>优化了自己所有的策略到v2版本，胜率都得到了提升，但是美股依然是个难啃的硬骨头</p></li><li><p>早起不能所以整了个早上自动开单加密的小脚本，顺手也写了凌晨美股的开单小脚本</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>8月 A 股收益10%，这还是我随便买一手试着玩的成果，令人振奋啊。加密运气不错也捞了点钱，但是跟之前亏损的还是比不上，不过好在是有点样子了</p></li><li><p>开学了，简历希望自己有passion赶紧搞定了吧，但是每一天都很累，也不知道为什么</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-梦限大&quot;&gt;&lt;a href=&quot;#周刊-梦限大&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 梦限大&quot;&gt;&lt;/a&gt;周刊 - 梦限大&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; title=&quot;事</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260819</title>
@@ -222,30 +246,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-和命运跳舞&quot;&gt;&lt;a href=&quot;#周刊-和命运跳舞&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 和命运跳舞&quot;&gt;&lt;/a&gt;周刊 - 和命运跳舞&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; </summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260608</title>
-    <link href="https://varraro.github.io/2026/06/08/20260608/"/>
-    <id>https://varraro.github.io/2026/06/08/20260608/</id>
-    <published>2026-06-07T17:29:45.000Z</published>
-    <updated>2026-06-07T18:20:57.024Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-Aha-Time"><a href="#周刊-Aha-Time" class="headerlink" title="周刊 - Aha Time"></a>周刊 - Aha Time</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><ol><li>似乎周末美股开始跳水，只能说黄金坑来喽</li><li>LOF我认为都要拿在手上至少一周赎回才有有事，所以先长拿一下吧</li></ol><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>本周 Team 居然又开启大免费时代了，狠狠爽用Codex</p></li><li><p>看了一下一些把 nlp 和量化结合的项目，一瞬间觉得自己的方法早就过时了，要了一下源码，发现了好些自己从来不考虑的玩意儿，感觉之前自己的工作太浅显了</p></li><li><p>参加了一些关于量化的讨论，大大提升了我的一些认知，感觉自己之前的方法真的太落后了，问了一下是机构2016年水平（）</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>好在发现了几个因子还行，虽然做主流趋势已经卷麻了但是我还是认为这个因子有用，还是之前读过的时序论文给的启发（），后面就是大合并了</li><li>看到了更加专业的挖因子工具，但是说实在的现在居然是算力限制我了，我真觉得上班后需要整本地模型了，乃至于自训练出来，我自己的玩意儿连个强化学习都没有真是太简陋了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>继续补充数据环节，改造了一下拿到的代码，全部改造成了自己的数据源，但是仅限A股，其他的暂时没找到方法，似乎可以抓包app这样子获取，继续补吧</p></li><li><p>想要车点模型下来本地跑跑，万一就有用呢</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>论文 Accept了！这下大大松了口气，高兴！LLM的红利还是被我吃到了一口呢</p></li><li><p>继续看《黑礁》，看到黑道篇大小姐读的萨特的存在主义导论一下子感觉有种自己被击中的感觉，虽然存在主义危机我早早经历完了但是还是无比怀念，可能以后还会有吧，不过最猛烈的浪潮还是经历过了，问就是我不到啊，我看他们都活着（）</p></li><li><p>读书真的越来越少，我也不懂为什么。漫画把《剑豪生死斗》看完了，最后看到三重自尽无比惋惜，反武士道神作</p></li><li><p>搞完了那篇中文期刊，次周看来有的忙了</p></li><li><p>aiko 的音乐实在是太元气了，怪不得三狮里面说红白要等aiko唱</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-Aha-Time&quot;&gt;&lt;a href=&quot;#周刊-Aha-Time&quot; class=&quot;headerlink&quot; title=&quot;周刊 - Aha Time&quot;&gt;&lt;/a&gt;周刊 - Aha Time&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;</summary>
       
     
     

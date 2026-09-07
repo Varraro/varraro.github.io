@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-09-01T16:53:50.880Z</updated>
+  <updated>2026-09-07T17:22:21.855Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260908</title>
+    <link href="https://varraro.github.io/2026/09/08/20260908/"/>
+    <id>https://varraro.github.io/2026/09/08/20260908/</id>
+    <published>2026-09-07T17:11:47.000Z</published>
+    <updated>2026-09-07T17:22:21.855Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-漂浮"><a href="#周刊-漂浮" class="headerlink" title="周刊 - 漂浮"></a>周刊 - 漂浮</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>无</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol start="3"><li>GPT-6 眩晕瘫坐原子弹爆炸</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>二元期权依旧装死躺平，打算极端一点直接进行一个全策略测试</li><li>美股折腾了一圈之后发现追求胜率是错的，说起来也很容易一圈下来不如VOO</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>跑通了同花顺的自动查询等等，打算也整个全自动下单，虽然如果有10w应该就有qmt了</p></li><li><p>再次测了一下 cta 还是不行，只能继续学习卡神的东西了</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>赚赚赚，不停地赚！</p></li><li><p>该死的原生家庭还在追我，无所谓了习以为常，爆米就完事了</p></li><li><p>卡神在上海，唉我要是当时做题能力更强一些就能去上海读书了，不过我认识的在上海的人都不太快乐的样子。但是上海应该还是个梦想的都会吧</p></li><li><p>简历自我介绍看来有了GPT6加成后很快就能搞定了</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-漂浮&quot;&gt;&lt;a href=&quot;#周刊-漂浮&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 漂浮&quot;&gt;&lt;/a&gt;周刊 - 漂浮&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; title=&quot;事件&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260902</title>
@@ -222,30 +246,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-刻舟求剑&quot;&gt;&lt;a href=&quot;#周刊-刻舟求剑&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 刻舟求剑&quot;&gt;&lt;/a&gt;周刊 - 刻舟求剑&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; titl</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260616</title>
-    <link href="https://varraro.github.io/2026/06/18/20260616/"/>
-    <id>https://varraro.github.io/2026/06/18/20260616/</id>
-    <published>2026-06-17T17:24:59.000Z</published>
-    <updated>2026-06-17T17:25:58.354Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-和命运跳舞"><a href="#周刊-和命运跳舞" class="headerlink" title="周刊 - 和命运跳舞"></a>周刊 - 和命运跳舞</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><ol><li>美伊协议无限接近达成 world peace</li><li>SPCX IPO</li></ol><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>最难熬的一周结束了，把中文期刊的那篇论文投了出去，然后edit一下咱的英文期刊的终稿，笔者现在只想狠狠玩 bf&amp;cod</li><li>实验了事件驱动的交易策略，目前基本满意，胜率保持在60%但是盈利仅1天实现了2%，仍然有待观察，隐隐觉得出场有点问题</li><li>量化四象限基本确立了：趋势 盘前套利 事件催化 对冲 完善了盘前套利的思路和代码，A港美都有结果，观察了3天目前还行</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>四象限里面目前还是没有把品类继续拓展，顺利拿到了真正的圈内人用的项目后感觉自己之前的想法还是太单纯了，继续把四象限的思路带到更多地方吧，比如期货什么的</li><li>之前的股票数据源炸了，于是全部迁移到了腾讯源，当然这也不是什么长久的办法，所以找了找通达信的以后再伺机迁移一下</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li>目前的数据源由于之前那个炸了所以处于一个混沌状态，而且考虑到有很多ipo目前不知道应该怎么处理，可能需要想点办法了，而且暂时也是想继续用之前提到的那个transformer工具挖符号因子但是我觉得本质上作用有限，慢慢来吧。</li><li>看到了个三角洲的倒子弹ocr工具评价为这玩意儿可不只能用在这里吧（）</li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>《黑礁》看完了，整体的感受总觉得有些隐喻，纳粹、日本黑道、俄国黑帮、委内瑞拉家族、毒贩，最终看到金三角大宽恕的时候觉得片子透着人性主义的光辉，总之笔者很喜欢这种枪炮与思考并有的番，一看果然是十几年前的了…于是开始看《永生之酒》，美式群像也是美味。</li><li>最近忽然又想起了在 deemo 的《Marigold》Q音评论区的话，我们安全了，暂时</li></ol><blockquote><p>古树旋律三年，遇上那害人的东西同时遇上古树旋律。我就知道，遇上让人痛苦的东西就该远离，遇上让人开心的东西就该接近。以前的我是挑战困难，接近让人痛苦的东西挑战战胜它，直到遇见古树旋律我才发现我错了，我该接近美好才对</p></blockquote><ol start="4"><li><p>打算接下来每周看完一个科目，唔难度还是不小，而且不知道KFC早餐唤醒法还有用嘛（）</p></li><li><p>读书还是处于一个摆烂的状态然后就是整了 miku 的微型积木但是晚上回去太晚了都没时间拼看来需要抽个时间周内搞定了。</p></li><li><p>和命运跳舞吧</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-和命运跳舞&quot;&gt;&lt;a href=&quot;#周刊-和命运跳舞&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 和命运跳舞&quot;&gt;&lt;/a&gt;周刊 - 和命运跳舞&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; </summary>
       
     
     

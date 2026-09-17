@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-09-07T17:22:21.855Z</updated>
+  <updated>2026-09-17T05:57:24.973Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20260917</title>
+    <link href="https://varraro.github.io/2026/09/17/20260917/"/>
+    <id>https://varraro.github.io/2026/09/17/20260917/</id>
+    <published>2026-09-17T05:47:57.000Z</published>
+    <updated>2026-09-17T05:57:24.973Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊-马孔多不会下电子雨"><a href="#周刊-马孔多不会下电子雨" class="headerlink" title="周刊 - 马孔多不会下电子雨"></a>周刊 - 马孔多不会下电子雨</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><ol><li>华为赛里斯分家了，虽然其实看看股价也是必然的事</li><li>具身智能在GPT6作为基底的情况下达到了奇点</li><li>数字果蝇大脑再一次被人们提及</li></ol><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>把A股筛选池子改成1500后我居然被套住了，好在也就亏掉9月的盈利，看来还是回退之前的吧</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>在想日频会不会太慢了，改成5m的尺度会不会更好些，但是高频交易的问题更是严重</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>自动下单系统全部完善了一遍，交易所换了一个，原来的不知为什么可能是赚麻了给我禁止交易了，666。A股的自动下单系统也建立了，虽然现在还不打算用上</p></li><li><p>二元期权暂时还是放弃了，没那么好的网络条件最好不要碰这个，有些困难，5m几乎是完全用不了的状态。归根结底还是入场出场的逻辑有点问题，如果后面复活这个我会在15m看看到底能不能实现</p></li><li><p>迁移了到我的macbook上继续做量化实验，不得不说macbook真的很省心</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>喜提被套，但是实际上也是由于自己的策略盲目修改导致的，只不过我也没想到第二天能够跌停，菜就继续多练吧只能说</p></li><li><p>好消息是股票被套了300块，在交易所不到一周就赚回来了（）</p></li><li><p>下周某企就要来面试了，加油！！！！</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊-马孔多不会下电子雨&quot;&gt;&lt;a href=&quot;#周刊-马孔多不会下电子雨&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 马孔多不会下电子雨&quot;&gt;&lt;/a&gt;周刊 - 马孔多不会下电子雨&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; cla</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20260908</title>
@@ -222,30 +246,6 @@
       
     <summary type="html">&lt;h1 id=&quot;周刊-雨下了一周&quot;&gt;&lt;a href=&quot;#周刊-雨下了一周&quot; class=&quot;headerlink&quot; title=&quot;周刊 -  雨下了一周&quot;&gt;&lt;/a&gt;周刊 -  雨下了一周&lt;/h1&gt;&lt;ol&gt;
 &lt;li&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;h</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260625</title>
-    <link href="https://varraro.github.io/2026/06/25/20260625/"/>
-    <id>https://varraro.github.io/2026/06/25/20260625/</id>
-    <published>2026-06-24T16:49:00.000Z</published>
-    <updated>2026-06-24T17:26:31.212Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-刻舟求剑"><a href="#周刊-刻舟求剑" class="headerlink" title="周刊 - 刻舟求剑"></a>周刊 - 刻舟求剑</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>无</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li><p>四象限已经逐个尝试了，每个都取得了一定的成果，但是同样的也有一些不足，但是就目前而言的表现来讲还是不错的</p></li><li><p>老登经典马不停蹄让做PPT和审稿，这种事情全丢给大模型做就完事了</p></li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>到目前为止对于事件驱动的想法虽然有了很多探索但是总是莫名会在开始之后的12小时出现很大的回撤，让人感觉很奇怪，理解之前某位行内人士说的要当做买彩票一样的感受了</li><li>浅浅看了一下套利，感觉启动起来可能会遇到一些问题，还需要进行一些系统的研究</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>到目前为止自己真正吃上了的系统盘前套利还是在美股吃到的，不过明年应该就能在可转债科创板等等地方实践一下了吧（上周记得吃上的是FCEL HIMS CIFR）</p></li><li><p>主要还是在完善事件驱动这一块，想法越来越少了，需要多想想</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>培训班的课4倍速超速观看，我的评价是看我3天看一科，2周全部看完</li><li>虽然一直以来都是这样还没师姐说太闷来着，本科女同学现在看来其实也一般般，感觉恋爱这一块我这个专业的男性都如此不顺的确是有原因的，本质上都在权衡利弊罢了，不过越来越觉得这样挺对的，大伙既然都如此迷茫而又不肯放下脸面那要不还是先多赚点面包吧，延迟满足这一块嗷</li><li>看了《飞跃巅峰》，音乐太神了，然后 s2 的话风格有点不一样但是看到娜娜那种不顾一切当驾驶员的劲头真是让人热泪盈眶。我也想前往都会去面对我的bustar</li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-刻舟求剑&quot;&gt;&lt;a href=&quot;#周刊-刻舟求剑&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 刻舟求剑&quot;&gt;&lt;/a&gt;周刊 - 刻舟求剑&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; titl</summary>
       
     
     

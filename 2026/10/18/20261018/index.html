@@ -1,0 +1,866 @@
+<!--
+	作者：Sariay
+	时间：2018-08-26
+	描述：There may be a bug, but don't worry, Qiling(器灵) says that it can work normally! aha!
+-->
+<!DOCTYPE html>
+<html class="html-loading">
+		
+
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>
+    
+      周刊 - 20261018 | Lenger的后花园
+    
+  </title>
+  <meta name="author" content="Lenger">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+	<!-- favicon -->
+  <link rel="shortcut icon" href="/img/1.ico">
+
+  <!-- css -->
+  
+<link rel="stylesheet" href="/css/Annie.css">
+
+  
+  <!-- jquery -->
+	
+<script src="/plugin/jquery/jquery.min.js"></script>
+
+
+<script>
+    const CONFIG_BGIMAGE = {
+      mode: 'normal',
+      normalSrc: '/img/g.png',
+      randomYouMax: 110,
+      randomYouSrc: 'https://sariay.github.io/Random-img/',
+	  randomOtherSrc: 'https://api.berryapi.net/?service=App.Bing.Images&day=-0',
+	  preloaderEnable: true
+    }
+	
+    const CONFIG_LEACLOUD_COUNT = {
+      enable: false,
+	  appId: 'AU8...',
+	  appKey: '4cU...',
+	  serverURLs: 'http' || ' '
+    }
+  </script>
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Lenger的后花园" type="application/atom+xml">
+</head>
+	<body>
+		<!-- Preloader -->
+
+	<div id="preloader">
+		<div class="pre-container">
+			
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+						
+		</div>
+	</div>
+
+
+<!-- header -->
+<header class="fixbackground bg-pan-br">
+	<div class="mask">
+		<!-- motto -->
+		<div class="h-body">	
+			
+				<div class="motto text-shadow-pop-left">
+					<p class="content" id="motto-content">获取中...</p>
+					<p>-<p>
+					<p class="author" id="motto-author">Just a minute...</p>
+				</div>
+			
+		</div>
+		
+		<!-- others: such as time... -->			
+		<div class="h-footer">
+			<a href="javascript:;" id="read-more" class="scroll-down">
+				<span class="icon-anchor1 animation-scroll-down"></span>
+			</a>
+		</div>
+	</div>
+</header>
+
+<div id="navigation-hide">
+	<!-- Progress bar -->
+	<div id="progress-bar"></div>
+
+	<!-- Progress percent -->
+	<div id="progress-percentage"><span>0.0%</span></div>
+
+	<div class="toc-switch"><span class="switch-button">目录</span></div>
+
+	<!-- Page title -->
+	<p>
+		
+			「周刊 - 20261018」
+		
+	</p>
+
+	
+	
+
+	<!-- Nav trigger for navigation-H-->
+	<a class="nav-trigger"><span></span></a>
+</div>
+
+<!-- Navigation in div(id="navigation-H") -->
+<nav class="nav-container" id="cd-nav">
+	<div class="nav-header">
+		<span class="logo"> 
+			<img src="/img/2.png">
+		</span>
+		<a href="javascript:;" class="nav-close"></a>
+	</div>
+	
+	<div class="nav-body">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home" target="_blank">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_blank">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_blank">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_blank">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_blank">关于</a>
+		</li>
+		
+	
+		<li class="menu-gallery">
+			<a href="/gallery" class="menu-item-gallery" target="_blank">相册</a>
+		</li>
+		
+	
+		<li class="menu-friends">
+			<a href="/friends" class="menu-item-friends" target="_blank">友链</a>
+		</li>
+		
+	
+		<li class="menu-weekly">
+			<a href="/tags/%E5%91%A8%E5%88%8A" class="menu-item-weekly" target="_blank">周刊</a>
+		</li>
+		
+	
+
+	
+</ul>
+	</div>
+	
+	<div class="nav-footer">
+		<ul id="global-social">
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-one"><span class="path1"></span><span class="path2"></span></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-zhihu"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-github"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-sina-weibo "></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-pinterest2"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-instagram"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-twitter"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="/atom.xml" target="_blank">
+				<span class="icon-rss"></span>
+			</a>
+		</li>
+			
+</ul>
+
+	</div>
+</nav>
+			
+		<!--main-->
+		<main>
+			<!--
+	时间：2018-11-17
+	描述：
+		插件名称：katelog.min.js
+		插件作者：KELEN
+		插件来源: https://github.com/KELEN/katelog
+-->
+
+	
+		<div class="layout-toc">
+			<div id="layout-toc">
+				<div class="k-catelog-list" id="catelog-list" data-title="文章目录"></div>
+			</div>
+		</div>
+
+		
+<script src="/plugin/toc/katelog.min.js"></script>
+
+
+		
+	 
+
+<div class="layout-post">
+	<div id="layout-post">
+		<div class="article-title">
+			
+	<a href="/2026/10/18/20261018/" itemprop="url">
+		周刊 - 20261018
+	</a>
+
+		</div>
+
+		<div class="article-meta">
+			<span>
+				<i class="icon-calendar1"></i>
+				
+				
+
+
+
+
+	更新于
+
+	<a href="/2026/10/18/20261018/" itemprop="url">
+		<time datetime="2026-10-18T07:40:51.000Z" itemprop="dateUpdated">
+	  		2026-10-18
+	  </time>
+	</a> 
+
+
+
+			</span>
+			<span>
+				
+	<i class="icon-price-tags"></i>
+	
+		<a href="/tags/%E5%91%A8%E5%88%8A/" class=" ">
+			周刊
+		</a>
+	
+		
+			</span>
+			
+			
+
+
+
+		</div>
+
+		<div class="article-content" id="article-content">
+			<h1 id="周刊-人间喜剧"><a href="#周刊-人间喜剧" class="headerlink" title="周刊 - 人间喜剧"></a>周刊 - 人间喜剧</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><ol>
+<li>A股美股全崩，本来+20%的收益被整成+5%了，无语了</li>
+</ol>
+<h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol>
+<li><p>打板策略整出来了，添加了很多自己之前也没想过的因子，Alpha101这种老黄历果然实在是过时了，但是总收益率400%和卡神的800%还是有不小的差距啊（），而且这个回撤30%是人能扛得住的吗</p>
+</li>
+<li><p>觉得自己应该还是主观交易的想法，主要是 9 月份的数据乌龙和 10 月份的市场走向表明regime可能变了</p>
+</li>
+<li><p>之前的鼠鼠流打法看来也无法适应这种市场环境，反正上半年也是观察了半年了</p>
+</li>
+<li><p>很高兴DS的flash模型也迭代了，真是又快又好啊！</p>
+</li>
+</ol>
+<h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol>
+<li>加密那边终于还是吃到大回撤了，意料之中吧但是说明策略要想想新点子了，从翻倍到回到解放前居然只需要一周，真是波动性相当强的市场，虽然我也从来没想过能从这个市场扣出点什么，毕竟想扣的话卡神的策略跟个单就是每月20%</li>
+<li>依旧在思考市场的定价锚点，也就是像德扑一样在筹码亮出来之前就进行分析，市场的定价也是在事件发生前就去做的，而这对于散户而言非常难搞定，又没有那么庞大的信息获取能力</li>
+<li>沉迷于量化太久以至于错过了很多有意思的项目，居然发现现在大伙都在用astra把千奇百怪的游戏移植到ns或者安卓上面了！甚至还有好多老游戏复活了！</li>
+<li>依旧不知道从何开始的逆向，虽然配置好了pi专门用来干这个但才发现我的app需求似乎也不是很高</li>
+<li>整了Grok4.7和Deepseek4.1flash，还行吧有种之前的策略都是shit的感觉，甚至觉得之前买的一些东西也是shit的感觉</li>
+</ol>
+<h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol>
+<li><p>全新的打板系统，漂亮的教师模型达到了超过400%的总收益，非常好看，但是实际运行起来会不会草台班子呢，敬请期待吧（）</p>
+</li>
+<li><p>继续而持续地对于鼠鼠流进行研究，一周时间里面添加了大量的全新因子，可以确定的是能够提高胜率和收益，这就需要继续进行探索了</p>
+</li>
+</ol>
+<h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol>
+<li>越来越觉得一旦研究深入一件事就会忘了生活，2 周都没写周记了，一方面是在找工作但是另一方面也是日常工作不知道为什么变得繁忙起来了</li>
+<li>老登也不知道是怎么知道我已经找到工了还是咋的了，依旧让我投论文和赶项目，真有点逆天了，不过倒是越来越催生我去研究量化的念头，在组里面天天都在加班加点工作，感觉跟河南高中有的一拼。老登的东西说白了已经屁用没有了，无所谓了全交给大模型了爱咋咋地吧。</li>
+<li>毕竟是找到工了所以还是很高兴的，但是很快就因为组会项目论文等等琐事整的无语。无所谓了到时候去琶洲肯定还是比在组里面舒服，虽然也看到了网上的议论会有加班什么的，总之迟早能爆到家里金币买房也无所谓了，不过说实在的我看番禺那房子都很便宜，随便了反正这下能到魔理沙站上班了（）</li>
+<li>看到有博主分析的25岁是人生的记忆生命过了一半的时间点，一时间有些感叹了。想想好歹是润出了河南了，这时候不得不说卡神润出去的勇气了，如果我15岁就像某位亲戚一样润上海的话人生应该也非常舒服吧，不至于成为什么“脱不下长衫”的做题家，也不至于被各种各样的老家神人恶心。</li>
+<li>《绝命毒师》s4看完了，老白终于还是彻底黑化了，把Gus 整没了，别说还挺励志的，不得不说这剧全程陪我找工，确实对我很有启发</li>
+<li>反正工作是找到了，虽然糟心事非常多但是还是想有计划去探索各种各样的东西，复健绘画吉他等等等，学习日麻德扑掼蛋等等等</li>
+<li>依旧拿三星的手机用着spen，不得不说实在是太舒服了！有种把手里面的华为平板卖了换成tab平板的冲动</li>
+<li>喜欢的人也要去广州ww，不知道会以怎么样的方式在一起捏ww</li>
+</ol>
+<p><strong>周刊结束</strong></p>
+	
+		</div>
+		
+		<div id="current-post-cover" data-scr="/img/cart_cover.png"></div>
+
+		<!-- relate post, comment...-->
+		<div class="investment-container">
+			<div class="investment-header">
+				<div class="investment-title-1">
+					<div class="on">相关文章</div>
+					<div>评论</div>
+					<div>分享</div>
+				</div>
+				<div class="investment-title-2">	            
+					
+	<span>
+		<a id="totop-post-page">返回顶部</a>
+		
+		
+			<a href="/2026/10/01/20261001/" title="周刊 - 20261001" rel="next">
+				下一篇&raquo;
+			</a>
+			
+	</span>
+
+
+      		
+				</div>	
+			</div>
+			
+			<div class="investment-content">
+				<div class="investment-content-list">
+					
+
+<div class="relate-post">
+	
+		<ul>
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2026/10/01/20261001/" title="周刊 - 20261001">
+								周刊 - 20261001			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								十月 1日, 2026				
+							</p>
+							<p class="relate-post-content">
+								周刊 - 假日事件加息预期提升的大背景
+信息
+玩量化以来最大的乌龙，我发现我的A股本地数据居然8.24之后就停更了，这一个月以来接口出现了问题我却一直不知道！！！
+
+即便在这种情况下和月底资金大撤离的背景下本月的收益率居然还是4%，而...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2026/10/01/20261001/" title="周刊 - 20261001">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.png" alt="周刊 - 20261001"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2026/09/17/20260917/" title="周刊 - 20260917">
+								周刊 - 20260917			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								九月 17日, 2026				
+							</p>
+							<p class="relate-post-content">
+								周刊 - 马孔多不会下电子雨事件
+华为赛力斯分家了，虽然其实看看股价也是必然的事
+具身智能在GPT6作为基底的情况下达到了奇点
+数字果蝇大脑再一次被人们提及
+
+信息
+把A股筛选池子改成1500后我居然被套住了，好在也就亏掉9月的盈利，...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2026/09/17/20260917/" title="周刊 - 20260917">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.png" alt="周刊 - 20260917"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2026/09/08/20260908/" title="周刊 - 20260908">
+								周刊 - 20260908			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								九月 8日, 2026				
+							</p>
+							<p class="relate-post-content">
+								周刊 - 漂浮事件无
+信息
+GPT-6 眩晕瘫坐原子弹爆炸
+
+灵感
+二元期权依旧装死躺平，打算极端一点直接进行一个全策略测试
+美股折腾了一圈之后发现追求胜率是错的，说起来也很容易一圈下来不如VOO
+
+系统
+跑通了同花顺的自动查询等等，...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2026/09/08/20260908/" title="周刊 - 20260908">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover.png" alt="周刊 - 20260908"/>
+							</a>
+						</div>
+					</li>												
+			
+		</ul>
+	
+</div>	
+				</div>
+				<div class="investment-content-list">
+					<div class="layout-comment">
+
+	
+
+		
+
+			<!-- gitalk comment -->
+			<!-- show gitalk comment -->
+<div id="gitalk-container"></div>
+
+<!-- gitalk`s css & js -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<link rel="stylesheet" href="/css/comment.css">
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script type="text/javascript">
+
+	(function gitalkComment(){
+		//Thanks O-R
+		//https://github.com/gitalk/gitalk/issues/102#issuecomment-382970552
+		//去除尾部匹配正则数组的字符串  
+		//Remove redundant characters
+		String.prototype.trimEnd = function(regStr) {
+			let result = this;
+			if(regStr == undefined || regStr == null || regStr == "") {
+				return result;
+			}
+			let array = regStr.split(',');
+
+			if(array.length > 0) {
+
+				let c = array.shift(), 
+					str = this,
+					i = str.length,
+					rg = new RegExp(c),
+					matchArr = str.match(rg);
+
+				if(matchArr != undefined && matchArr != null && matchArr.length > 0) {
+					let matchStr = matchArr[0].replace(/\\/g, "\\\\").replace(/\*/g, "\\*")
+						.replace(/\+/g, "\\+").replace(/\|/g, "\\|")
+						.replace(/\{/g, "\\{").replace(/\}/g, "\\}")
+						.replace(/\(/g, "\\(").replace(/\)/g, "\\)")
+						.replace(/\^/g, "\\^").replace(/\$/g, "\\$")
+						.replace(/\[/g, "\\[").replace(/\]/g, "\\]")
+						.replace(/\?/g, "\\?").replace(/\,/g, "\\,")
+						.replace(/\./g, "\\.").replace(/\&/g, "\\&");
+					matchStr = matchStr + '$';
+					result = str.replace(new RegExp(matchStr), "");
+				}
+
+				if(array.length > 0) {
+					return result.trimEnd(array.join())
+				} else {
+					return result;
+				}
+			}
+		};
+
+		//Create gitalk
+		let gitalk = new Gitalk({
+			clientID: 'Ov23liCknrVfkfLxoruk',
+			clientSecret: 'cafdcfd6869d410bc15a83ec94634301da507a4a',
+			//id: window.location.pathname,
+			//id: decodeURI(window.location.pathname),
+			//id: (window.location.pathname).split("/").pop().substring(0, 49),
+			id: decodeURI( md5( location.href.trimEnd('#.*$,\\?.*$,index.html$') ) ),
+			repo: 'Pinglun',
+			owner: 'LengerHu',
+			admin: 'LengerHu',
+			distractionFreeMode: 'true',
+		})
+		gitalk.render('gitalk-container');		
+	})();
+</script>
+
+		
+		
+	
+
+</div>
+				</div>
+				<div class="investment-content-list">
+					<div class="layout-share">
+	
+	
+
+		
+			
+			<!-- socialShare share -->
+			<div class="social-share"></div>
+
+<!--  css & js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+			
+		
+		
+	
+</div>
+
+
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<!-- show math formula -->
+
+
+
+	 
+	
+<script src="/plugin/clipboard/clipboard.js"></script>
+
+	<script>
+		// Copy code !
+	    function preprocessing() {
+	        $("#article-content .highlight").each(function() {
+	            $(this).wrap('<div id="post-code"></div>');
+	        })
+
+	        $("#article-content #post-code").each(function() {
+	            $(this).prepend('<nav class="copy-nav"><span><i class="code-language"></i></span></nav>');
+	        })
+
+	        $("#article-content .copy-nav").each(function() {
+	            let languageClass = $(this).next().attr('class'),
+	                language = ((languageClass.length > 9) && (languageClass != null)) ? languageClass.substr(10) : "none"; //why 9? Need to check language?
+
+	            $(this).find('.code-language').text(language);
+	            $(this).append('<span class="copy-btn icon-paste"></span>');
+	        });
+	    }
+
+		function copy() {
+		    $('#article-content #post-code').each(function(i) {
+		        let codeCopyId = 'codeCopy-' + i;
+
+		        let codeNode = $(this).find('.code'),
+		            copyButton = $(this).find('.copy-btn');
+
+		        codeNode.attr('id', codeCopyId);
+		        copyButton.attr('data-clipboard-target-id', codeCopyId);
+		    })
+   
+			let clipboard = new ClipboardJS('.copy-btn', {
+					target: function(trigger) {
+						return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
+					}
+		      	});
+
+			//pure js
+			function showTooltip(elem, msg) {		   
+				elem.setAttribute('aria-label', msg);
+				elem.setAttribute('class', 'copy-btn icon-clipboard1');
+				setTimeout(function() {
+					elem.setAttribute('class', 'copy-btn icon-paste');
+				}, 2000);
+			}
+
+			clipboard.on('success', function(e) {
+			    e.clearSelection();
+			    console.info('Action:', e.action);		   
+			    console.info('Trigger:', e.trigger);
+			    showTooltip(e.trigger, 'Copied!');   
+			});
+			
+			clipboard.on('error', function(e) {
+			    console.error('Action:', e.action);
+			    console.error('Trigger:', e.trigger);
+			});
+		}
+		
+		(function copyCode(){
+			if ($('.layout-post').length) {
+			    preprocessing();
+			    copy();
+			} 
+		})();
+	</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/plugin/fancybox/jquery.fancybox.css">
+
+
+<script src="/plugin/fancybox/jquery.fancybox.js"></script>
+
+
+<script type="text/javascript">
+	(function gallerySet(){
+		let titleID = $('.article-title a'),
+			imageID = $('.article-content img'),
+			videoID = $('.article-content video');
+		
+		let postTitle = titleID.text() ? titleID.text() : "No post title!";
+		
+		imageID.each(function() {
+			let imgPath = $(this).attr('src'),
+				imgTitle = $(this).attr('alt') ? $(this).attr('alt') : "No image description!";
+		
+			//给每个匹配的<img>元素打包, 即添加父元素<a>
+			$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' + postTitle + ' 》' + imgTitle + '"href="' + imgPath + '"> </a>');
+		});
+		
+		videoID.each(function() {
+			let videoPath = $(this).attr('src');
+		
+			//给每个匹配的<img>元素打包, 即添加父元素<a>
+			$(this).wrap('<a data-fancybox href=" ' + videoPath + ' "> </a>');
+		});
+		
+		//TODO：支持html5 video
+
+		if($('#layout-post').length) {
+			$('[data-fancybox="gallery"]').fancybox({
+				loop: true,
+				buttons: [
+					"zoom",
+					"share",
+					"slideShow",
+					"fullScreen",
+					//"download",
+					"thumbs",
+					"close"
+				],
+				protect: true
+			});
+		}
+	})();
+</script>
+		</main>
+
+		<!--footer-->
+		<footer>
+	<div id="navigation-show">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home" target="_blank">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_blank">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_blank">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_blank">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_blank">关于</a>
+		</li>
+		
+	
+		<li class="menu-gallery">
+			<a href="/gallery" class="menu-item-gallery" target="_blank">相册</a>
+		</li>
+		
+	
+		<li class="menu-friends">
+			<a href="/friends" class="menu-item-friends" target="_blank">友链</a>
+		</li>
+		
+	
+		<li class="menu-weekly">
+			<a href="/tags/%E5%91%A8%E5%88%8A" class="menu-item-weekly" target="_blank">周刊</a>
+		</li>
+		
+	
+
+	
+</ul>
+	</div>
+
+	<div class="copyright">
+		<p>
+			 
+				&copy;2018 - 2026, content by Lenger. All Rights Reserved.
+			
+			
+				<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.
+			
+		</p>
+		<p>
+			
+
+	<!-- busuanzi -->
+	<!-- busuanzi -->
+
+
+
+			<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a> 
+			<a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a>				
+		</p>
+	</div>		
+</footer>
+		
+	<!-- Local or hitokoto! -->
+ 
+	<!-- 现代写法，推荐 -->
+	<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+	<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+	<!--End-->
+	<script>
+		(function motto(){
+			fetch('https://v1.hitokoto.cn/?c=d')
+				.then(function (res){
+				return res.json();
+			}).then(function (data) {
+				$("#motto-content").html( data.hitokoto?data.hitokoto:'请刷新...' );
+				
+				let	mottoAuthor =' ';
+					mottoAuthor += data.creator?data.creator:'一言';
+					mottoAuthor += "　/　";
+					mottoAuthor += data.from?data.from:'一言官网';
+					
+				$("#motto-author").html( mottoAuthor );
+			})
+			.catch(function (err) {
+				console.error(err);
+			})			
+		})();
+	</script>
+
+
+
+<!-- love effect -->
+
+
+<!-- back to top -->
+
+	<div id="totop">
+	<span class="icon-circle-up"></span>
+</div>
+
+
+
+<!-- site analysis -->
+
+
+	<!-- site-analysis -->
+	
+	
+	
+	
+	
+ 
+
+<!-- leancloud -->
+
+
+	<!-- leancloud -->
+	<!--
+	时间：2018-11-27
+	描述：
+		文章访问量：visitors
+		文章喜欢量：likes	
+		文章排行榜：topNPost
+		其他得说明：
+			01-Cookie相关的函数 
+				https://blog.csdn.net/somehow1002/article/details/78511541（Author：somehow1002）
+			02-visitors相关的函数 
+				https://blog.csdn.net/u013553529/article/details/63357382（Author：爱博客大伯）
+				https://notes.doublemine.me/2015-10-21-为NexT主题添加文章阅读量统计功能.html（Author：夏末）
+			03-topNPost相关的函数
+				https://hoxis.github.io/hexo-next-read-rank.html（Author：hoxis）
+			04-likes相关的函数，
+				参考了01 & 02进行简单的设计与实现
+-->
+
+
+	
+
+  
+
+
+
+<script src="/plugin/chinese/chinese.js"></script>
+<script src="/plugin/imagelazyloader/yall.min.js"></script>
+<script src="/plugin/imageloaded/imagesloaded.pkgd.min.js"></script>
+<script src="/plugin/nicescroll/jquery.nicescroll.js"></script>
+<script src="/plugin/resizediv/resizediv.js"></script>
+<script src="/js/main.js"></script>
+
+
+	</body>	
+</html>

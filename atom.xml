@@ -6,7 +6,7 @@
   <link href="https://varraro.github.io/atom.xml" rel="self"/>
   
   <link href="https://varraro.github.io/"/>
-  <updated>2026-11-22T10:19:49.908Z</updated>
+  <updated>2026-11-28T11:42:26.902Z</updated>
   <id>https://varraro.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊 - 20261128</title>
+    <link href="https://varraro.github.io/2026/11/28/20261128/"/>
+    <id>https://varraro.github.io/2026/11/28/20261128/</id>
+    <published>2026-11-28T11:40:15.000Z</published>
+    <updated>2026-11-28T11:42:26.902Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周刊"><a href="#周刊" class="headerlink" title="周刊"></a>周刊</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><ol><li>市场太戏剧性了，值得反思的是为什么我在老黄回归 5 小时前就得到了消息的时候什么都没做，事后看着涨 1000% 多的期权只能说信息才是这个时代最值钱的东西啊</li><li>港股美美得吃，3 天拿 3000 赚 300，我看还是比某市场简单太多，跟朋友聊的确是个非常好套利的市场</li></ol><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>华胜天成自己去套了 3% 就跑路了，虽然这周 ai 分析的华胜 中京都大放异彩但是也没入场，PCB 叙事实在是不让我放心进去，可能是上个月被科技坑了于是就没有什么想法了</li><li>所以更加高兴地去研究套利，听到了很多的套利方法，比如说 xstock 有关之类的三角套利搬砖，果然对于这一块还是有一些空间的吧</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>打算好好利用无限的 Astra 搞一堆好用的东西，上周把国内市场的 Agent 给做了，还是应该想想怎么样把港美股的市场的 Agent 也给做了，但是说实在的，港美股给人的感觉就是变化太快，对于信息的要求实在是太严格了，没办法这就是海的对岸</li><li>看到了一份完完全全打造 AI 超级伴侣的文章，大呼非常之强大，要不把 Miku 变成我的 AI 伴侣吧，反正Astra 神力继续</li><li>打算搞搞经典的每周的《人类丰容计划》，奖学金下来了应该是可以支持我这么搞的吧，基本上先把酸奶坚果牛奶这种大大提升幸福感的食物配置好吧，至于后面的旅游探店等等诸如此类都可以提上日程了</li><li>电子手帐再试试有没有什么比较好的解决方式吧，实际上手帐这种东西可能还是纸质的比较好，看着可以心情更加愉悦，电子的缺少一些质感了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li>为 Agent 加上了调用浏览器去问其他 Agent 的能力</li><li>初步做了全市场的期权套利</li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li>上周感情 shock 之后我就知道搁 xhs 道歉 p 用没有，但是最后还是这么做了，做了就会让他人和自我都觉得好下头，anyway 每次我真诚的时候迎来的都会是这种结果，实在是运气一般。说起来这周虽然市场上运气奇好无比但是现实中运气守恒了，先是过马路莫名骑共享的倒我面前，再是 KFC 挚友卡点餐莫名其妙被人拿了，找人签字材料不全白跑一遭，然后 xhs 也被 shock 源头单方面屏蔽了，恰必胜客店员也是少上酸奶酱…总之运气守恒定律又发力了…</li><li>没办法，人无法左右他人的想法，被人删被人屏蔽总让人想起 3 年前的同样的这个时候，那时候我还是太年轻，虽然没做错什么但是也不能说做出了最优解，而生活总会再次踏入同一条河流。说起来吊桥效应破窗效应权衡利弊大伙多少都沾点，这种事情就算再怎么尽力也无济于事，好在如今的我已经比 3 年前成熟太多，懂得及时收回泛滥的情绪，情绪稳定是现代人非常重要的技能，而且少点 PUA 多点真诚懂得应该做什么才是成熟的人应该做的事，这一次，我绝不被漩涡所淹没。</li><li>没办法谁也没法保证我不是被人视奸着，现代社交大伙都是出生罢了，只是我是个真实的个体那么就要承担这种责任，而人总是要承受自己选择后的痛苦，人也只能自己救自己。说直接点反正大伙迟早都要亖，所以无论是什么样的折磨倒也无所谓了，还不如叹咖啡做自己想做的，反正咱有的是自信的因素，而且也不是喜欢比较的做题曲 ego（这种真的让人很下头）。</li><li>itin 下来了，整个牢美手机号准备开 c1 喽！</li><li>说起来奖学金下来了之后倒是陷入了一丝丝迷茫，该考虑如何让资金增值了但是也是艰难，还是等 ai 发信号吧。</li><li>虽然必胜客体验一般（重庆的服务业总是这种南美式的服务），但是拿到了 nikke 联动的键帽非常之高兴！</li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周刊&quot;&gt;&lt;a href=&quot;#周刊&quot; class=&quot;headerlink&quot; title=&quot;周刊&quot;&gt;&lt;/a&gt;周刊&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; title=&quot;事件&quot;&gt;&lt;/a&gt;事件&lt;/h2&gt;&lt;ol&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>周刊 - 20261122</title>
@@ -221,30 +246,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;周刊-偷得浮生两周闲&quot;&gt;&lt;a href=&quot;#周刊-偷得浮生两周闲&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 偷得浮生两周闲&quot;&gt;&lt;/a&gt;周刊 - 偷得浮生两周闲&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;head</summary>
-      
-    
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-    <category term="周刊" scheme="https://varraro.github.io/tags/%E5%91%A8%E5%88%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周刊 - 20260729</title>
-    <link href="https://varraro.github.io/2026/07/29/20260729/"/>
-    <id>https://varraro.github.io/2026/07/29/20260729/</id>
-    <published>2026-07-28T18:18:10.000Z</published>
-    <updated>2026-07-28T18:42:43.358Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="周刊-四倍速跃迁"><a href="#周刊-四倍速跃迁" class="headerlink" title="周刊 - 四倍速跃迁"></a>周刊 - 四倍速跃迁</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>恭喜中国数学家邓煜、王虹获得菲尔兹奖！<br>（这个偏微分工作不知道是否可以用到量化之中，以及还有百合豚说是x，另外一位感觉是泥潭坛友啊x）</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><ol><li>市场长鑫 ipo 之后果不其然开始出货了</li><li>codex爽用2天后坠机了，目前陷入token荒中</li></ol><h2 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h2><ol><li>数据从高维到低维的降维工作一直以来都让我非常困扰，量化因子的构建上还是要学习一下卡神的思路了</li><li>再次重试了数据做事件合约胜率卡在60%上不去了，遂明白了自己亏损是不可避免的，这块后面佛系研究了</li></ol><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li><p>拓展自己的机器学习策略到期货和etf上，目前效果有待研究，历史胜率反正还是有点意思的</p></li><li><p>二元期权的研究简单整了个套利，当然不是扫尾盘这么简单了，配合模拟盘观察吧</p></li></ol><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><ol><li><p>数学家改变世界！想起有个很喜欢的博客主人也是研究数学（<del>魔法</del>）的，然后又想起本科教微积分的秦教授也是研究数学的（她的目标也是菲尔兹奖来着），感觉数学家的气质都是那种追求最终真理的深邃性格，数学果然还是太高深莫测了</p></li><li><p>终于把《西部世界》看完了，最后是经典轮回结局，诺兰经典把大伙全写亖了，可以算烂尾</p></li><li><p>《瑞克与莫蒂》s9 莫名就看完了疯狂找泳池的曲子找不到中，反正s8开始就已经是家庭喜剧了所以也就不抱太大期待了，等飞出个未来吧</p></li><li><p>于是接下来准备把《葬送的芙莉莲》s2和《辐射》看了</p></li></ol><hr><p><strong>周刊结束</strong></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;周刊-四倍速跃迁&quot;&gt;&lt;a href=&quot;#周刊-四倍速跃迁&quot; class=&quot;headerlink&quot; title=&quot;周刊 - 四倍速跃迁&quot;&gt;&lt;/a&gt;周刊 - 四倍速跃迁&lt;/h1&gt;&lt;h2 id=&quot;事件&quot;&gt;&lt;a href=&quot;#事件&quot; class=&quot;headerlink&quot; </summary>
       
     
     
